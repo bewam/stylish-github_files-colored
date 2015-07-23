@@ -9,7 +9,8 @@ var path = require('path');
 var promise = require('promise');
 var yaml = require('js-yaml');
 
-/* console.log = function () {}; /**/
+/**/
+console.log = function () {}; /**/
 
 var settings = {
     forceFresh: false,
@@ -55,16 +56,16 @@ function readAndDump(fileLanguages, fileCss) {
 
     if(settings.buildSwatches) {
         try {
-            dirOk = (! fs.mkdirSync(settings.swatches));
+            dirOk = (!fs.mkdirSync(settings.swatches));
         }
-        catch(err){
-            if(err.code === 'EEXIST'){
+        catch(err) {
+            if(err.code === 'EEXIST') {
                 dirOk = true;
             }
         }
+        console.log('dirOk: ' + dirOk);
     }
 
-    console.log('dirOk: '+dirOk);
 
     for(k of Object.keys(languages)) {
         language = languages[k];
@@ -77,9 +78,8 @@ function readAndDump(fileLanguages, fileCss) {
 
             if(language.extensions) {
                 for(var ext of language.extensions) {
-
                     if(settings.buildSwatches && dirOk) {
-                         fs.writeFileSync([
+                        fs.writeFileSync([
                              settings.swatches,
                              settings.swatchName + ext].join(path.sep), '');
                     }
@@ -90,9 +90,10 @@ function readAndDump(fileLanguages, fileCss) {
                 }
             }
         }
-        // else
-        //     console.log(util.format("no color:%s (%s)", language.name, language
-        //         .type));
+        else {
+            console.log(util.format("no color:%s (%s)", language.name, language
+                .type));
+        }
     }
     o += '}';
     fs.writeFile(fileCss, o);
@@ -102,27 +103,30 @@ function needDownload(file) {
     var pro = new promise(function (ok, reject) {
         if(settings.forceFresh) {
             ok('download forced');
-        } else {
+        }
+        else {
             try {
                 fs.open(file, 'r', function (err, fd) {
                     if(!err) {
                         reject(new Error('file exists'));
                         fs.close(fd);
-                    } else {
+                    }
+                    else {
                         ok('file not present');
                     }
 
                 });
 
-                if(fileIsNotEmpty(file))
+                if(fileIsNotEmpty(file)) {
                     reject(new Error('file not empty'));
+                }
                 else {
                     ok('file not present or empty');
                 }
 
-            } catch(e) {
-
-            } finally {
+            }
+            catch(e) {}
+            finally {
                 return pro;
             }
         }
@@ -134,7 +138,8 @@ function fileIsNotEmpty(file) {
     var size = 0;
     try {
         size = fs.statSync(file).size;
-    } finally {
+    }
+    finally {
         return size > 0;
     }
 }
@@ -155,7 +160,8 @@ function download(remoteFile, localFile) {
 
                 if(fileIsNotEmpty(localFile)) {
                     ok('download succeed');
-                } else {
+                }
+                else {
                     reject(
                         'download failed, file empty'
                     );
