@@ -2,10 +2,11 @@
 
 var fs = require('fs');
 var https = require('https');
-var yaml = require('js-yaml');
 var url = require('url');
 var util = require('util');
+
 var promise = require('promise');
+var yaml = require('js-yaml');
 
 /**/ console.log = function () {}; /**/
 
@@ -31,6 +32,7 @@ if( needDownload(languages.localFile) )
         process.exit();
     });
 }
+
 function readAndDump(fileLanguages, fileCss) {
     var languages = yaml.safeLoad(fs.readFileSync(fileLanguages,
         'utf8'));
