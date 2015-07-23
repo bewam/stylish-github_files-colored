@@ -4,15 +4,20 @@ var fs = require('fs');
 var https = require('https');
 var url = require('url');
 var util = require('util');
+var path = require('path');
 
 var promise = require('promise');
 var yaml = require('js-yaml');
 
-/**/ console.log = function () {}; /**/
+/* console.log = function () {}; /**/
 
 var settings = {
     forceFresh: false,
-    css : 'stylish-github_files-colored.css',
+    css: 'stylish-github_files-colored.css',
+    buildSwatches: false,
+    /* creates a swatches folder to see results */
+    swatches: 'test_swatches',
+    swatchName: 'testFile',
 };
 
 var languages = {
@@ -22,24 +27,44 @@ var languages = {
 const file_header = "head.css.tmpl";
 
 
-if( needDownload(languages.localFile) )
-{
-    download(languages.remoteFile, languages.localFile).then(function (successMessage) {
-        console.log('yeah ! '+ successMessage);
+needDownload(languages.localFile).then(function (successMessage) {
+    console.log(successMessage);
+    download(languages.remoteFile, languages.localFile).then(function (
+        successMessage) {
+        console.log('yeah ! ' + successMessage);
         readAndDump(languages.localFile, settings.css);
     }, function (err) {
         console.error(err);
         process.exit();
     });
-}
+}, function (err) {
+    console.log(err);
+    readAndDump(languages.localFile, settings.css);
+});
 
 function readAndDump(fileLanguages, fileCss) {
+    console.log('readAndDump');
     var languages = yaml.safeLoad(fs.readFileSync(fileLanguages,
         'utf8'));
     var o = '',
-        k, l, language;
+        dirOk = false,
+        k, l, language, err;
+
 
     o += fs.readFileSync(file_header, 'utf8');
+
+    if(settings.buildSwatches) {
+        try {
+            dirOk = (! fs.mkdirSync(settings.swatches));
+        }
+        catch(err){
+            if(err.code === 'EEXIST'){
+                dirOk = true;
+            }
+        }
+    }
+
+    console.log('dirOk: '+dirOk);
 
     for(k of Object.keys(languages)) {
         language = languages[k];
@@ -47,58 +72,73 @@ function readAndDump(fileLanguages, fileCss) {
 
         if(language.color) {
             o += "\n";
-            o += '/* ' + language.name + '*/';
+            o += '/**- ' + language.name + '-*/';
             o += "\n";
 
             if(language.extensions) {
                 for(var ext of language.extensions) {
+
+                    if(settings.buildSwatches && dirOk) {
+                         fs.writeFileSync([
+                             settings.swatches,
+                             settings.swatchName + ext].join(path.sep), '');
+                    }
+
                     o += Buildselector(ext);
                     o += '{border-color:' + language.color + ';}';
                     o += "\n";
                 }
             }
-        } else
-            console.log(util.format("no color:%s (%s)", language.name, language.type));
+        }
+        // else
+        //     console.log(util.format("no color:%s (%s)", language.name, language
+        //         .type));
     }
     o += '}';
     fs.writeFile(fileCss, o);
 }
-function needDownload(file) {
 
+function needDownload(file) {
     var pro = new promise(function (ok, reject) {
-        if(settings.forceFresh){
+        if(settings.forceFresh) {
             ok('download forced');
-        }
-        try {
-            fs.open( file, 'r', function (err, fd) {
-                if(err) {
-                    reject(err);
-                } else {
-                    fs.close(fd);
+        } else {
+            try {
+                fs.open(file, 'r', function (err, fd) {
+                    if(!err) {
+                        reject(new Error('file exists'));
+                        fs.close(fd);
+                    } else {
+                        ok('file not present');
+                    }
+
+                });
+
+                if(fileIsNotEmpty(file))
+                    reject(new Error('file not empty'));
+                else {
+                    ok('file not present or empty');
                 }
 
-            });
+            } catch(e) {
 
-            if(! fileIsNotEmpty(file))
-                reject(new Error('file not empty'));
-
-        } catch (e) {
-
-        } finally {
-            ok('file not present or empty');
+            } finally {
+                return pro;
+            }
         }
     });
     return pro;
 }
-function fileIsNotEmpty(file){
+
+function fileIsNotEmpty(file) {
     var size = 0;
     try {
         size = fs.statSync(file).size;
-    }
-    finally {
+    } finally {
         return size > 0;
     }
 }
+
 function download(remoteFile, localFile) {
 
     var file = fs.createWriteStream(localFile);
@@ -107,23 +147,25 @@ function download(remoteFile, localFile) {
         https.get(url.parse(remoteFile), function (response) {
 
             response.on('data', function (chunk) {
-                    file.write(chunk);
-                }) .on('error', function (err) {
-                    reject(err);
-                }).on('end', function () {
-                    file.end();
+                file.write(chunk);
+            }).on('error', function (err) {
+                reject(err);
+            }).on('end', function () {
+                file.end();
 
-                    if(fileIsNotEmpty(localFile)) {
-                        ok('download succeed');
-                    }
-                    else {
-                        reject('download failed, file empty');
-                    }
-                });
+                if(fileIsNotEmpty(localFile)) {
+                    ok('download succeed');
+                } else {
+                    reject(
+                        'download failed, file empty'
+                    );
+                }
+            });
         });
     });
     return pro;
 }
+
 function Buildselector(str) {
     return util.format('.js-directory-link[title$=\'%s\']', str);
 }

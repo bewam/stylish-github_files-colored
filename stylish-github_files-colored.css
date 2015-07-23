@@ -8,28 +8,28 @@
     padding-left: 5px
   }
 
-/* ABAP*/
+/**- ABAP-*/
 .js-directory-link[title$='.abap']{border-color:#E8274B;}
 
-/* AGS Script*/
+/**- AGS Script-*/
 .js-directory-link[title$='.asc']{border-color:#B9D9FF;}
 .js-directory-link[title$='.ash']{border-color:#B9D9FF;}
 
-/* AMPL*/
+/**- AMPL-*/
 .js-directory-link[title$='.ampl']{border-color:#E6EFBB;}
 .js-directory-link[title$='.mod']{border-color:#E6EFBB;}
 
-/* ANTLR*/
+/**- ANTLR-*/
 .js-directory-link[title$='.g4']{border-color:#9DC3FF;}
 
-/* API Blueprint*/
+/**- API Blueprint-*/
 .js-directory-link[title$='.apib']{border-color:#2ACCA8;}
 
-/* APL*/
+/**- APL-*/
 .js-directory-link[title$='.apl']{border-color:#5A8164;}
 .js-directory-link[title$='.dyalog']{border-color:#5A8164;}
 
-/* ASP*/
+/**- ASP-*/
 .js-directory-link[title$='.asp']{border-color:#6a40fd;}
 .js-directory-link[title$='.asax']{border-color:#6a40fd;}
 .js-directory-link[title$='.ascx']{border-color:#6a40fd;}
@@ -38,70 +38,70 @@
 .js-directory-link[title$='.aspx']{border-color:#6a40fd;}
 .js-directory-link[title$='.axd']{border-color:#6a40fd;}
 
-/* ATS*/
+/**- ATS-*/
 .js-directory-link[title$='.dats']{border-color:#1ac620;}
 .js-directory-link[title$='.hats']{border-color:#1ac620;}
 .js-directory-link[title$='.sats']{border-color:#1ac620;}
 
-/* ActionScript*/
+/**- ActionScript-*/
 .js-directory-link[title$='.as']{border-color:#882B0F;}
 
-/* Ada*/
+/**- Ada-*/
 .js-directory-link[title$='.adb']{border-color:#02f88c;}
 .js-directory-link[title$='.ada']{border-color:#02f88c;}
 .js-directory-link[title$='.ads']{border-color:#02f88c;}
 
-/* Agda*/
+/**- Agda-*/
 .js-directory-link[title$='.agda']{border-color:#315665;}
 
-/* Alloy*/
+/**- Alloy-*/
 .js-directory-link[title$='.als']{border-color:#cc5c24;}
 
-/* Arc*/
+/**- Arc-*/
 .js-directory-link[title$='.arc']{border-color:#aa2afe;}
 
-/* Arduino*/
+/**- Arduino-*/
 .js-directory-link[title$='.ino']{border-color:#bd79d1;}
 
-/* AspectJ*/
+/**- AspectJ-*/
 .js-directory-link[title$='.aj']{border-color:#a957b0;}
 
-/* Assembly*/
+/**- Assembly-*/
 .js-directory-link[title$='.asm']{border-color:#6E4C13;}
 .js-directory-link[title$='.a51']{border-color:#6E4C13;}
 .js-directory-link[title$='.inc']{border-color:#6E4C13;}
 .js-directory-link[title$='.nasm']{border-color:#6E4C13;}
 
-/* AutoHotkey*/
+/**- AutoHotkey-*/
 .js-directory-link[title$='.ahk']{border-color:#6594b9;}
 .js-directory-link[title$='.ahkl']{border-color:#6594b9;}
 
-/* AutoIt*/
+/**- AutoIt-*/
 .js-directory-link[title$='.au3']{border-color:#1C3552;}
 
-/* BlitzMax*/
+/**- BlitzMax-*/
 .js-directory-link[title$='.bmx']{border-color:#cd6400;}
 
-/* Boo*/
+/**- Boo-*/
 .js-directory-link[title$='.boo']{border-color:#d4bec1;}
 
-/* Brainfuck*/
+/**- Brainfuck-*/
 .js-directory-link[title$='.b']{border-color:#2F2530;}
 .js-directory-link[title$='.bf']{border-color:#2F2530;}
 
-/* C*/
+/**- C-*/
 .js-directory-link[title$='.c']{border-color:#555555;}
 .js-directory-link[title$='.cats']{border-color:#555555;}
 .js-directory-link[title$='.h']{border-color:#555555;}
 .js-directory-link[title$='.idc']{border-color:#555555;}
 .js-directory-link[title$='.w']{border-color:#555555;}
 
-/* C#*/
+/**- C#-*/
 .js-directory-link[title$='.cs']{border-color:#178600;}
 .js-directory-link[title$='.cshtml']{border-color:#178600;}
 .js-directory-link[title$='.csx']{border-color:#178600;}
 
-/* C++*/
+/**- C++-*/
 .js-directory-link[title$='.cpp']{border-color:#f34b7d;}
 .js-directory-link[title$='.c++']{border-color:#f34b7d;}
 .js-directory-link[title$='.cc']{border-color:#f34b7d;}
@@ -118,23 +118,23 @@
 .js-directory-link[title$='.tcc']{border-color:#f34b7d;}
 .js-directory-link[title$='.tpp']{border-color:#f34b7d;}
 
-/* CSS*/
+/**- CSS-*/
 .js-directory-link[title$='.css']{border-color:#563d7c;}
 
-/* Chapel*/
+/**- Chapel-*/
 .js-directory-link[title$='.chpl']{border-color:#8dc63f;}
 
-/* Cirru*/
+/**- Cirru-*/
 .js-directory-link[title$='.cirru']{border-color:#ccccff;}
 
-/* Clarion*/
+/**- Clarion-*/
 .js-directory-link[title$='.clw']{border-color:#db901e;}
 
-/* Clean*/
+/**- Clean-*/
 .js-directory-link[title$='.icl']{border-color:#3F85AF;}
 .js-directory-link[title$='.dcl']{border-color:#3F85AF;}
 
-/* Clojure*/
+/**- Clojure-*/
 .js-directory-link[title$='.clj']{border-color:#db5855;}
 .js-directory-link[title$='.boot']{border-color:#db5855;}
 .js-directory-link[title$='.cl2']{border-color:#db5855;}
@@ -145,21 +145,21 @@
 .js-directory-link[title$='.cljx']{border-color:#db5855;}
 .js-directory-link[title$='.hic']{border-color:#db5855;}
 
-/* CoffeeScript*/
+/**- CoffeeScript-*/
 .js-directory-link[title$='.coffee']{border-color:#244776;}
 .js-directory-link[title$='._coffee']{border-color:#244776;}
 .js-directory-link[title$='.cjsx']{border-color:#244776;}
 .js-directory-link[title$='.cson']{border-color:#244776;}
 .js-directory-link[title$='.iced']{border-color:#244776;}
 
-/* ColdFusion*/
+/**- ColdFusion-*/
 .js-directory-link[title$='.cfm']{border-color:#ed2cd6;}
 .js-directory-link[title$='.cfml']{border-color:#ed2cd6;}
 
-/* ColdFusion CFC*/
+/**- ColdFusion CFC-*/
 .js-directory-link[title$='.cfc']{border-color:#ed2cd6;}
 
-/* Common Lisp*/
+/**- Common Lisp-*/
 .js-directory-link[title$='.lisp']{border-color:#3fb68b;}
 .js-directory-link[title$='.asd']{border-color:#3fb68b;}
 .js-directory-link[title$='.cl']{border-color:#3fb68b;}
@@ -168,82 +168,82 @@
 .js-directory-link[title$='.ny']{border-color:#3fb68b;}
 .js-directory-link[title$='.podsl']{border-color:#3fb68b;}
 
-/* Component Pascal*/
+/**- Component Pascal-*/
 .js-directory-link[title$='.cp']{border-color:#b0ce4e;}
 .js-directory-link[title$='.cps']{border-color:#b0ce4e;}
 
-/* Crystal*/
+/**- Crystal-*/
 .js-directory-link[title$='.cr']{border-color:#776791;}
 
-/* D*/
+/**- D-*/
 .js-directory-link[title$='.d']{border-color:#fcd46d;}
 .js-directory-link[title$='.di']{border-color:#fcd46d;}
 
-/* DM*/
+/**- DM-*/
 .js-directory-link[title$='.dm']{border-color:#447265;}
 
-/* Dart*/
+/**- Dart-*/
 .js-directory-link[title$='.dart']{border-color:#00B4AB;}
 
-/* Diff*/
+/**- Diff-*/
 .js-directory-link[title$='.diff']{border-color:#88dddd;}
 .js-directory-link[title$='.patch']{border-color:#88dddd;}
 
-/* Dogescript*/
+/**- Dogescript-*/
 .js-directory-link[title$='.djs']{border-color:#cca760;}
 
-/* Dylan*/
+/**- Dylan-*/
 .js-directory-link[title$='.dylan']{border-color:#6c616e;}
 .js-directory-link[title$='.dyl']{border-color:#6c616e;}
 .js-directory-link[title$='.intr']{border-color:#6c616e;}
 .js-directory-link[title$='.lid']{border-color:#6c616e;}
 
-/* E*/
+/**- E-*/
 .js-directory-link[title$='.E']{border-color:#ccce35;}
 
-/* ECL*/
+/**- ECL-*/
 .js-directory-link[title$='.ecl']{border-color:#8a1267;}
 .js-directory-link[title$='.eclxml']{border-color:#8a1267;}
 
-/* Eagle*/
+/**- Eagle-*/
 .js-directory-link[title$='.sch']{border-color:#814C05;}
 .js-directory-link[title$='.brd']{border-color:#814C05;}
 
-/* Eiffel*/
+/**- Eiffel-*/
 .js-directory-link[title$='.e']{border-color:#946d57;}
 
-/* Elixir*/
+/**- Elixir-*/
 .js-directory-link[title$='.ex']{border-color:#6e4a7e;}
 .js-directory-link[title$='.exs']{border-color:#6e4a7e;}
 
-/* Elm*/
+/**- Elm-*/
 .js-directory-link[title$='.elm']{border-color:#60B5CC;}
 
-/* Emacs Lisp*/
+/**- Emacs Lisp-*/
 .js-directory-link[title$='.el']{border-color:#c065db;}
 .js-directory-link[title$='.emacs']{border-color:#c065db;}
 .js-directory-link[title$='.emacs.desktop']{border-color:#c065db;}
 
-/* EmberScript*/
+/**- EmberScript-*/
 .js-directory-link[title$='.em']{border-color:#FFF4F3;}
 .js-directory-link[title$='.emberscript']{border-color:#FFF4F3;}
 
-/* Erlang*/
+/**- Erlang-*/
 .js-directory-link[title$='.erl']{border-color:#B83998;}
 .js-directory-link[title$='.es']{border-color:#B83998;}
 .js-directory-link[title$='.escript']{border-color:#B83998;}
 .js-directory-link[title$='.hrl']{border-color:#B83998;}
 
-/* F#*/
+/**- F#-*/
 .js-directory-link[title$='.fs']{border-color:#b845fc;}
 .js-directory-link[title$='.fsi']{border-color:#b845fc;}
 .js-directory-link[title$='.fsx']{border-color:#b845fc;}
 
-/* FLUX*/
+/**- FLUX-*/
 .js-directory-link[title$='.fx']{border-color:#88ccff;}
 .js-directory-link[title$='.flux']{border-color:#88ccff;}
 
-/* FORTRAN*/
+/**- FORTRAN-*/
 .js-directory-link[title$='.f90']{border-color:#4d41b1;}
 .js-directory-link[title$='.f']{border-color:#4d41b1;}
 .js-directory-link[title$='.f03']{border-color:#4d41b1;}
@@ -253,17 +253,17 @@
 .js-directory-link[title$='.for']{border-color:#4d41b1;}
 .js-directory-link[title$='.fpp']{border-color:#4d41b1;}
 
-/* Factor*/
+/**- Factor-*/
 .js-directory-link[title$='.factor']{border-color:#636746;}
 
-/* Fancy*/
+/**- Fancy-*/
 .js-directory-link[title$='.fy']{border-color:#7b9db4;}
 .js-directory-link[title$='.fancypack']{border-color:#7b9db4;}
 
-/* Fantom*/
+/**- Fantom-*/
 .js-directory-link[title$='.fan']{border-color:#dbded5;}
 
-/* Forth*/
+/**- Forth-*/
 .js-directory-link[title$='.fth']{border-color:#341708;}
 .js-directory-link[title$='.4th']{border-color:#341708;}
 .js-directory-link[title$='.f']{border-color:#341708;}
@@ -273,44 +273,44 @@
 .js-directory-link[title$='.frt']{border-color:#341708;}
 .js-directory-link[title$='.fs']{border-color:#341708;}
 
-/* Frege*/
+/**- Frege-*/
 .js-directory-link[title$='.fr']{border-color:#00cafe;}
 
-/* Game Maker Language*/
+/**- Game Maker Language-*/
 .js-directory-link[title$='.gml']{border-color:#8fb200;}
 
-/* Glyph*/
+/**- Glyph-*/
 .js-directory-link[title$='.glf']{border-color:#e4cc98;}
 
-/* Gnuplot*/
+/**- Gnuplot-*/
 .js-directory-link[title$='.gp']{border-color:#f0a9f0;}
 .js-directory-link[title$='.gnu']{border-color:#f0a9f0;}
 .js-directory-link[title$='.gnuplot']{border-color:#f0a9f0;}
 .js-directory-link[title$='.plot']{border-color:#f0a9f0;}
 .js-directory-link[title$='.plt']{border-color:#f0a9f0;}
 
-/* Go*/
+/**- Go-*/
 .js-directory-link[title$='.go']{border-color:#375eab;}
 
-/* Golo*/
+/**- Golo-*/
 .js-directory-link[title$='.golo']{border-color:#88562A;}
 
-/* Gosu*/
+/**- Gosu-*/
 .js-directory-link[title$='.gs']{border-color:#82937f;}
 .js-directory-link[title$='.gst']{border-color:#82937f;}
 .js-directory-link[title$='.gsx']{border-color:#82937f;}
 .js-directory-link[title$='.vark']{border-color:#82937f;}
 
-/* Grammatical Framework*/
+/**- Grammatical Framework-*/
 .js-directory-link[title$='.gf']{border-color:#79aa7a;}
 
-/* Groovy*/
+/**- Groovy-*/
 .js-directory-link[title$='.groovy']{border-color:#e69f56;}
 .js-directory-link[title$='.grt']{border-color:#e69f56;}
 .js-directory-link[title$='.gtpl']{border-color:#e69f56;}
 .js-directory-link[title$='.gvy']{border-color:#e69f56;}
 
-/* HTML*/
+/**- HTML-*/
 .js-directory-link[title$='.html']{border-color:#e44b23;}
 .js-directory-link[title$='.htm']{border-color:#e44b23;}
 .js-directory-link[title$='.html.hl']{border-color:#e44b23;}
@@ -319,51 +319,51 @@
 .js-directory-link[title$='.xht']{border-color:#e44b23;}
 .js-directory-link[title$='.xhtml']{border-color:#e44b23;}
 
-/* Handlebars*/
+/**- Handlebars-*/
 .js-directory-link[title$='.handlebars']{border-color:#01a9d6;}
 .js-directory-link[title$='.hbs']{border-color:#01a9d6;}
 
-/* Harbour*/
+/**- Harbour-*/
 .js-directory-link[title$='.hb']{border-color:#0e60e3;}
 
-/* Haskell*/
+/**- Haskell-*/
 .js-directory-link[title$='.hs']{border-color:#29b544;}
 .js-directory-link[title$='.hsc']{border-color:#29b544;}
 
-/* Haxe*/
+/**- Haxe-*/
 .js-directory-link[title$='.hx']{border-color:#df7900;}
 .js-directory-link[title$='.hxsl']{border-color:#df7900;}
 
-/* Hy*/
+/**- Hy-*/
 .js-directory-link[title$='.hy']{border-color:#7790B2;}
 
-/* IDL*/
+/**- IDL-*/
 .js-directory-link[title$='.pro']{border-color:#a3522f;}
 .js-directory-link[title$='.dlm']{border-color:#a3522f;}
 
-/* Io*/
+/**- Io-*/
 .js-directory-link[title$='.io']{border-color:#a9188d;}
 
-/* Ioke*/
+/**- Ioke-*/
 .js-directory-link[title$='.ik']{border-color:#078193;}
 
-/* Isabelle*/
+/**- Isabelle-*/
 .js-directory-link[title$='.thy']{border-color:#FEFE00;}
 
-/* J*/
+/**- J-*/
 .js-directory-link[title$='.ijs']{border-color:#9EEDFF;}
 
-/* JFlex*/
+/**- JFlex-*/
 .js-directory-link[title$='.flex']{border-color:#DBCA00;}
 .js-directory-link[title$='.jflex']{border-color:#DBCA00;}
 
-/* JSONiq*/
+/**- JSONiq-*/
 .js-directory-link[title$='.jq']{border-color:#40d47e;}
 
-/* Java*/
+/**- Java-*/
 .js-directory-link[title$='.java']{border-color:#b07219;}
 
-/* JavaScript*/
+/**- JavaScript-*/
 .js-directory-link[title$='.js']{border-color:#f1e05a;}
 .js-directory-link[title$='._js']{border-color:#f1e05a;}
 .js-directory-link[title$='.bones']{border-color:#f1e05a;}
@@ -396,48 +396,48 @@
 .js-directory-link[title$='.xsjs']{border-color:#f1e05a;}
 .js-directory-link[title$='.xsjslib']{border-color:#f1e05a;}
 
-/* Julia*/
+/**- Julia-*/
 .js-directory-link[title$='.jl']{border-color:#a270ba;}
 
-/* KRL*/
+/**- KRL-*/
 .js-directory-link[title$='.krl']{border-color:#28431f;}
 
-/* Kotlin*/
+/**- Kotlin-*/
 .js-directory-link[title$='.kt']{border-color:#F18E33;}
 .js-directory-link[title$='.ktm']{border-color:#F18E33;}
 .js-directory-link[title$='.kts']{border-color:#F18E33;}
 
-/* LFE*/
+/**- LFE-*/
 .js-directory-link[title$='.lfe']{border-color:#004200;}
 
-/* LOLCODE*/
+/**- LOLCODE-*/
 .js-directory-link[title$='.lol']{border-color:#cc9900;}
 
-/* LSL*/
+/**- LSL-*/
 .js-directory-link[title$='.lsl']{border-color:#3d9970;}
 
-/* Lasso*/
+/**- Lasso-*/
 .js-directory-link[title$='.lasso']{border-color:#999999;}
 .js-directory-link[title$='.las']{border-color:#999999;}
 .js-directory-link[title$='.lasso8']{border-color:#999999;}
 .js-directory-link[title$='.lasso9']{border-color:#999999;}
 .js-directory-link[title$='.ldml']{border-color:#999999;}
 
-/* Latte*/
+/**- Latte-*/
 .js-directory-link[title$='.latte']{border-color:#A8FF97;}
 
-/* Lex*/
+/**- Lex-*/
 .js-directory-link[title$='.l']{border-color:#DBCA00;}
 .js-directory-link[title$='.lex']{border-color:#DBCA00;}
 
-/* LiveScript*/
+/**- LiveScript-*/
 .js-directory-link[title$='.ls']{border-color:#499886;}
 .js-directory-link[title$='._ls']{border-color:#499886;}
 
-/* LookML*/
+/**- LookML-*/
 .js-directory-link[title$='.lookml']{border-color:#652B81;}
 
-/* Lua*/
+/**- Lua-*/
 .js-directory-link[title$='.lua']{border-color:#000080;}
 .js-directory-link[title$='.fcgi']{border-color:#000080;}
 .js-directory-link[title$='.nse']{border-color:#000080;}
@@ -445,71 +445,71 @@
 .js-directory-link[title$='.rbxs']{border-color:#000080;}
 .js-directory-link[title$='.wlua']{border-color:#000080;}
 
-/* MTML*/
+/**- MTML-*/
 .js-directory-link[title$='.mtml']{border-color:#b7e1f4;}
 
-/* Makefile*/
+/**- Makefile-*/
 .js-directory-link[title$='.mak']{border-color:#427819;}
 .js-directory-link[title$='.d']{border-color:#427819;}
 .js-directory-link[title$='.mk']{border-color:#427819;}
 
-/* Mask*/
+/**- Mask-*/
 .js-directory-link[title$='.mask']{border-color:#f97732;}
 
-/* Matlab*/
+/**- Matlab-*/
 .js-directory-link[title$='.matlab']{border-color:#bb92ac;}
 .js-directory-link[title$='.m']{border-color:#bb92ac;}
 
-/* Max*/
+/**- Max-*/
 .js-directory-link[title$='.maxpat']{border-color:#c4a79c;}
 .js-directory-link[title$='.maxhelp']{border-color:#c4a79c;}
 .js-directory-link[title$='.maxproj']{border-color:#c4a79c;}
 .js-directory-link[title$='.mxt']{border-color:#c4a79c;}
 .js-directory-link[title$='.pat']{border-color:#c4a79c;}
 
-/* Mercury*/
+/**- Mercury-*/
 .js-directory-link[title$='.m']{border-color:#ff2b2b;}
 .js-directory-link[title$='.moo']{border-color:#ff2b2b;}
 
-/* Mirah*/
+/**- Mirah-*/
 .js-directory-link[title$='.druby']{border-color:#c7a938;}
 .js-directory-link[title$='.duby']{border-color:#c7a938;}
 .js-directory-link[title$='.mir']{border-color:#c7a938;}
 .js-directory-link[title$='.mirah']{border-color:#c7a938;}
 
-/* Nemerle*/
+/**- Nemerle-*/
 .js-directory-link[title$='.n']{border-color:#3d3c6e;}
 
-/* NetLinx*/
+/**- NetLinx-*/
 .js-directory-link[title$='.axs']{border-color:#0aa0ff;}
 .js-directory-link[title$='.axi']{border-color:#0aa0ff;}
 
-/* NetLinx+ERB*/
+/**- NetLinx+ERB-*/
 .js-directory-link[title$='.axs.erb']{border-color:#747faa;}
 .js-directory-link[title$='.axi.erb']{border-color:#747faa;}
 
-/* NetLogo*/
+/**- NetLogo-*/
 .js-directory-link[title$='.nlogo']{border-color:#ff6375;}
 
-/* NewLisp*/
+/**- NewLisp-*/
 .js-directory-link[title$='.nl']{border-color:#87AED7;}
 .js-directory-link[title$='.lisp']{border-color:#87AED7;}
 .js-directory-link[title$='.lsp']{border-color:#87AED7;}
 
-/* Nimrod*/
+/**- Nimrod-*/
 .js-directory-link[title$='.nim']{border-color:#37775b;}
 .js-directory-link[title$='.nimrod']{border-color:#37775b;}
 
-/* Nit*/
+/**- Nit-*/
 .js-directory-link[title$='.nit']{border-color:#009917;}
 
-/* Nix*/
+/**- Nix-*/
 .js-directory-link[title$='.nix']{border-color:#7e7eff;}
 
-/* Nu*/
+/**- Nu-*/
 .js-directory-link[title$='.nu']{border-color:#c9df40;}
 
-/* OCaml*/
+/**- OCaml-*/
 .js-directory-link[title$='.ml']{border-color:#3be133;}
 .js-directory-link[title$='.eliom']{border-color:#3be133;}
 .js-directory-link[title$='.eliomi']{border-color:#3be133;}
@@ -518,33 +518,33 @@
 .js-directory-link[title$='.mll']{border-color:#3be133;}
 .js-directory-link[title$='.mly']{border-color:#3be133;}
 
-/* Objective-C*/
+/**- Objective-C-*/
 .js-directory-link[title$='.m']{border-color:#438eff;}
 .js-directory-link[title$='.h']{border-color:#438eff;}
 
-/* Objective-C++*/
+/**- Objective-C++-*/
 .js-directory-link[title$='.mm']{border-color:#6866fb;}
 
-/* Objective-J*/
+/**- Objective-J-*/
 .js-directory-link[title$='.j']{border-color:#ff0c5a;}
 .js-directory-link[title$='.sj']{border-color:#ff0c5a;}
 
-/* Omgrofl*/
+/**- Omgrofl-*/
 .js-directory-link[title$='.omgrofl']{border-color:#cabbff;}
 
-/* Opal*/
+/**- Opal-*/
 .js-directory-link[title$='.opal']{border-color:#f7ede0;}
 
-/* Oxygene*/
+/**- Oxygene-*/
 .js-directory-link[title$='.oxygene']{border-color:#cdd0e3;}
 
-/* Oz*/
+/**- Oz-*/
 .js-directory-link[title$='.oz']{border-color:#fab738;}
 
-/* PAWN*/
+/**- PAWN-*/
 .js-directory-link[title$='.pwn']{border-color:#dbb284;}
 
-/* PHP*/
+/**- PHP-*/
 .js-directory-link[title$='.php']{border-color:#4F5D95;}
 .js-directory-link[title$='.aw']{border-color:#4F5D95;}
 .js-directory-link[title$='.ctp']{border-color:#4F5D95;}
@@ -555,9 +555,343 @@
 .js-directory-link[title$='.php5']{border-color:#4F5D95;}
 .js-directory-link[title$='.phpt']{border-color:#4F5D95;}
 
-/* Pan*/
+/**- Pan-*/
 .js-directory-link[title$='.pan']{border-color:#cc0000;}
 
-/* Papyrus*/
+/**- Papyrus-*/
 .js-directory-link[title$='.psc']{border-color:#6600cc;}
+
+/**- Parrot-*/
+.js-directory-link[title$='.parrot']{border-color:#f3ca0a;}
+
+/**- Pascal-*/
+.js-directory-link[title$='.pas']{border-color:#b0ce4e;}
+.js-directory-link[title$='.dfm']{border-color:#b0ce4e;}
+.js-directory-link[title$='.dpr']{border-color:#b0ce4e;}
+.js-directory-link[title$='.inc']{border-color:#b0ce4e;}
+.js-directory-link[title$='.lpr']{border-color:#b0ce4e;}
+.js-directory-link[title$='.pp']{border-color:#b0ce4e;}
+
+/**- Perl-*/
+.js-directory-link[title$='.pl']{border-color:#0298c3;}
+.js-directory-link[title$='.al']{border-color:#0298c3;}
+.js-directory-link[title$='.cgi']{border-color:#0298c3;}
+.js-directory-link[title$='.fcgi']{border-color:#0298c3;}
+.js-directory-link[title$='.perl']{border-color:#0298c3;}
+.js-directory-link[title$='.ph']{border-color:#0298c3;}
+.js-directory-link[title$='.plx']{border-color:#0298c3;}
+.js-directory-link[title$='.pm']{border-color:#0298c3;}
+.js-directory-link[title$='.pod']{border-color:#0298c3;}
+.js-directory-link[title$='.psgi']{border-color:#0298c3;}
+.js-directory-link[title$='.t']{border-color:#0298c3;}
+
+/**- Perl6-*/
+.js-directory-link[title$='.6pl']{border-color:#0000fb;}
+.js-directory-link[title$='.6pm']{border-color:#0000fb;}
+.js-directory-link[title$='.nqp']{border-color:#0000fb;}
+.js-directory-link[title$='.p6']{border-color:#0000fb;}
+.js-directory-link[title$='.p6l']{border-color:#0000fb;}
+.js-directory-link[title$='.p6m']{border-color:#0000fb;}
+.js-directory-link[title$='.pl']{border-color:#0000fb;}
+.js-directory-link[title$='.pl6']{border-color:#0000fb;}
+.js-directory-link[title$='.pm']{border-color:#0000fb;}
+.js-directory-link[title$='.pm6']{border-color:#0000fb;}
+.js-directory-link[title$='.t']{border-color:#0000fb;}
+
+/**- PigLatin-*/
+.js-directory-link[title$='.pig']{border-color:#fcd7de;}
+
+/**- Pike-*/
+.js-directory-link[title$='.pike']{border-color:#005390;}
+.js-directory-link[title$='.pmod']{border-color:#005390;}
+
+/**- PogoScript-*/
+.js-directory-link[title$='.pogo']{border-color:#d80074;}
+
+/**- Processing-*/
+.js-directory-link[title$='.pde']{border-color:#0096D8;}
+
+/**- Prolog-*/
+.js-directory-link[title$='.pl']{border-color:#74283c;}
+.js-directory-link[title$='.ecl']{border-color:#74283c;}
+.js-directory-link[title$='.pro']{border-color:#74283c;}
+.js-directory-link[title$='.prolog']{border-color:#74283c;}
+
+/**- Propeller Spin-*/
+.js-directory-link[title$='.spin']{border-color:#7fa2a7;}
+
+/**- Puppet-*/
+.js-directory-link[title$='.pp']{border-color:#332A77;}
+
+/**- Pure Data-*/
+.js-directory-link[title$='.pd']{border-color:#91de79;}
+
+/**- PureBasic-*/
+.js-directory-link[title$='.pb']{border-color:#5a6986;}
+.js-directory-link[title$='.pbi']{border-color:#5a6986;}
+
+/**- PureScript-*/
+.js-directory-link[title$='.purs']{border-color:#1D222D;}
+
+/**- Python-*/
+.js-directory-link[title$='.py']{border-color:#3572A5;}
+.js-directory-link[title$='.cgi']{border-color:#3572A5;}
+.js-directory-link[title$='.fcgi']{border-color:#3572A5;}
+.js-directory-link[title$='.gyp']{border-color:#3572A5;}
+.js-directory-link[title$='.lmi']{border-color:#3572A5;}
+.js-directory-link[title$='.pyde']{border-color:#3572A5;}
+.js-directory-link[title$='.pyp']{border-color:#3572A5;}
+.js-directory-link[title$='.pyt']{border-color:#3572A5;}
+.js-directory-link[title$='.pyw']{border-color:#3572A5;}
+.js-directory-link[title$='.tac']{border-color:#3572A5;}
+.js-directory-link[title$='.wsgi']{border-color:#3572A5;}
+.js-directory-link[title$='.xpy']{border-color:#3572A5;}
+
+/**- QML-*/
+.js-directory-link[title$='.qml']{border-color:#44a51c;}
+.js-directory-link[title$='.qbs']{border-color:#44a51c;}
+
+/**- R-*/
+.js-directory-link[title$='.r']{border-color:#198ce7;}
+.js-directory-link[title$='.rd']{border-color:#198ce7;}
+.js-directory-link[title$='.rsx']{border-color:#198ce7;}
+
+/**- RAML-*/
+.js-directory-link[title$='.raml']{border-color:#77d9fb;}
+
+/**- Racket-*/
+.js-directory-link[title$='.rkt']{border-color:#22228f;}
+.js-directory-link[title$='.rktd']{border-color:#22228f;}
+.js-directory-link[title$='.rktl']{border-color:#22228f;}
+.js-directory-link[title$='.scrbl']{border-color:#22228f;}
+
+/**- Ragel in Ruby Host-*/
+.js-directory-link[title$='.rl']{border-color:#9d5200;}
+
+/**- Rebol-*/
+.js-directory-link[title$='.reb']{border-color:#358a5b;}
+.js-directory-link[title$='.r']{border-color:#358a5b;}
+.js-directory-link[title$='.r2']{border-color:#358a5b;}
+.js-directory-link[title$='.r3']{border-color:#358a5b;}
+.js-directory-link[title$='.rebol']{border-color:#358a5b;}
+
+/**- Red-*/
+.js-directory-link[title$='.red']{border-color:#ee0000;}
+.js-directory-link[title$='.reds']{border-color:#ee0000;}
+
+/**- Rouge-*/
+.js-directory-link[title$='.rg']{border-color:#cc0088;}
+
+/**- Ruby-*/
+.js-directory-link[title$='.rb']{border-color:#701516;}
+.js-directory-link[title$='.builder']{border-color:#701516;}
+.js-directory-link[title$='.fcgi']{border-color:#701516;}
+.js-directory-link[title$='.gemspec']{border-color:#701516;}
+.js-directory-link[title$='.god']{border-color:#701516;}
+.js-directory-link[title$='.irbrc']{border-color:#701516;}
+.js-directory-link[title$='.jbuilder']{border-color:#701516;}
+.js-directory-link[title$='.mspec']{border-color:#701516;}
+.js-directory-link[title$='.pluginspec']{border-color:#701516;}
+.js-directory-link[title$='.podspec']{border-color:#701516;}
+.js-directory-link[title$='.rabl']{border-color:#701516;}
+.js-directory-link[title$='.rake']{border-color:#701516;}
+.js-directory-link[title$='.rbuild']{border-color:#701516;}
+.js-directory-link[title$='.rbw']{border-color:#701516;}
+.js-directory-link[title$='.rbx']{border-color:#701516;}
+.js-directory-link[title$='.ru']{border-color:#701516;}
+.js-directory-link[title$='.ruby']{border-color:#701516;}
+.js-directory-link[title$='.thor']{border-color:#701516;}
+.js-directory-link[title$='.watchr']{border-color:#701516;}
+
+/**- Rust-*/
+.js-directory-link[title$='.rs']{border-color:#dea584;}
+
+/**- SAS-*/
+.js-directory-link[title$='.sas']{border-color:#B34936;}
+
+/**- SQF-*/
+.js-directory-link[title$='.sqf']{border-color:#3F3F3F;}
+.js-directory-link[title$='.hqf']{border-color:#3F3F3F;}
+
+/**- SaltStack-*/
+.js-directory-link[title$='.sls']{border-color:#646464;}
+
+/**- Scala-*/
+.js-directory-link[title$='.scala']{border-color:#7dd3b0;}
+.js-directory-link[title$='.sbt']{border-color:#7dd3b0;}
+.js-directory-link[title$='.sc']{border-color:#7dd3b0;}
+
+/**- Scheme-*/
+.js-directory-link[title$='.scm']{border-color:#1e4aec;}
+.js-directory-link[title$='.sld']{border-color:#1e4aec;}
+.js-directory-link[title$='.sls']{border-color:#1e4aec;}
+.js-directory-link[title$='.sps']{border-color:#1e4aec;}
+.js-directory-link[title$='.ss']{border-color:#1e4aec;}
+
+/**- Self-*/
+.js-directory-link[title$='.self']{border-color:#0579aa;}
+
+/**- Shell-*/
+.js-directory-link[title$='.sh']{border-color:#89e051;}
+.js-directory-link[title$='.bash']{border-color:#89e051;}
+.js-directory-link[title$='.bats']{border-color:#89e051;}
+.js-directory-link[title$='.cgi']{border-color:#89e051;}
+.js-directory-link[title$='.command']{border-color:#89e051;}
+.js-directory-link[title$='.fcgi']{border-color:#89e051;}
+.js-directory-link[title$='.ksh']{border-color:#89e051;}
+.js-directory-link[title$='.tmux']{border-color:#89e051;}
+.js-directory-link[title$='.tool']{border-color:#89e051;}
+.js-directory-link[title$='.zsh']{border-color:#89e051;}
+
+/**- Shen-*/
+.js-directory-link[title$='.shen']{border-color:#120F14;}
+
+/**- Slash-*/
+.js-directory-link[title$='.sl']{border-color:#007eff;}
+
+/**- Slim-*/
+.js-directory-link[title$='.slim']{border-color:#ff8f77;}
+
+/**- Smalltalk-*/
+.js-directory-link[title$='.st']{border-color:#596706;}
+.js-directory-link[title$='.cs']{border-color:#596706;}
+
+/**- SourcePawn-*/
+.js-directory-link[title$='.sp']{border-color:#5c7611;}
+.js-directory-link[title$='.inc']{border-color:#5c7611;}
+.js-directory-link[title$='.sma']{border-color:#5c7611;}
+
+/**- Squirrel-*/
+.js-directory-link[title$='.nut']{border-color:#800000;}
+
+/**- Standard ML-*/
+.js-directory-link[title$='.ML']{border-color:#dc566d;}
+.js-directory-link[title$='.fun']{border-color:#dc566d;}
+.js-directory-link[title$='.sig']{border-color:#dc566d;}
+.js-directory-link[title$='.sml']{border-color:#dc566d;}
+
+/**- SuperCollider-*/
+.js-directory-link[title$='.scd']{border-color:#46390b;}
+.js-directory-link[title$='.sc']{border-color:#46390b;}
+
+/**- Swift-*/
+.js-directory-link[title$='.swift']{border-color:#ffac45;}
+
+/**- SystemVerilog-*/
+.js-directory-link[title$='.sv']{border-color:#DAE1C2;}
+.js-directory-link[title$='.svh']{border-color:#DAE1C2;}
+.js-directory-link[title$='.vh']{border-color:#DAE1C2;}
+
+/**- Tcl-*/
+.js-directory-link[title$='.tcl']{border-color:#e4cc98;}
+.js-directory-link[title$='.adp']{border-color:#e4cc98;}
+.js-directory-link[title$='.tm']{border-color:#e4cc98;}
+
+/**- TeX-*/
+.js-directory-link[title$='.tex']{border-color:#3D6117;}
+.js-directory-link[title$='.aux']{border-color:#3D6117;}
+.js-directory-link[title$='.bbx']{border-color:#3D6117;}
+.js-directory-link[title$='.bib']{border-color:#3D6117;}
+.js-directory-link[title$='.cbx']{border-color:#3D6117;}
+.js-directory-link[title$='.cls']{border-color:#3D6117;}
+.js-directory-link[title$='.dtx']{border-color:#3D6117;}
+.js-directory-link[title$='.ins']{border-color:#3D6117;}
+.js-directory-link[title$='.lbx']{border-color:#3D6117;}
+.js-directory-link[title$='.ltx']{border-color:#3D6117;}
+.js-directory-link[title$='.mkii']{border-color:#3D6117;}
+.js-directory-link[title$='.mkiv']{border-color:#3D6117;}
+.js-directory-link[title$='.mkvi']{border-color:#3D6117;}
+.js-directory-link[title$='.sty']{border-color:#3D6117;}
+.js-directory-link[title$='.toc']{border-color:#3D6117;}
+
+/**- Turing-*/
+.js-directory-link[title$='.t']{border-color:#45f715;}
+.js-directory-link[title$='.tu']{border-color:#45f715;}
+
+/**- TypeScript-*/
+.js-directory-link[title$='.ts']{border-color:#2b7489;}
+
+/**- Unified Parallel C-*/
+.js-directory-link[title$='.upc']{border-color:#4e3617;}
+
+/**- Unity3D Asset-*/
+.js-directory-link[title$='.anim']{border-color:#ab69a1;}
+.js-directory-link[title$='.asset']{border-color:#ab69a1;}
+.js-directory-link[title$='.mat']{border-color:#ab69a1;}
+.js-directory-link[title$='.meta']{border-color:#ab69a1;}
+.js-directory-link[title$='.prefab']{border-color:#ab69a1;}
+.js-directory-link[title$='.unity']{border-color:#ab69a1;}
+
+/**- UnrealScript-*/
+.js-directory-link[title$='.uc']{border-color:#a54c4d;}
+
+/**- VHDL-*/
+.js-directory-link[title$='.vhdl']{border-color:#adb2cb;}
+.js-directory-link[title$='.vhd']{border-color:#adb2cb;}
+.js-directory-link[title$='.vhf']{border-color:#adb2cb;}
+.js-directory-link[title$='.vhi']{border-color:#adb2cb;}
+.js-directory-link[title$='.vho']{border-color:#adb2cb;}
+.js-directory-link[title$='.vhs']{border-color:#adb2cb;}
+.js-directory-link[title$='.vht']{border-color:#adb2cb;}
+.js-directory-link[title$='.vhw']{border-color:#adb2cb;}
+
+/**- Vala-*/
+.js-directory-link[title$='.vala']{border-color:#fbe5cd;}
+.js-directory-link[title$='.vapi']{border-color:#fbe5cd;}
+
+/**- Verilog-*/
+.js-directory-link[title$='.v']{border-color:#b2b7f8;}
+.js-directory-link[title$='.veo']{border-color:#b2b7f8;}
+
+/**- VimL-*/
+.js-directory-link[title$='.vim']{border-color:#199f4b;}
+
+/**- Visual Basic-*/
+.js-directory-link[title$='.vb']{border-color:#945db7;}
+.js-directory-link[title$='.bas']{border-color:#945db7;}
+.js-directory-link[title$='.cls']{border-color:#945db7;}
+.js-directory-link[title$='.frm']{border-color:#945db7;}
+.js-directory-link[title$='.frx']{border-color:#945db7;}
+.js-directory-link[title$='.vba']{border-color:#945db7;}
+.js-directory-link[title$='.vbhtml']{border-color:#945db7;}
+.js-directory-link[title$='.vbs']{border-color:#945db7;}
+
+/**- Volt-*/
+.js-directory-link[title$='.volt']{border-color:#1F1F1F;}
+
+/**- Web Ontology Language-*/
+.js-directory-link[title$='.owl']{border-color:#9cc9dd;}
+
+/**- XC-*/
+.js-directory-link[title$='.xc']{border-color:#99DA07;}
+
+/**- XQuery-*/
+.js-directory-link[title$='.xquery']{border-color:#5232e7;}
+.js-directory-link[title$='.xq']{border-color:#5232e7;}
+.js-directory-link[title$='.xql']{border-color:#5232e7;}
+.js-directory-link[title$='.xqm']{border-color:#5232e7;}
+.js-directory-link[title$='.xqy']{border-color:#5232e7;}
+
+/**- Zephir-*/
+.js-directory-link[title$='.zep']{border-color:#118f9e;}
+
+/**- eC-*/
+.js-directory-link[title$='.ec']{border-color:#913960;}
+.js-directory-link[title$='.eh']{border-color:#913960;}
+
+/**- edn-*/
+.js-directory-link[title$='.edn']{border-color:#db5855;}
+
+/**- nesC-*/
+.js-directory-link[title$='.nc']{border-color:#94B0C7;}
+
+/**- ooc-*/
+.js-directory-link[title$='.ooc']{border-color:#b0b77e;}
+
+/**- wisp-*/
+.js-directory-link[title$='.wisp']{border-color:#7582D1;}
+
+/**- xBase-*/
+.js-directory-link[title$='.prg']{border-color:#403a40;}
+.js-directory-link[title$='.ch']{border-color:#403a40;}
 }
