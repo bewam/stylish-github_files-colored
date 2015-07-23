@@ -11,7 +11,7 @@ var promise = require('promise');
 
 var settings = {
     forceFresh: false,
-    css : 'out.user.css',
+    css : 'stylish-github_files-colored.css',
 };
 
 var languages = {
