@@ -109,9 +109,9 @@ function readAndDump(fileLanguages, fileCss) {
 }
 
 function needDownload(file) {
-    var pro = new promise(function (ok, reject) {
+    var pro = new promise(function (resolve, reject) {
         if(settings.forceFresh) {
-            ok('download forced');
+            resolve('download forced');
         }
         else {
             try {
@@ -121,7 +121,7 @@ function needDownload(file) {
                         fs.close(fd);
                     }
                     else {
-                        ok('file not present');
+                        resolve('file not present');
                     }
 
                 });
@@ -130,7 +130,7 @@ function needDownload(file) {
                     reject(new Error('file not empty'));
                 }
                 else {
-                    ok('file not present or empty');
+                    resolve('file not present or empty');
                 }
 
             }
@@ -157,7 +157,7 @@ function download(remoteFile, localFile) {
 
     var file = fs.createWriteStream(localFile);
 
-    var pro = new promise(function (ok, reject) {
+    var pro = new promise(function (resolve, reject) {
         https.get(url.parse(remoteFile), function (response) {
 
             response.on('data', function (chunk) {
@@ -168,7 +168,7 @@ function download(remoteFile, localFile) {
                 file.end();
 
                 if(fileIsNotEmpty(localFile)) {
-                    ok('download succeed');
+                    resolve('download succeed');
                 }
                 else {
                     reject(
