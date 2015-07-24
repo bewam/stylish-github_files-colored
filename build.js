@@ -49,6 +49,7 @@ function readAndDump(fileLanguages, fileCss) {
         'utf8'));
     var o = '',
         dirOk = false,
+        fileName = '',
         k, l, language, err;
 
 
@@ -78,10 +79,14 @@ function readAndDump(fileLanguages, fileCss) {
 
             if(language.extensions) {
                 for(var ext of language.extensions) {
+
                     if(settings.buildSwatches && dirOk) {
-                        fs.writeFileSync([
+                        fileName = [
                              settings.swatches,
-                             settings.swatchName + ext].join(path.sep), '');
+                             settings.swatchName + ext
+                            ].join(path.sep);
+
+                        fs.writeFileSync(fileName, '');
                     }
 
                     o += Buildselector(ext);
@@ -91,8 +96,12 @@ function readAndDump(fileLanguages, fileCss) {
             }
         }
         else {
-            console.log(util.format("no color:%s (%s)", language.name, language
-                .type));
+            console.log(
+                util.format(
+                    "no color:%s (%s)",
+                    language.name,
+                    language.type)
+            );
         }
     }
     o += '}';
