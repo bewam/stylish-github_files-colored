@@ -115,6 +115,7 @@ function needDownload(file) {
         }
         else {
             try {
+                /** Am I too stupid to believe fs.exists will be obsolete ? */
                 fs.open(file, 'r', function (err, fd) {
                     if(!err) {
                         reject(new Error('file exists'));
