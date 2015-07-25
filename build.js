@@ -12,20 +12,25 @@ var yaml = require('js-yaml');
 /**/
 console.log = function () {}; /**/
 
-var settings = {
+const settings = {
     forceFresh: false,
-    css: 'stylish-github_files-colored.css',
     buildSwatches: false,
     /* creates a swatches folder to see results */
     swatches: 'test_swatches',
     swatchName: 'testFile',
+    outputFile : {
+        name : 'stylish-github_files-colored.css',
+        header : "header.css.tmpl",
+        bottom : "footer.css.tmpl",
+        extensionRule : '.js-directory-link[title$=\'%s\']',
+    },
 };
 
 var languages = {
     localFile: "languages.yml",
     remoteFile: 'https://raw.githubusercontent.com/github/linguist/master/lib/linguist/languages.yml'
 };
-const file_header = "head.css.tmpl";
+const fileHeader = "head.css.tmpl";
 
 
 needDownload(languages.localFile).then(function (successMessage) {
@@ -33,14 +38,14 @@ needDownload(languages.localFile).then(function (successMessage) {
     download(languages.remoteFile, languages.localFile).then(function (
         successMessage) {
         console.log('yeah ! ' + successMessage);
-        readAndDump(languages.localFile, settings.css);
+        readAndDump(languages.localFile, settings.outputFile.name);
     }, function (err) {
         console.error(err);
         process.exit();
     });
 }, function (err) {
     console.log(err);
-    readAndDump(languages.localFile, settings.css);
+    readAndDump(languages.localFile, settings.outputFile.name);
 });
 
 function readAndDump(fileLanguages, fileCss) {
@@ -53,11 +58,17 @@ function readAndDump(fileLanguages, fileCss) {
         k, l, language, err;
 
 
-    o += fs.readFileSync(file_header, 'utf8');
+    o += getCssHead();
 
     if(settings.buildSwatches) {
+        
+        /** NOTE: directory does'nt exist,
+         * if no error thrown file is created
+         *
+         */
         try {
-            dirOk = (!fs.mkdirSync(settings.swatches));
+
+            dirOk = not( !!fs.mkdirSync(settings.swatches) );
         }
         catch(err) {
             if(err.code === 'EEXIST') {
@@ -89,7 +100,7 @@ function readAndDump(fileLanguages, fileCss) {
                         fs.writeFileSync(fileName, '');
                     }
 
-                    o += Buildselector(ext);
+                    o += buildRule(ext);
                     o += '{border-color:' + language.color + ';}';
                     o += "\n";
                 }
@@ -104,7 +115,7 @@ function readAndDump(fileLanguages, fileCss) {
             );
         }
     }
-    o += '}';
+    o += getCssBottom();
     fs.writeFile(fileCss, o);
 }
 
@@ -115,7 +126,9 @@ function needDownload(file) {
         }
         else {
             try {
-                /** Am I too stupid to believe fs.exists will be obsolete ? */
+                /**
+                * Am I too stupid to believe fs.exists will be obsolete ?
+                */
                 fs.open(file, 'r', function (err, fd) {
                     if(!err) {
                         reject(new Error('file exists'));
@@ -142,6 +155,30 @@ function needDownload(file) {
         }
     });
     return pro;
+}
+
+function not(boolean){
+    return (! boolean);
+}
+
+function getCssHead() {
+    var content = '{';
+    try {
+        content = fs.readFileSync(settings.outputFile.header, 'utf8');
+    } catch (e) {
+    } finally {
+        return content;
+    }
+}
+function getCssBottom() {
+    var content = '}';
+    try {
+        content = fs.readFileSync(settings.outputFile.bottom, 'utf8');
+    } catch (e) {
+    } finally {
+        return content;
+    }
+
 }
 
 function fileIsNotEmpty(file) {
@@ -182,6 +219,6 @@ function download(remoteFile, localFile) {
     return pro;
 }
 
-function Buildselector(str) {
-    return util.format('.js-directory-link[title$=\'%s\']', str);
+function buildRule(str) {
+    return util.format(settings.outputFile.extensionRule, str);
 }
