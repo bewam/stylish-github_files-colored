@@ -1,0 +1,19 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("github.com") {
+  .js-directory-link{
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-color: transparent;
+    padding-left: 5px
+  }
+
+  .js-directory-link[title$='.md']{border-color: lightgray;}
+  .js-directory-link[title$='.txt']{border-color: lightgray;}
+
+  .js-directory-link[title$='.tpl']{border-color: lightgreen;}
+  .js-directory-link[title$='.tmpl']{border-color: lightgreen;}
+  /** html color */
+  .js-directory-link[title$='.xml']{border-color: #e44b23;}
+  /** js color */
+  .js-directory-link[title$='.json']{border-color:#f1e05a;}

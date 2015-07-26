@@ -18,6 +18,7 @@ const settings = {
     /* creates a swatches folder to see results */
     swatches: 'test_swatches',
     swatchName: 'testFile',
+    templatesDir : 'templates',
     outputFile : {
         name : 'stylish-github_files-colored.css',
         header : "header.css.tmpl",
@@ -61,7 +62,7 @@ function readAndDump(fileLanguages, fileCss) {
     o += getCssHead();
 
     if(settings.buildSwatches) {
-        
+
         /** NOTE: directory does'nt exist,
          * if no error thrown file is created
          *
@@ -161,10 +162,14 @@ function not(boolean){
     return (! boolean);
 }
 
+function getTemplateURI(file){
+        return [settings.templatesDir, file].join(path.sep);
+}
+
 function getCssHead() {
     var content = '{';
     try {
-        content = fs.readFileSync(settings.outputFile.header, 'utf8');
+        content = fs.readFileSync(getTemplateURI(settings.outputFile.header), 'utf8');
     } catch (e) {
     } finally {
         return content;
@@ -173,7 +178,7 @@ function getCssHead() {
 function getCssBottom() {
     var content = '}';
     try {
-        content = fs.readFileSync(settings.outputFile.bottom, 'utf8');
+        content = fs.readFileSync(getTemplateURI(settings.outputFile.bottom), 'utf8');
     } catch (e) {
     } finally {
         return content;
