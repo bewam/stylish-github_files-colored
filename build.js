@@ -64,8 +64,8 @@ function readAndDump(fileLanguages, fileCss) {
     if(settings.buildSwatches) {
 
         /** NOTE: directory does'nt exist,
-         * if no error thrown file is created
-         *
+         * if no error thrown when file is created
+         * we grab the true for false.
          */
         try {
 
