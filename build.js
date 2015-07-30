@@ -9,8 +9,7 @@ var path = require('path');
 var promise = require('promise');
 var yaml = require('js-yaml');
 
-/**/
-console.log = function () {}; /**/
+/**/ console.log = function () {}; /**/
 
 const settings = {
     forceFresh: false,
@@ -25,6 +24,7 @@ const settings = {
         bottom : "footer.css.tmpl",
         extensionRule : '.js-directory-link[title$=\'%s\']',
     },
+    showDate : true,
 };
 
 var languages = {
@@ -58,6 +58,12 @@ function readAndDump(fileLanguages, fileCss) {
         fileName = '',
         k, l, language, err;
 
+    if(settings.showDate)
+    {
+        o += '/* ';
+        o += (new Date()).toGMTString();
+        o += " */\n";
+    }
 
     o += getCssHead();
 
@@ -86,7 +92,9 @@ function readAndDump(fileLanguages, fileCss) {
 
         if(language.color) {
             o += "\n";
-            o += '/**- ' + language.name + '-*/';
+            o += '/**- ';
+            o += language.name;
+            o += '-*/';
             o += "\n";
 
             if(language.extensions) {
