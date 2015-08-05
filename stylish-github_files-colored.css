@@ -1,4 +1,4 @@
-/* Thu, 30 Jul 2015 09:48:30 GMT */
+/* Wed, 05 Aug 2015 08:55:31 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -869,6 +869,9 @@
 
 /**- Volt-*/
 .js-directory-link[title$='.volt']{border-color:#1F1F1F;}
+
+/**- Vue-*/
+.js-directory-link[title$='.vue']{border-color:#2c3e50;}
 
 /**- Web Ontology Language-*/
 .js-directory-link[title$='.owl']{border-color:#9cc9dd;}
