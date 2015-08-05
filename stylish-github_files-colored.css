@@ -1,4 +1,4 @@
-/* Wed, 05 Aug 2015 08:55:31 GMT */
+/* Wed, 05 Aug 2015 13:44:41 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -908,4 +908,5 @@
 /**- xBase-*/
 .js-directory-link[title$='.prg']{border-color:#403a40;}
 .js-directory-link[title$='.ch']{border-color:#403a40;}
+.js-directory-link[title$='.prw']{border-color:#403a40;}
 }
