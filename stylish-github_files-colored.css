@@ -1,4 +1,4 @@
-/* Thu, 06 Aug 2015 09:37:26 GMT */
+/* Fri, 07 Aug 2015 10:18:19 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -632,7 +632,7 @@
 .js-directory-link[title$='.spin']{border-color:#7fa2a7;}
 
 /**- Puppet-*/
-.js-directory-link[title$='.pp']{border-color:#332A77;}
+.js-directory-link[title$='.pp']{border-color:#302B6D;}
 
 /**- Pure Data-*/
 .js-directory-link[title$='.pd']{border-color:#91de79;}
