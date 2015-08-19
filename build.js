@@ -9,7 +9,8 @@ var path = require('path');
 var promise = require('promise');
 var yaml = require('js-yaml');
 
-/**/ console.log = function () {}; /**/
+/**/
+console.log = function () {}; /**/
 
 const settings = {
     forceFresh: false,
@@ -17,14 +18,14 @@ const settings = {
     /* creates a swatches folder to see results */
     swatches: 'test_swatches',
     swatchName: 'testFile',
-    templatesDir : 'templates',
-    outputFile : {
-        name : 'stylish-github_files-colored.css',
-        header : "header.css.tmpl",
-        bottom : "footer.css.tmpl",
-        extensionRule : '.js-directory-link[title$=\'%s\']',
+    templatesDir: 'templates',
+    outputFile: {
+        name: 'stylish-github_files-colored.css',
+        header: "header.css.tmpl",
+        bottom: "footer.css.tmpl",
+        extensionRule: '.js-directory-link[title$=\'%s\']',
     },
-    showDate : true,
+    showDate: true,
 };
 
 var languages = {
@@ -51,15 +52,13 @@ needDownload(languages.localFile).then(function (successMessage) {
 
 function readAndDump(fileLanguages, fileCss) {
     console.log('readAndDump');
-    var languages = yaml.safeLoad(fs.readFileSync(fileLanguages,
-        'utf8'));
+    var languages = yaml.safeLoad(fs.readFileSync(fileLanguages, 'utf8'));
     var o = '',
         dirOk = false,
         fileName = '',
         k, l, language, err;
 
-    if(settings.showDate)
-    {
+    if(settings.showDate) {
         o += '/* ';
         o += (new Date()).toGMTString();
         o += " */\n";
@@ -75,7 +74,7 @@ function readAndDump(fileLanguages, fileCss) {
          */
         try {
 
-            dirOk = not( !!fs.mkdirSync(settings.swatches) );
+            dirOk = not(!!fs.mkdirSync(settings.swatches));
         }
         catch(err) {
             if(err.code === 'EEXIST') {
@@ -136,8 +135,8 @@ function needDownload(file) {
         else {
             try {
                 /**
-                * Am I too stupid to believe fs.exists will be obsolete ?
-                */
+                 * Am I too stupid to believe fs.exists will be obsolete ?
+                 */
                 fs.open(file, 'r', function (err, fd) {
                     if(!err) {
                         reject(new Error('file exists'));
@@ -166,29 +165,34 @@ function needDownload(file) {
     return pro;
 }
 
-function not(boolean){
-    return (! boolean);
+function not(boolean) {
+    return(!boolean);
 }
 
-function getTemplateURI(file){
-        return [settings.templatesDir, file].join(path.sep);
+function getTemplateURI(file) {
+    return [settings.templatesDir, file].join(path.sep);
 }
 
 function getCssHead() {
     var content = '{';
     try {
-        content = fs.readFileSync(getTemplateURI(settings.outputFile.header), 'utf8');
-    } catch (e) {
-    } finally {
+        content = fs.readFileSync(getTemplateURI(settings.outputFile.header),
+            'utf8');
+    }
+    catch(e) {}
+    finally {
         return content;
     }
 }
+
 function getCssBottom() {
     var content = '}';
     try {
-        content = fs.readFileSync(getTemplateURI(settings.outputFile.bottom), 'utf8');
-    } catch (e) {
-    } finally {
+        content = fs.readFileSync(getTemplateURI(settings.outputFile.bottom),
+            'utf8');
+    }
+    catch(e) {}
+    finally {
         return content;
     }
 
