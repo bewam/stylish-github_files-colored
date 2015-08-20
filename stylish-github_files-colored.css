@@ -1,4 +1,4 @@
-/* Tue, 18 Aug 2015 14:18:15 GMT */
+/* Thu, 20 Aug 2015 08:39:46 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -178,6 +178,7 @@
 .js-directory-link[title$='.lsp']{border-color:#3fb68b;}
 .js-directory-link[title$='.ny']{border-color:#3fb68b;}
 .js-directory-link[title$='.podsl']{border-color:#3fb68b;}
+.js-directory-link[title$='.sexp']{border-color:#3fb68b;}
 
 /**- Component Pascal-*/
 .js-directory-link[title$='.cp']{border-color:#b0ce4e;}
@@ -624,7 +625,6 @@
 
 /**- Prolog-*/
 .js-directory-link[title$='.pl']{border-color:#74283c;}
-.js-directory-link[title$='.ecl']{border-color:#74283c;}
 .js-directory-link[title$='.pro']{border-color:#74283c;}
 .js-directory-link[title$='.prolog']{border-color:#74283c;}
 
