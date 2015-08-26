@@ -1,4 +1,4 @@
-/* Fri, 21 Aug 2015 06:21:32 GMT */
+/* Wed, 26 Aug 2015 16:41:34 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -427,6 +427,7 @@
 
 /**- LSL-*/
 .js-directory-link[title$='.lsl']{border-color:#3d9970;}
+.js-directory-link[title$='.lslp']{border-color:#3d9970;}
 
 /**- Lasso-*/
 .js-directory-link[title$='.lasso']{border-color:#999999;}
