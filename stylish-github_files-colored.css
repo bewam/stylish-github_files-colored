@@ -1,4 +1,4 @@
-/* Wed, 26 Aug 2015 16:41:34 GMT */
+/* Thu, 27 Aug 2015 08:00:37 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -876,6 +876,9 @@
 
 /**- Web Ontology Language-*/
 .js-directory-link[title$='.owl']{border-color:#9cc9dd;}
+
+/**- X10-*/
+.js-directory-link[title$='.x10']{border-color:#4B6BEF;}
 
 /**- XC-*/
 .js-directory-link[title$='.xc']{border-color:#99DA07;}
