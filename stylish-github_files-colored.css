@@ -1,4 +1,4 @@
-/* Thu, 27 Aug 2015 08:00:37 GMT */
+/* Wed, 02 Sep 2015 06:45:11 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -567,6 +567,14 @@
 .js-directory-link[title$='.php4']{border-color:#4F5D95;}
 .js-directory-link[title$='.php5']{border-color:#4F5D95;}
 .js-directory-link[title$='.phpt']{border-color:#4F5D95;}
+
+/**- PLSQL-*/
+.js-directory-link[title$='.pls']{border-color:#dad8d8;}
+.js-directory-link[title$='.pkb']{border-color:#dad8d8;}
+.js-directory-link[title$='.pks']{border-color:#dad8d8;}
+.js-directory-link[title$='.plb']{border-color:#dad8d8;}
+.js-directory-link[title$='.plsql']{border-color:#dad8d8;}
+.js-directory-link[title$='.sql']{border-color:#dad8d8;}
 
 /**- Pan-*/
 .js-directory-link[title$='.pan']{border-color:#cc0000;}
