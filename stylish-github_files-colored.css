@@ -1,4 +1,4 @@
-/* Wed, 02 Sep 2015 06:45:11 GMT */
+/* Fri, 04 Sep 2015 13:44:28 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -489,6 +489,9 @@
 .js-directory-link[title$='.duby']{border-color:#c7a938;}
 .js-directory-link[title$='.mir']{border-color:#c7a938;}
 .js-directory-link[title$='.mirah']{border-color:#c7a938;}
+
+/**- NCL-*/
+.js-directory-link[title$='.ncl']{border-color:#28431f;}
 
 /**- Nemerle-*/
 .js-directory-link[title$='.n']{border-color:#3d3c6e;}
