@@ -1,4 +1,4 @@
-/* Fri, 04 Sep 2015 13:44:28 GMT */
+/* Tue, 08 Sep 2015 20:57:42 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -387,7 +387,6 @@
 .js-directory-link[title$='.jsfl']{border-color:#f1e05a;}
 .js-directory-link[title$='.jsm']{border-color:#f1e05a;}
 .js-directory-link[title$='.jss']{border-color:#f1e05a;}
-.js-directory-link[title$='.jsx']{border-color:#f1e05a;}
 .js-directory-link[title$='.njs']{border-color:#f1e05a;}
 .js-directory-link[title$='.pac']{border-color:#f1e05a;}
 .js-directory-link[title$='.sjs']{border-color:#f1e05a;}
