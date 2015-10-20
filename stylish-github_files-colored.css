@@ -1,4 +1,4 @@
-/* Mon, 12 Oct 2015 06:45:27 GMT */
+/* Tue, 20 Oct 2015 08:37:42 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -288,6 +288,9 @@
 /**- Frege-*/
 .js-directory-link[title$='.fr']{border-color:#00cafe;}
 
+/**- FreeMarker-*/
+.js-directory-link[title$='.ftl']{border-color:#0050b2;}
+
 /**- Game Maker Language-*/
 .js-directory-link[title$='.gml']{border-color:#8fb200;}
 
@@ -482,6 +485,9 @@
 /**- Mercury-*/
 .js-directory-link[title$='.m']{border-color:#ff2b2b;}
 .js-directory-link[title$='.moo']{border-color:#ff2b2b;}
+
+/**- Metal-*/
+.js-directory-link[title$='.metal']{border-color:#8f14e9;}
 
 /**- Mirah-*/
 .js-directory-link[title$='.druby']{border-color:#c7a938;}
