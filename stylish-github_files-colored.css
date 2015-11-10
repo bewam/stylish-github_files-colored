@@ -1,4 +1,4 @@
-/* Tue, 20 Oct 2015 08:37:42 GMT */
+/* Tue, 10 Nov 2015 11:36:23 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -188,8 +188,8 @@
 .js-directory-link[title$='.cr']{border-color:#776791;}
 
 /**- D-*/
-.js-directory-link[title$='.d']{border-color:#fcd46d;}
-.js-directory-link[title$='.di']{border-color:#fcd46d;}
+.js-directory-link[title$='.d']{border-color:#ba595e;}
+.js-directory-link[title$='.di']{border-color:#ba595e;}
 
 /**- DM-*/
 .js-directory-link[title$='.dm']{border-color:#447265;}
@@ -285,11 +285,11 @@
 .js-directory-link[title$='.frt']{border-color:#341708;}
 .js-directory-link[title$='.fs']{border-color:#341708;}
 
-/**- Frege-*/
-.js-directory-link[title$='.fr']{border-color:#00cafe;}
-
 /**- FreeMarker-*/
 .js-directory-link[title$='.ftl']{border-color:#0050b2;}
+
+/**- Frege-*/
+.js-directory-link[title$='.fr']{border-color:#00cafe;}
 
 /**- Game Maker Language-*/
 .js-directory-link[title$='.gml']{border-color:#8fb200;}
@@ -801,8 +801,8 @@
 .js-directory-link[title$='.sml']{border-color:#dc566d;}
 
 /**- SuperCollider-*/
-.js-directory-link[title$='.scd']{border-color:#46390b;}
 .js-directory-link[title$='.sc']{border-color:#46390b;}
+.js-directory-link[title$='.scd']{border-color:#46390b;}
 
 /**- Swift-*/
 .js-directory-link[title$='.swift']{border-color:#ffac45;}
