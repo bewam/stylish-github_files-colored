@@ -1,4 +1,4 @@
-/* Fri, 13 Nov 2015 09:11:03 GMT */
+/* Sat, 21 Nov 2015 16:43:03 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -109,6 +109,7 @@
 
 /**- C#-*/
 .js-directory-link[title$='.cs']{border-color:#178600;}
+.js-directory-link[title$='.cake']{border-color:#178600;}
 .js-directory-link[title$='.cshtml']{border-color:#178600;}
 .js-directory-link[title$='.csx']{border-color:#178600;}
 
@@ -159,6 +160,7 @@
 /**- CoffeeScript-*/
 .js-directory-link[title$='.coffee']{border-color:#244776;}
 .js-directory-link[title$='._coffee']{border-color:#244776;}
+.js-directory-link[title$='.cake']{border-color:#244776;}
 .js-directory-link[title$='.cjsx']{border-color:#244776;}
 .js-directory-link[title$='.cson']{border-color:#244776;}
 .js-directory-link[title$='.iced']{border-color:#244776;}
@@ -748,9 +750,9 @@
 .js-directory-link[title$='.sls']{border-color:#646464;}
 
 /**- Scala-*/
-.js-directory-link[title$='.scala']{border-color:#7dd3b0;}
-.js-directory-link[title$='.sbt']{border-color:#7dd3b0;}
-.js-directory-link[title$='.sc']{border-color:#7dd3b0;}
+.js-directory-link[title$='.scala']{border-color:#DC322F;}
+.js-directory-link[title$='.sbt']{border-color:#DC322F;}
+.js-directory-link[title$='.sc']{border-color:#DC322F;}
 
 /**- Scheme-*/
 .js-directory-link[title$='.scm']{border-color:#1e4aec;}
