@@ -1,4 +1,4 @@
-/* Mon, 07 Dec 2015 09:11:02 GMT */
+/* Fri, 11 Dec 2015 09:11:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -66,7 +66,7 @@
 .js-directory-link[title$='.agda']{border-color:#315665;}
 
 /**- Alloy-*/
-.js-directory-link[title$='.als']{border-color:#cc5c24;}
+.js-directory-link[title$='.als']{border-color:#64C800;}
 
 /**- Arc-*/
 .js-directory-link[title$='.arc']{border-color:#aa2afe;}
@@ -145,6 +145,9 @@
 /**- Clean-*/
 .js-directory-link[title$='.icl']{border-color:#3F85AF;}
 .js-directory-link[title$='.dcl']{border-color:#3F85AF;}
+
+/**- Click-*/
+.js-directory-link[title$='.click']{border-color:#E4E6F3;}
 
 /**- Clojure-*/
 .js-directory-link[title$='.clj']{border-color:#db5855;}
@@ -416,6 +419,9 @@
 /**- Julia-*/
 .js-directory-link[title$='.jl']{border-color:#a270ba;}
 
+/**- Jupyter Notebook-*/
+.js-directory-link[title$='.ipynb']{border-color:#DA5B0B;}
+
 /**- KRL-*/
 .js-directory-link[title$='.krl']{border-color:#28431f;}
 
@@ -462,6 +468,10 @@
 .js-directory-link[title$='.pd_lua']{border-color:#000080;}
 .js-directory-link[title$='.rbxs']{border-color:#000080;}
 .js-directory-link[title$='.wlua']{border-color:#000080;}
+
+/**- MAXScript-*/
+.js-directory-link[title$='.ms']{border-color:#00a6a6;}
+.js-directory-link[title$='.mcr']{border-color:#00a6a6;}
 
 /**- MTML-*/
 .js-directory-link[title$='.mtml']{border-color:#b7e1f4;}
