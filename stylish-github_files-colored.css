@@ -1,4 +1,4 @@
-/* Fri, 11 Dec 2015 09:11:02 GMT */
+/* Mon, 14 Dec 2015 16:43:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -721,6 +721,9 @@
 /**- Red-*/
 .js-directory-link[title$='.red']{border-color:#ee0000;}
 .js-directory-link[title$='.reds']{border-color:#ee0000;}
+
+/**- Ren'Py-*/
+.js-directory-link[title$='.rpy']{border-color:#ff7f7f;}
 
 /**- Rouge-*/
 .js-directory-link[title$='.rg']{border-color:#cc0088;}
