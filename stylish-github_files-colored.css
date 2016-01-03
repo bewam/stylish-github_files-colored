@@ -1,4 +1,4 @@
-/* Mon, 21 Dec 2015 16:43:06 GMT */
+/* Sun, 03 Jan 2016 16:43:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -809,6 +809,9 @@
 
 /**- Squirrel-*/
 .js-directory-link[title$='.nut']{border-color:#800000;}
+
+/**- Stan-*/
+.js-directory-link[title$='.stan']{border-color:#b2011d;}
 
 /**- Standard ML-*/
 .js-directory-link[title$='.ML']{border-color:#dc566d;}
