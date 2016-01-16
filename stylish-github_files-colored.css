@@ -1,4 +1,4 @@
-/* Sat, 09 Jan 2016 16:44:19 GMT */
+/* Sat, 16 Jan 2016 16:43:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -751,6 +751,7 @@
 
 /**- Rust-*/
 .js-directory-link[title$='.rs']{border-color:#dea584;}
+.js-directory-link[title$='.rs.in']{border-color:#dea584;}
 
 /**- SAS-*/
 .js-directory-link[title$='.sas']{border-color:#B34936;}
