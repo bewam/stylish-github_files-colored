@@ -1,4 +1,4 @@
-/* Sat, 16 Jan 2016 16:43:02 GMT */
+/* Sat, 23 Jan 2016 16:43:06 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -68,6 +68,10 @@
 /**- Alloy-*/
 .js-directory-link[title$='.als']{border-color:#64C800;}
 
+/**- AppleScript-*/
+.js-directory-link[title$='.applescript']{border-color:#101F1F;}
+.js-directory-link[title$='.scpt']{border-color:#101F1F;}
+
 /**- Arc-*/
 .js-directory-link[title$='.arc']{border-color:#aa2afe;}
 
@@ -89,6 +93,13 @@
 
 /**- AutoIt-*/
 .js-directory-link[title$='.au3']{border-color:#1C3552;}
+
+/**- Batchfile-*/
+.js-directory-link[title$='.bat']{border-color:#C1F12E;}
+.js-directory-link[title$='.cmd']{border-color:#C1F12E;}
+
+/**- Bison-*/
+.js-directory-link[title$='.bison']{border-color:#6A463F;}
 
 /**- BlitzMax-*/
 .js-directory-link[title$='.bmx']{border-color:#cd6400;}
@@ -186,11 +197,18 @@
 .js-directory-link[title$='.sexp']{border-color:#3fb68b;}
 
 /**- Component Pascal-*/
-.js-directory-link[title$='.cp']{border-color:#b0ce4e;}
-.js-directory-link[title$='.cps']{border-color:#b0ce4e;}
+.js-directory-link[title$='.cp']{border-color:#B0CE4E;}
+.js-directory-link[title$='.cps']{border-color:#B0CE4E;}
 
 /**- Crystal-*/
 .js-directory-link[title$='.cr']{border-color:#776791;}
+
+/**- Cucumber-*/
+.js-directory-link[title$='.feature']{border-color:#5B2063;}
+
+/**- Cuda-*/
+.js-directory-link[title$='.cu']{border-color:#3A4E3A;}
+.js-directory-link[title$='.cuh']{border-color:#3A4E3A;}
 
 /**- D-*/
 .js-directory-link[title$='.d']{border-color:#ba595e;}
@@ -201,10 +219,6 @@
 
 /**- Dart-*/
 .js-directory-link[title$='.dart']{border-color:#00B4AB;}
-
-/**- Diff-*/
-.js-directory-link[title$='.diff']{border-color:#88dddd;}
-.js-directory-link[title$='.patch']{border-color:#88dddd;}
 
 /**- Dogescript-*/
 .js-directory-link[title$='.djs']{border-color:#cca760;}
@@ -250,6 +264,8 @@
 .js-directory-link[title$='.es']{border-color:#B83998;}
 .js-directory-link[title$='.escript']{border-color:#B83998;}
 .js-directory-link[title$='.hrl']{border-color:#B83998;}
+.js-directory-link[title$='.xrl']{border-color:#B83998;}
+.js-directory-link[title$='.yrl']{border-color:#B83998;}
 
 /**- F#-*/
 .js-directory-link[title$='.fs']{border-color:#b845fc;}
@@ -338,6 +354,14 @@
 .js-directory-link[title$='.st']{border-color:#e44b23;}
 .js-directory-link[title$='.xht']{border-color:#e44b23;}
 .js-directory-link[title$='.xhtml']{border-color:#e44b23;}
+
+/**- Hack-*/
+.js-directory-link[title$='.hh']{border-color:#878787;}
+.js-directory-link[title$='.php']{border-color:#878787;}
+
+/**- Haml-*/
+.js-directory-link[title$='.haml']{border-color:#ECE2A9;}
+.js-directory-link[title$='.haml.deface']{border-color:#ECE2A9;}
 
 /**- Handlebars-*/
 .js-directory-link[title$='.handlebars']{border-color:#01a9d6;}
@@ -433,6 +457,9 @@
 /**- LFE-*/
 .js-directory-link[title$='.lfe']{border-color:#004200;}
 
+/**- LLVM-*/
+.js-directory-link[title$='.ll']{border-color:#185619;}
+
 /**- LOLCODE-*/
 .js-directory-link[title$='.lol']{border-color:#cc9900;}
 
@@ -449,6 +476,9 @@
 
 /**- Latte-*/
 .js-directory-link[title$='.latte']{border-color:#A8FF97;}
+
+/**- Less-*/
+.js-directory-link[title$='.less']{border-color:#A1D9A1;}
 
 /**- Lex-*/
 .js-directory-link[title$='.l']{border-color:#DBCA00;}
@@ -480,6 +510,14 @@
 .js-directory-link[title$='.mak']{border-color:#427819;}
 .js-directory-link[title$='.d']{border-color:#427819;}
 .js-directory-link[title$='.mk']{border-color:#427819;}
+
+/**- Markdown-*/
+.js-directory-link[title$='.md']{border-color:#083FA1;}
+.js-directory-link[title$='.markdown']{border-color:#083FA1;}
+.js-directory-link[title$='.mkd']{border-color:#083FA1;}
+.js-directory-link[title$='.mkdn']{border-color:#083FA1;}
+.js-directory-link[title$='.mkdown']{border-color:#083FA1;}
+.js-directory-link[title$='.ron']{border-color:#083FA1;}
 
 /**- Mask-*/
 .js-directory-link[title$='.mask']{border-color:#f97732;}
@@ -530,6 +568,10 @@
 .js-directory-link[title$='.lisp']{border-color:#87AED7;}
 .js-directory-link[title$='.lsp']{border-color:#87AED7;}
 
+/**- Nginx-*/
+.js-directory-link[title$='.nginxconf']{border-color:#9469E9;}
+.js-directory-link[title$='.vhost']{border-color:#9469E9;}
+
 /**- Nimrod-*/
 .js-directory-link[title$='.nim']{border-color:#37775b;}
 .js-directory-link[title$='.nimrod']{border-color:#37775b;}
@@ -542,6 +584,11 @@
 
 /**- Nu-*/
 .js-directory-link[title$='.nu']{border-color:#c9df40;}
+
+/**- NumPy-*/
+.js-directory-link[title$='.numpy']{border-color:#9C8AF9;}
+.js-directory-link[title$='.numpyw']{border-color:#9C8AF9;}
+.js-directory-link[title$='.numsc']{border-color:#9C8AF9;}
 
 /**- OCaml-*/
 .js-directory-link[title$='.ml']{border-color:#3be133;}
@@ -609,12 +656,12 @@
 .js-directory-link[title$='.parrot']{border-color:#f3ca0a;}
 
 /**- Pascal-*/
-.js-directory-link[title$='.pas']{border-color:#b0ce4e;}
-.js-directory-link[title$='.dfm']{border-color:#b0ce4e;}
-.js-directory-link[title$='.dpr']{border-color:#b0ce4e;}
-.js-directory-link[title$='.inc']{border-color:#b0ce4e;}
-.js-directory-link[title$='.lpr']{border-color:#b0ce4e;}
-.js-directory-link[title$='.pp']{border-color:#b0ce4e;}
+.js-directory-link[title$='.pas']{border-color:#E3F171;}
+.js-directory-link[title$='.dfm']{border-color:#E3F171;}
+.js-directory-link[title$='.dpr']{border-color:#E3F171;}
+.js-directory-link[title$='.inc']{border-color:#E3F171;}
+.js-directory-link[title$='.lpr']{border-color:#E3F171;}
+.js-directory-link[title$='.pp']{border-color:#E3F171;}
 
 /**- Perl-*/
 .js-directory-link[title$='.pl']{border-color:#0298c3;}
@@ -695,12 +742,15 @@
 .js-directory-link[title$='.qbs']{border-color:#44a51c;}
 
 /**- R-*/
-.js-directory-link[title$='.r']{border-color:#198ce7;}
-.js-directory-link[title$='.rd']{border-color:#198ce7;}
-.js-directory-link[title$='.rsx']{border-color:#198ce7;}
+.js-directory-link[title$='.r']{border-color:#198CE7;}
+.js-directory-link[title$='.rd']{border-color:#198CE7;}
+.js-directory-link[title$='.rsx']{border-color:#198CE7;}
 
 /**- RAML-*/
 .js-directory-link[title$='.raml']{border-color:#77d9fb;}
+
+/**- RDoc-*/
+.js-directory-link[title$='.rdoc']{border-color:#8E84BF;}
 
 /**- Racket-*/
 .js-directory-link[title$='.rkt']{border-color:#22228f;}
@@ -756,12 +806,18 @@
 /**- SAS-*/
 .js-directory-link[title$='.sas']{border-color:#B34936;}
 
+/**- SCSS-*/
+.js-directory-link[title$='.scss']{border-color:#CF649A;}
+
 /**- SQF-*/
 .js-directory-link[title$='.sqf']{border-color:#3F3F3F;}
 .js-directory-link[title$='.hqf']{border-color:#3F3F3F;}
 
 /**- SaltStack-*/
 .js-directory-link[title$='.sls']{border-color:#646464;}
+
+/**- Sass-*/
+.js-directory-link[title$='.sass']{border-color:#CF649A;}
 
 /**- Scala-*/
 .js-directory-link[title$='.scala']{border-color:#DC322F;}
@@ -865,14 +921,6 @@
 /**- Unified Parallel C-*/
 .js-directory-link[title$='.upc']{border-color:#4e3617;}
 
-/**- Unity3D Asset-*/
-.js-directory-link[title$='.anim']{border-color:#ab69a1;}
-.js-directory-link[title$='.asset']{border-color:#ab69a1;}
-.js-directory-link[title$='.mat']{border-color:#ab69a1;}
-.js-directory-link[title$='.meta']{border-color:#ab69a1;}
-.js-directory-link[title$='.prefab']{border-color:#ab69a1;}
-.js-directory-link[title$='.unity']{border-color:#ab69a1;}
-
 /**- UnrealScript-*/
 .js-directory-link[title$='.uc']{border-color:#a54c4d;}
 
@@ -929,6 +977,15 @@
 .js-directory-link[title$='.xqm']{border-color:#5232e7;}
 .js-directory-link[title$='.xqy']{border-color:#5232e7;}
 
+/**- XSLT-*/
+.js-directory-link[title$='.xslt']{border-color:#EB8CEB;}
+.js-directory-link[title$='.xsl']{border-color:#EB8CEB;}
+
+/**- Yacc-*/
+.js-directory-link[title$='.y']{border-color:#4B6C4B;}
+.js-directory-link[title$='.yacc']{border-color:#4B6C4B;}
+.js-directory-link[title$='.yy']{border-color:#4B6C4B;}
+
 /**- Zephir-*/
 .js-directory-link[title$='.zep']{border-color:#118f9e;}
 
@@ -936,14 +993,17 @@
 .js-directory-link[title$='.ec']{border-color:#913960;}
 .js-directory-link[title$='.eh']{border-color:#913960;}
 
-/**- edn-*/
-.js-directory-link[title$='.edn']{border-color:#db5855;}
-
 /**- nesC-*/
 .js-directory-link[title$='.nc']{border-color:#94B0C7;}
 
 /**- ooc-*/
 .js-directory-link[title$='.ooc']{border-color:#b0b77e;}
+
+/**- reStructuredText-*/
+.js-directory-link[title$='.rst']{border-color:#B3BCBC;}
+.js-directory-link[title$='.rest']{border-color:#B3BCBC;}
+.js-directory-link[title$='.rest.txt']{border-color:#B3BCBC;}
+.js-directory-link[title$='.rst.txt']{border-color:#B3BCBC;}
 
 /**- wisp-*/
 .js-directory-link[title$='.wisp']{border-color:#7582D1;}
