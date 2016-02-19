@@ -1,4 +1,4 @@
-/* Fri, 05 Feb 2016 16:43:02 GMT */
+/* Fri, 19 Feb 2016 16:43:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -842,6 +842,7 @@
 .js-directory-link[title$='.command']{border-color:#89e051;}
 .js-directory-link[title$='.fcgi']{border-color:#89e051;}
 .js-directory-link[title$='.ksh']{border-color:#89e051;}
+.js-directory-link[title$='.sh.in']{border-color:#89e051;}
 .js-directory-link[title$='.tmux']{border-color:#89e051;}
 .js-directory-link[title$='.tool']{border-color:#89e051;}
 .js-directory-link[title$='.zsh']{border-color:#89e051;}
