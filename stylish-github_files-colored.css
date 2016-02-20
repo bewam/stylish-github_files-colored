@@ -1,4 +1,4 @@
-/* Fri, 19 Feb 2016 16:43:02 GMT */
+/* Sat, 20 Feb 2016 16:43:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -725,6 +725,7 @@
 
 /**- Python-*/
 .js-directory-link[title$='.py']{border-color:#3572A5;}
+.js-directory-link[title$='.bzl']{border-color:#3572A5;}
 .js-directory-link[title$='.cgi']{border-color:#3572A5;}
 .js-directory-link[title$='.fcgi']{border-color:#3572A5;}
 .js-directory-link[title$='.gyp']{border-color:#3572A5;}
