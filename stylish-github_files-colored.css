@@ -1,4 +1,4 @@
-/* Thu, 10 Mar 2016 09:11:02 GMT */
+/* Thu, 17 Mar 2016 16:43:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -913,6 +913,9 @@
 .js-directory-link[title$='.mkvi']{border-color:#3D6117;}
 .js-directory-link[title$='.sty']{border-color:#3D6117;}
 .js-directory-link[title$='.toc']{border-color:#3D6117;}
+
+/**- Terra-*/
+.js-directory-link[title$='.t']{border-color:#00004c;}
 
 /**- Turing-*/
 .js-directory-link[title$='.t']{border-color:#45f715;}
