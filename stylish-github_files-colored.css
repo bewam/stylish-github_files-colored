@@ -1,4 +1,4 @@
-/* Thu, 17 Mar 2016 16:43:02 GMT */
+/* Sat, 19 Mar 2016 16:43:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -624,6 +624,7 @@
 
 /**- PAWN-*/
 .js-directory-link[title$='.pwn']{border-color:#dbb284;}
+.js-directory-link[title$='.inc']{border-color:#dbb284;}
 
 /**- PHP-*/
 .js-directory-link[title$='.php']{border-color:#4F5D95;}
