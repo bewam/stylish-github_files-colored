@@ -1,4 +1,4 @@
-/* Tue, 22 Mar 2016 09:11:01 GMT */
+/* Tue, 19 Apr 2016 15:43:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -340,6 +340,9 @@
 /**- Grammatical Framework-*/
 .js-directory-link[title$='.gf']{border-color:#79aa7a;}
 
+/**- GraphQL-*/
+.js-directory-link[title$='.graphql']{border-color:#E535AB;}
+
 /**- Groovy-*/
 .js-directory-link[title$='.groovy']{border-color:#e69f56;}
 .js-directory-link[title$='.grt']{border-color:#e69f56;}
@@ -411,6 +414,7 @@
 .js-directory-link[title$='.js']{border-color:#f1e05a;}
 .js-directory-link[title$='._js']{border-color:#f1e05a;}
 .js-directory-link[title$='.bones']{border-color:#f1e05a;}
+.js-directory-link[title$='.es']{border-color:#f1e05a;}
 .js-directory-link[title$='.es6']{border-color:#f1e05a;}
 .js-directory-link[title$='.frag']{border-color:#f1e05a;}
 .js-directory-link[title$='.gs']{border-color:#f1e05a;}
@@ -510,6 +514,7 @@
 .js-directory-link[title$='.mak']{border-color:#427819;}
 .js-directory-link[title$='.d']{border-color:#427819;}
 .js-directory-link[title$='.mk']{border-color:#427819;}
+.js-directory-link[title$='.mkfile']{border-color:#427819;}
 
 /**- Markdown-*/
 .js-directory-link[title$='.md']{border-color:#083FA1;}
