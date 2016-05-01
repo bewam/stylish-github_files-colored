@@ -1,4 +1,4 @@
-/* Tue, 19 Apr 2016 15:43:02 GMT */
+/* Sun, 01 May 2016 15:43:03 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -261,6 +261,7 @@
 
 /**- Erlang-*/
 .js-directory-link[title$='.erl']{border-color:#B83998;}
+.js-directory-link[title$='.app.src']{border-color:#B83998;}
 .js-directory-link[title$='.es']{border-color:#B83998;}
 .js-directory-link[title$='.escript']{border-color:#B83998;}
 .js-directory-link[title$='.hrl']{border-color:#B83998;}
