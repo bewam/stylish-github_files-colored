@@ -1,4 +1,4 @@
-/* Tue, 03 May 2016 08:11:02 GMT */
+/* Thu, 05 May 2016 08:11:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -977,6 +977,9 @@
 
 /**- Web Ontology Language-*/
 .js-directory-link[title$='.owl']{border-color:#9cc9dd;}
+
+/**- World of Warcraft Addon Data-*/
+.js-directory-link[title$='.toc']{border-color:#e0b330;}
 
 /**- X10-*/
 .js-directory-link[title$='.x10']{border-color:#4B6BEF;}
