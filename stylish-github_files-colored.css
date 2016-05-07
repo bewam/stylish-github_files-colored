@@ -1,4 +1,4 @@
-/* Thu, 05 May 2016 08:11:02 GMT */
+/* Sat, 07 May 2016 08:11:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -235,6 +235,9 @@
 /**- ECL-*/
 .js-directory-link[title$='.ecl']{border-color:#8a1267;}
 .js-directory-link[title$='.eclxml']{border-color:#8a1267;}
+
+/**- EJS-*/
+.js-directory-link[title$='.ejs']{border-color:#a91e50;}
 
 /**- Eagle-*/
 .js-directory-link[title$='.sch']{border-color:#814C05;}
