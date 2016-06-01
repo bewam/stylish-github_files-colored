@@ -1,1035 +1,1035 @@
-/* Wed, 01 Jun 2016 08:11:02 GMT */
+/* Wed, 01 Jun 2016 08:46:42 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
-  .js-directory-link{
+  .js-navigation-open{
     border-left-width: 10px;
     border-left-style: solid;
     border-color: transparent;
     padding-left: 5px
   }
 
-  .js-directory-link[title$='.md']{border-color: lightgray;}
-  .js-directory-link[title$='.txt']{border-color: lightgray;}
+  .js-navigation-open[title$='.md']{border-color: lightgray;}
+  .js-navigation-open[title$='.txt']{border-color: lightgray;}
 
-  .js-directory-link[title$='.tpl']{border-color: lightgreen;}
-  .js-directory-link[title$='.tmpl']{border-color: lightgreen;}
+  .js-navigation-open[title$='.tpl']{border-color: lightgreen;}
+  .js-navigation-open[title$='.tmpl']{border-color: lightgreen;}
   /** html color */
-  .js-directory-link[title$='.xml']{border-color: #e44b23;}
+  .js-navigation-open[title$='.xml']{border-color: #e44b23;}
   /** js color */
-  .js-directory-link[title$='.json']{border-color:#f1e05a;}
+  .js-navigation-open[title$='.json']{border-color:#f1e05a;}
 
 /**- ABAP-*/
-.js-directory-link[title$='.abap']{border-color:#E8274B;}
+.js-navigation-open[title$='.abap']{border-color:#E8274B;}
 
 /**- AGS Script-*/
-.js-directory-link[title$='.asc']{border-color:#B9D9FF;}
-.js-directory-link[title$='.ash']{border-color:#B9D9FF;}
+.js-navigation-open[title$='.asc']{border-color:#B9D9FF;}
+.js-navigation-open[title$='.ash']{border-color:#B9D9FF;}
 
 /**- AMPL-*/
-.js-directory-link[title$='.ampl']{border-color:#E6EFBB;}
-.js-directory-link[title$='.mod']{border-color:#E6EFBB;}
+.js-navigation-open[title$='.ampl']{border-color:#E6EFBB;}
+.js-navigation-open[title$='.mod']{border-color:#E6EFBB;}
 
 /**- ANTLR-*/
-.js-directory-link[title$='.g4']{border-color:#9DC3FF;}
+.js-navigation-open[title$='.g4']{border-color:#9DC3FF;}
 
 /**- API Blueprint-*/
-.js-directory-link[title$='.apib']{border-color:#2ACCA8;}
+.js-navigation-open[title$='.apib']{border-color:#2ACCA8;}
 
 /**- APL-*/
-.js-directory-link[title$='.apl']{border-color:#5A8164;}
-.js-directory-link[title$='.dyalog']{border-color:#5A8164;}
+.js-navigation-open[title$='.apl']{border-color:#5A8164;}
+.js-navigation-open[title$='.dyalog']{border-color:#5A8164;}
 
 /**- ASP-*/
-.js-directory-link[title$='.asp']{border-color:#6a40fd;}
-.js-directory-link[title$='.asax']{border-color:#6a40fd;}
-.js-directory-link[title$='.ascx']{border-color:#6a40fd;}
-.js-directory-link[title$='.ashx']{border-color:#6a40fd;}
-.js-directory-link[title$='.asmx']{border-color:#6a40fd;}
-.js-directory-link[title$='.aspx']{border-color:#6a40fd;}
-.js-directory-link[title$='.axd']{border-color:#6a40fd;}
+.js-navigation-open[title$='.asp']{border-color:#6a40fd;}
+.js-navigation-open[title$='.asax']{border-color:#6a40fd;}
+.js-navigation-open[title$='.ascx']{border-color:#6a40fd;}
+.js-navigation-open[title$='.ashx']{border-color:#6a40fd;}
+.js-navigation-open[title$='.asmx']{border-color:#6a40fd;}
+.js-navigation-open[title$='.aspx']{border-color:#6a40fd;}
+.js-navigation-open[title$='.axd']{border-color:#6a40fd;}
 
 /**- ATS-*/
-.js-directory-link[title$='.dats']{border-color:#1ac620;}
-.js-directory-link[title$='.hats']{border-color:#1ac620;}
-.js-directory-link[title$='.sats']{border-color:#1ac620;}
+.js-navigation-open[title$='.dats']{border-color:#1ac620;}
+.js-navigation-open[title$='.hats']{border-color:#1ac620;}
+.js-navigation-open[title$='.sats']{border-color:#1ac620;}
 
 /**- ActionScript-*/
-.js-directory-link[title$='.as']{border-color:#882B0F;}
+.js-navigation-open[title$='.as']{border-color:#882B0F;}
 
 /**- Ada-*/
-.js-directory-link[title$='.adb']{border-color:#02f88c;}
-.js-directory-link[title$='.ada']{border-color:#02f88c;}
-.js-directory-link[title$='.ads']{border-color:#02f88c;}
+.js-navigation-open[title$='.adb']{border-color:#02f88c;}
+.js-navigation-open[title$='.ada']{border-color:#02f88c;}
+.js-navigation-open[title$='.ads']{border-color:#02f88c;}
 
 /**- Agda-*/
-.js-directory-link[title$='.agda']{border-color:#315665;}
+.js-navigation-open[title$='.agda']{border-color:#315665;}
 
 /**- Alloy-*/
-.js-directory-link[title$='.als']{border-color:#64C800;}
+.js-navigation-open[title$='.als']{border-color:#64C800;}
 
 /**- AppleScript-*/
-.js-directory-link[title$='.applescript']{border-color:#101F1F;}
-.js-directory-link[title$='.scpt']{border-color:#101F1F;}
+.js-navigation-open[title$='.applescript']{border-color:#101F1F;}
+.js-navigation-open[title$='.scpt']{border-color:#101F1F;}
 
 /**- Arc-*/
-.js-directory-link[title$='.arc']{border-color:#aa2afe;}
+.js-navigation-open[title$='.arc']{border-color:#aa2afe;}
 
 /**- Arduino-*/
-.js-directory-link[title$='.ino']{border-color:#bd79d1;}
+.js-navigation-open[title$='.ino']{border-color:#bd79d1;}
 
 /**- AspectJ-*/
-.js-directory-link[title$='.aj']{border-color:#a957b0;}
+.js-navigation-open[title$='.aj']{border-color:#a957b0;}
 
 /**- Assembly-*/
-.js-directory-link[title$='.asm']{border-color:#6E4C13;}
-.js-directory-link[title$='.a51']{border-color:#6E4C13;}
-.js-directory-link[title$='.inc']{border-color:#6E4C13;}
-.js-directory-link[title$='.nasm']{border-color:#6E4C13;}
+.js-navigation-open[title$='.asm']{border-color:#6E4C13;}
+.js-navigation-open[title$='.a51']{border-color:#6E4C13;}
+.js-navigation-open[title$='.inc']{border-color:#6E4C13;}
+.js-navigation-open[title$='.nasm']{border-color:#6E4C13;}
 
 /**- AutoHotkey-*/
-.js-directory-link[title$='.ahk']{border-color:#6594b9;}
-.js-directory-link[title$='.ahkl']{border-color:#6594b9;}
+.js-navigation-open[title$='.ahk']{border-color:#6594b9;}
+.js-navigation-open[title$='.ahkl']{border-color:#6594b9;}
 
 /**- AutoIt-*/
-.js-directory-link[title$='.au3']{border-color:#1C3552;}
+.js-navigation-open[title$='.au3']{border-color:#1C3552;}
 
 /**- Batchfile-*/
-.js-directory-link[title$='.bat']{border-color:#C1F12E;}
-.js-directory-link[title$='.cmd']{border-color:#C1F12E;}
+.js-navigation-open[title$='.bat']{border-color:#C1F12E;}
+.js-navigation-open[title$='.cmd']{border-color:#C1F12E;}
 
 /**- Bison-*/
-.js-directory-link[title$='.bison']{border-color:#6A463F;}
+.js-navigation-open[title$='.bison']{border-color:#6A463F;}
 
 /**- BlitzMax-*/
-.js-directory-link[title$='.bmx']{border-color:#cd6400;}
+.js-navigation-open[title$='.bmx']{border-color:#cd6400;}
 
 /**- Boo-*/
-.js-directory-link[title$='.boo']{border-color:#d4bec1;}
+.js-navigation-open[title$='.boo']{border-color:#d4bec1;}
 
 /**- Brainfuck-*/
-.js-directory-link[title$='.b']{border-color:#2F2530;}
-.js-directory-link[title$='.bf']{border-color:#2F2530;}
+.js-navigation-open[title$='.b']{border-color:#2F2530;}
+.js-navigation-open[title$='.bf']{border-color:#2F2530;}
 
 /**- C-*/
-.js-directory-link[title$='.c']{border-color:#555555;}
-.js-directory-link[title$='.cats']{border-color:#555555;}
-.js-directory-link[title$='.h']{border-color:#555555;}
-.js-directory-link[title$='.idc']{border-color:#555555;}
-.js-directory-link[title$='.w']{border-color:#555555;}
+.js-navigation-open[title$='.c']{border-color:#555555;}
+.js-navigation-open[title$='.cats']{border-color:#555555;}
+.js-navigation-open[title$='.h']{border-color:#555555;}
+.js-navigation-open[title$='.idc']{border-color:#555555;}
+.js-navigation-open[title$='.w']{border-color:#555555;}
 
 /**- C#-*/
-.js-directory-link[title$='.cs']{border-color:#178600;}
-.js-directory-link[title$='.cake']{border-color:#178600;}
-.js-directory-link[title$='.cshtml']{border-color:#178600;}
-.js-directory-link[title$='.csx']{border-color:#178600;}
+.js-navigation-open[title$='.cs']{border-color:#178600;}
+.js-navigation-open[title$='.cake']{border-color:#178600;}
+.js-navigation-open[title$='.cshtml']{border-color:#178600;}
+.js-navigation-open[title$='.csx']{border-color:#178600;}
 
 /**- C++-*/
-.js-directory-link[title$='.cpp']{border-color:#f34b7d;}
-.js-directory-link[title$='.c++']{border-color:#f34b7d;}
-.js-directory-link[title$='.cc']{border-color:#f34b7d;}
-.js-directory-link[title$='.cp']{border-color:#f34b7d;}
-.js-directory-link[title$='.cxx']{border-color:#f34b7d;}
-.js-directory-link[title$='.h']{border-color:#f34b7d;}
-.js-directory-link[title$='.h++']{border-color:#f34b7d;}
-.js-directory-link[title$='.hh']{border-color:#f34b7d;}
-.js-directory-link[title$='.hpp']{border-color:#f34b7d;}
-.js-directory-link[title$='.hxx']{border-color:#f34b7d;}
-.js-directory-link[title$='.inc']{border-color:#f34b7d;}
-.js-directory-link[title$='.inl']{border-color:#f34b7d;}
-.js-directory-link[title$='.ipp']{border-color:#f34b7d;}
-.js-directory-link[title$='.tcc']{border-color:#f34b7d;}
-.js-directory-link[title$='.tpp']{border-color:#f34b7d;}
+.js-navigation-open[title$='.cpp']{border-color:#f34b7d;}
+.js-navigation-open[title$='.c++']{border-color:#f34b7d;}
+.js-navigation-open[title$='.cc']{border-color:#f34b7d;}
+.js-navigation-open[title$='.cp']{border-color:#f34b7d;}
+.js-navigation-open[title$='.cxx']{border-color:#f34b7d;}
+.js-navigation-open[title$='.h']{border-color:#f34b7d;}
+.js-navigation-open[title$='.h++']{border-color:#f34b7d;}
+.js-navigation-open[title$='.hh']{border-color:#f34b7d;}
+.js-navigation-open[title$='.hpp']{border-color:#f34b7d;}
+.js-navigation-open[title$='.hxx']{border-color:#f34b7d;}
+.js-navigation-open[title$='.inc']{border-color:#f34b7d;}
+.js-navigation-open[title$='.inl']{border-color:#f34b7d;}
+.js-navigation-open[title$='.ipp']{border-color:#f34b7d;}
+.js-navigation-open[title$='.tcc']{border-color:#f34b7d;}
+.js-navigation-open[title$='.tpp']{border-color:#f34b7d;}
 
 /**- CSS-*/
-.js-directory-link[title$='.css']{border-color:#563d7c;}
+.js-navigation-open[title$='.css']{border-color:#563d7c;}
 
 /**- Chapel-*/
-.js-directory-link[title$='.chpl']{border-color:#8dc63f;}
+.js-navigation-open[title$='.chpl']{border-color:#8dc63f;}
 
 /**- Cirru-*/
-.js-directory-link[title$='.cirru']{border-color:#ccccff;}
+.js-navigation-open[title$='.cirru']{border-color:#ccccff;}
 
 /**- Clarion-*/
-.js-directory-link[title$='.clw']{border-color:#db901e;}
+.js-navigation-open[title$='.clw']{border-color:#db901e;}
 
 /**- Clean-*/
-.js-directory-link[title$='.icl']{border-color:#3F85AF;}
-.js-directory-link[title$='.dcl']{border-color:#3F85AF;}
+.js-navigation-open[title$='.icl']{border-color:#3F85AF;}
+.js-navigation-open[title$='.dcl']{border-color:#3F85AF;}
 
 /**- Click-*/
-.js-directory-link[title$='.click']{border-color:#E4E6F3;}
+.js-navigation-open[title$='.click']{border-color:#E4E6F3;}
 
 /**- Clojure-*/
-.js-directory-link[title$='.clj']{border-color:#db5855;}
-.js-directory-link[title$='.boot']{border-color:#db5855;}
-.js-directory-link[title$='.cl2']{border-color:#db5855;}
-.js-directory-link[title$='.cljc']{border-color:#db5855;}
-.js-directory-link[title$='.cljs']{border-color:#db5855;}
-.js-directory-link[title$='.cljs.hl']{border-color:#db5855;}
-.js-directory-link[title$='.cljscm']{border-color:#db5855;}
-.js-directory-link[title$='.cljx']{border-color:#db5855;}
-.js-directory-link[title$='.hic']{border-color:#db5855;}
+.js-navigation-open[title$='.clj']{border-color:#db5855;}
+.js-navigation-open[title$='.boot']{border-color:#db5855;}
+.js-navigation-open[title$='.cl2']{border-color:#db5855;}
+.js-navigation-open[title$='.cljc']{border-color:#db5855;}
+.js-navigation-open[title$='.cljs']{border-color:#db5855;}
+.js-navigation-open[title$='.cljs.hl']{border-color:#db5855;}
+.js-navigation-open[title$='.cljscm']{border-color:#db5855;}
+.js-navigation-open[title$='.cljx']{border-color:#db5855;}
+.js-navigation-open[title$='.hic']{border-color:#db5855;}
 
 /**- CoffeeScript-*/
-.js-directory-link[title$='.coffee']{border-color:#244776;}
-.js-directory-link[title$='._coffee']{border-color:#244776;}
-.js-directory-link[title$='.cake']{border-color:#244776;}
-.js-directory-link[title$='.cjsx']{border-color:#244776;}
-.js-directory-link[title$='.cson']{border-color:#244776;}
-.js-directory-link[title$='.iced']{border-color:#244776;}
+.js-navigation-open[title$='.coffee']{border-color:#244776;}
+.js-navigation-open[title$='._coffee']{border-color:#244776;}
+.js-navigation-open[title$='.cake']{border-color:#244776;}
+.js-navigation-open[title$='.cjsx']{border-color:#244776;}
+.js-navigation-open[title$='.cson']{border-color:#244776;}
+.js-navigation-open[title$='.iced']{border-color:#244776;}
 
 /**- ColdFusion-*/
-.js-directory-link[title$='.cfm']{border-color:#ed2cd6;}
-.js-directory-link[title$='.cfml']{border-color:#ed2cd6;}
+.js-navigation-open[title$='.cfm']{border-color:#ed2cd6;}
+.js-navigation-open[title$='.cfml']{border-color:#ed2cd6;}
 
 /**- ColdFusion CFC-*/
-.js-directory-link[title$='.cfc']{border-color:#ed2cd6;}
+.js-navigation-open[title$='.cfc']{border-color:#ed2cd6;}
 
 /**- Common Lisp-*/
-.js-directory-link[title$='.lisp']{border-color:#3fb68b;}
-.js-directory-link[title$='.asd']{border-color:#3fb68b;}
-.js-directory-link[title$='.cl']{border-color:#3fb68b;}
-.js-directory-link[title$='.l']{border-color:#3fb68b;}
-.js-directory-link[title$='.lsp']{border-color:#3fb68b;}
-.js-directory-link[title$='.ny']{border-color:#3fb68b;}
-.js-directory-link[title$='.podsl']{border-color:#3fb68b;}
-.js-directory-link[title$='.sexp']{border-color:#3fb68b;}
+.js-navigation-open[title$='.lisp']{border-color:#3fb68b;}
+.js-navigation-open[title$='.asd']{border-color:#3fb68b;}
+.js-navigation-open[title$='.cl']{border-color:#3fb68b;}
+.js-navigation-open[title$='.l']{border-color:#3fb68b;}
+.js-navigation-open[title$='.lsp']{border-color:#3fb68b;}
+.js-navigation-open[title$='.ny']{border-color:#3fb68b;}
+.js-navigation-open[title$='.podsl']{border-color:#3fb68b;}
+.js-navigation-open[title$='.sexp']{border-color:#3fb68b;}
 
 /**- Component Pascal-*/
-.js-directory-link[title$='.cp']{border-color:#B0CE4E;}
-.js-directory-link[title$='.cps']{border-color:#B0CE4E;}
+.js-navigation-open[title$='.cp']{border-color:#B0CE4E;}
+.js-navigation-open[title$='.cps']{border-color:#B0CE4E;}
 
 /**- Crystal-*/
-.js-directory-link[title$='.cr']{border-color:#776791;}
+.js-navigation-open[title$='.cr']{border-color:#776791;}
 
 /**- Cucumber-*/
-.js-directory-link[title$='.feature']{border-color:#5B2063;}
+.js-navigation-open[title$='.feature']{border-color:#5B2063;}
 
 /**- Cuda-*/
-.js-directory-link[title$='.cu']{border-color:#3A4E3A;}
-.js-directory-link[title$='.cuh']{border-color:#3A4E3A;}
+.js-navigation-open[title$='.cu']{border-color:#3A4E3A;}
+.js-navigation-open[title$='.cuh']{border-color:#3A4E3A;}
 
 /**- D-*/
-.js-directory-link[title$='.d']{border-color:#ba595e;}
-.js-directory-link[title$='.di']{border-color:#ba595e;}
+.js-navigation-open[title$='.d']{border-color:#ba595e;}
+.js-navigation-open[title$='.di']{border-color:#ba595e;}
 
 /**- DM-*/
-.js-directory-link[title$='.dm']{border-color:#447265;}
+.js-navigation-open[title$='.dm']{border-color:#447265;}
 
 /**- Dart-*/
-.js-directory-link[title$='.dart']{border-color:#00B4AB;}
+.js-navigation-open[title$='.dart']{border-color:#00B4AB;}
 
 /**- Dogescript-*/
-.js-directory-link[title$='.djs']{border-color:#cca760;}
+.js-navigation-open[title$='.djs']{border-color:#cca760;}
 
 /**- Dylan-*/
-.js-directory-link[title$='.dylan']{border-color:#6c616e;}
-.js-directory-link[title$='.dyl']{border-color:#6c616e;}
-.js-directory-link[title$='.intr']{border-color:#6c616e;}
-.js-directory-link[title$='.lid']{border-color:#6c616e;}
+.js-navigation-open[title$='.dylan']{border-color:#6c616e;}
+.js-navigation-open[title$='.dyl']{border-color:#6c616e;}
+.js-navigation-open[title$='.intr']{border-color:#6c616e;}
+.js-navigation-open[title$='.lid']{border-color:#6c616e;}
 
 /**- E-*/
-.js-directory-link[title$='.E']{border-color:#ccce35;}
+.js-navigation-open[title$='.E']{border-color:#ccce35;}
 
 /**- ECL-*/
-.js-directory-link[title$='.ecl']{border-color:#8a1267;}
-.js-directory-link[title$='.eclxml']{border-color:#8a1267;}
+.js-navigation-open[title$='.ecl']{border-color:#8a1267;}
+.js-navigation-open[title$='.eclxml']{border-color:#8a1267;}
 
 /**- EJS-*/
-.js-directory-link[title$='.ejs']{border-color:#a91e50;}
+.js-navigation-open[title$='.ejs']{border-color:#a91e50;}
 
 /**- Eagle-*/
-.js-directory-link[title$='.sch']{border-color:#814C05;}
-.js-directory-link[title$='.brd']{border-color:#814C05;}
+.js-navigation-open[title$='.sch']{border-color:#814C05;}
+.js-navigation-open[title$='.brd']{border-color:#814C05;}
 
 /**- Eiffel-*/
-.js-directory-link[title$='.e']{border-color:#946d57;}
+.js-navigation-open[title$='.e']{border-color:#946d57;}
 
 /**- Elixir-*/
-.js-directory-link[title$='.ex']{border-color:#6e4a7e;}
-.js-directory-link[title$='.exs']{border-color:#6e4a7e;}
+.js-navigation-open[title$='.ex']{border-color:#6e4a7e;}
+.js-navigation-open[title$='.exs']{border-color:#6e4a7e;}
 
 /**- Elm-*/
-.js-directory-link[title$='.elm']{border-color:#60B5CC;}
+.js-navigation-open[title$='.elm']{border-color:#60B5CC;}
 
 /**- Emacs Lisp-*/
-.js-directory-link[title$='.el']{border-color:#c065db;}
-.js-directory-link[title$='.emacs']{border-color:#c065db;}
-.js-directory-link[title$='.emacs.desktop']{border-color:#c065db;}
+.js-navigation-open[title$='.el']{border-color:#c065db;}
+.js-navigation-open[title$='.emacs']{border-color:#c065db;}
+.js-navigation-open[title$='.emacs.desktop']{border-color:#c065db;}
 
 /**- EmberScript-*/
-.js-directory-link[title$='.em']{border-color:#FFF4F3;}
-.js-directory-link[title$='.emberscript']{border-color:#FFF4F3;}
+.js-navigation-open[title$='.em']{border-color:#FFF4F3;}
+.js-navigation-open[title$='.emberscript']{border-color:#FFF4F3;}
 
 /**- Erlang-*/
-.js-directory-link[title$='.erl']{border-color:#B83998;}
-.js-directory-link[title$='.app.src']{border-color:#B83998;}
-.js-directory-link[title$='.es']{border-color:#B83998;}
-.js-directory-link[title$='.escript']{border-color:#B83998;}
-.js-directory-link[title$='.hrl']{border-color:#B83998;}
-.js-directory-link[title$='.xrl']{border-color:#B83998;}
-.js-directory-link[title$='.yrl']{border-color:#B83998;}
+.js-navigation-open[title$='.erl']{border-color:#B83998;}
+.js-navigation-open[title$='.app.src']{border-color:#B83998;}
+.js-navigation-open[title$='.es']{border-color:#B83998;}
+.js-navigation-open[title$='.escript']{border-color:#B83998;}
+.js-navigation-open[title$='.hrl']{border-color:#B83998;}
+.js-navigation-open[title$='.xrl']{border-color:#B83998;}
+.js-navigation-open[title$='.yrl']{border-color:#B83998;}
 
 /**- F#-*/
-.js-directory-link[title$='.fs']{border-color:#b845fc;}
-.js-directory-link[title$='.fsi']{border-color:#b845fc;}
-.js-directory-link[title$='.fsx']{border-color:#b845fc;}
+.js-navigation-open[title$='.fs']{border-color:#b845fc;}
+.js-navigation-open[title$='.fsi']{border-color:#b845fc;}
+.js-navigation-open[title$='.fsx']{border-color:#b845fc;}
 
 /**- FLUX-*/
-.js-directory-link[title$='.fx']{border-color:#88ccff;}
-.js-directory-link[title$='.flux']{border-color:#88ccff;}
+.js-navigation-open[title$='.fx']{border-color:#88ccff;}
+.js-navigation-open[title$='.flux']{border-color:#88ccff;}
 
 /**- FORTRAN-*/
-.js-directory-link[title$='.f90']{border-color:#4d41b1;}
-.js-directory-link[title$='.f']{border-color:#4d41b1;}
-.js-directory-link[title$='.f03']{border-color:#4d41b1;}
-.js-directory-link[title$='.f08']{border-color:#4d41b1;}
-.js-directory-link[title$='.f77']{border-color:#4d41b1;}
-.js-directory-link[title$='.f95']{border-color:#4d41b1;}
-.js-directory-link[title$='.for']{border-color:#4d41b1;}
-.js-directory-link[title$='.fpp']{border-color:#4d41b1;}
+.js-navigation-open[title$='.f90']{border-color:#4d41b1;}
+.js-navigation-open[title$='.f']{border-color:#4d41b1;}
+.js-navigation-open[title$='.f03']{border-color:#4d41b1;}
+.js-navigation-open[title$='.f08']{border-color:#4d41b1;}
+.js-navigation-open[title$='.f77']{border-color:#4d41b1;}
+.js-navigation-open[title$='.f95']{border-color:#4d41b1;}
+.js-navigation-open[title$='.for']{border-color:#4d41b1;}
+.js-navigation-open[title$='.fpp']{border-color:#4d41b1;}
 
 /**- Factor-*/
-.js-directory-link[title$='.factor']{border-color:#636746;}
+.js-navigation-open[title$='.factor']{border-color:#636746;}
 
 /**- Fancy-*/
-.js-directory-link[title$='.fy']{border-color:#7b9db4;}
-.js-directory-link[title$='.fancypack']{border-color:#7b9db4;}
+.js-navigation-open[title$='.fy']{border-color:#7b9db4;}
+.js-navigation-open[title$='.fancypack']{border-color:#7b9db4;}
 
 /**- Fantom-*/
-.js-directory-link[title$='.fan']{border-color:#dbded5;}
+.js-navigation-open[title$='.fan']{border-color:#dbded5;}
 
 /**- Forth-*/
-.js-directory-link[title$='.fth']{border-color:#341708;}
-.js-directory-link[title$='.4th']{border-color:#341708;}
-.js-directory-link[title$='.f']{border-color:#341708;}
-.js-directory-link[title$='.for']{border-color:#341708;}
-.js-directory-link[title$='.forth']{border-color:#341708;}
-.js-directory-link[title$='.fr']{border-color:#341708;}
-.js-directory-link[title$='.frt']{border-color:#341708;}
-.js-directory-link[title$='.fs']{border-color:#341708;}
+.js-navigation-open[title$='.fth']{border-color:#341708;}
+.js-navigation-open[title$='.4th']{border-color:#341708;}
+.js-navigation-open[title$='.f']{border-color:#341708;}
+.js-navigation-open[title$='.for']{border-color:#341708;}
+.js-navigation-open[title$='.forth']{border-color:#341708;}
+.js-navigation-open[title$='.fr']{border-color:#341708;}
+.js-navigation-open[title$='.frt']{border-color:#341708;}
+.js-navigation-open[title$='.fs']{border-color:#341708;}
 
 /**- FreeMarker-*/
-.js-directory-link[title$='.ftl']{border-color:#0050b2;}
+.js-navigation-open[title$='.ftl']{border-color:#0050b2;}
 
 /**- Frege-*/
-.js-directory-link[title$='.fr']{border-color:#00cafe;}
+.js-navigation-open[title$='.fr']{border-color:#00cafe;}
 
 /**- Game Maker Language-*/
-.js-directory-link[title$='.gml']{border-color:#8fb200;}
+.js-navigation-open[title$='.gml']{border-color:#8fb200;}
 
 /**- Glyph-*/
-.js-directory-link[title$='.glf']{border-color:#e4cc98;}
+.js-navigation-open[title$='.glf']{border-color:#e4cc98;}
 
 /**- Gnuplot-*/
-.js-directory-link[title$='.gp']{border-color:#f0a9f0;}
-.js-directory-link[title$='.gnu']{border-color:#f0a9f0;}
-.js-directory-link[title$='.gnuplot']{border-color:#f0a9f0;}
-.js-directory-link[title$='.plot']{border-color:#f0a9f0;}
-.js-directory-link[title$='.plt']{border-color:#f0a9f0;}
+.js-navigation-open[title$='.gp']{border-color:#f0a9f0;}
+.js-navigation-open[title$='.gnu']{border-color:#f0a9f0;}
+.js-navigation-open[title$='.gnuplot']{border-color:#f0a9f0;}
+.js-navigation-open[title$='.plot']{border-color:#f0a9f0;}
+.js-navigation-open[title$='.plt']{border-color:#f0a9f0;}
 
 /**- Go-*/
-.js-directory-link[title$='.go']{border-color:#375eab;}
+.js-navigation-open[title$='.go']{border-color:#375eab;}
 
 /**- Golo-*/
-.js-directory-link[title$='.golo']{border-color:#88562A;}
+.js-navigation-open[title$='.golo']{border-color:#88562A;}
 
 /**- Gosu-*/
-.js-directory-link[title$='.gs']{border-color:#82937f;}
-.js-directory-link[title$='.gst']{border-color:#82937f;}
-.js-directory-link[title$='.gsx']{border-color:#82937f;}
-.js-directory-link[title$='.vark']{border-color:#82937f;}
+.js-navigation-open[title$='.gs']{border-color:#82937f;}
+.js-navigation-open[title$='.gst']{border-color:#82937f;}
+.js-navigation-open[title$='.gsx']{border-color:#82937f;}
+.js-navigation-open[title$='.vark']{border-color:#82937f;}
 
 /**- Grammatical Framework-*/
-.js-directory-link[title$='.gf']{border-color:#79aa7a;}
+.js-navigation-open[title$='.gf']{border-color:#79aa7a;}
 
 /**- GraphQL-*/
-.js-directory-link[title$='.graphql']{border-color:#E535AB;}
+.js-navigation-open[title$='.graphql']{border-color:#E535AB;}
 
 /**- Groovy-*/
-.js-directory-link[title$='.groovy']{border-color:#e69f56;}
-.js-directory-link[title$='.grt']{border-color:#e69f56;}
-.js-directory-link[title$='.gtpl']{border-color:#e69f56;}
-.js-directory-link[title$='.gvy']{border-color:#e69f56;}
+.js-navigation-open[title$='.groovy']{border-color:#e69f56;}
+.js-navigation-open[title$='.grt']{border-color:#e69f56;}
+.js-navigation-open[title$='.gtpl']{border-color:#e69f56;}
+.js-navigation-open[title$='.gvy']{border-color:#e69f56;}
 
 /**- HTML-*/
-.js-directory-link[title$='.html']{border-color:#e44b23;}
-.js-directory-link[title$='.htm']{border-color:#e44b23;}
-.js-directory-link[title$='.html.hl']{border-color:#e44b23;}
-.js-directory-link[title$='.inc']{border-color:#e44b23;}
-.js-directory-link[title$='.st']{border-color:#e44b23;}
-.js-directory-link[title$='.xht']{border-color:#e44b23;}
-.js-directory-link[title$='.xhtml']{border-color:#e44b23;}
+.js-navigation-open[title$='.html']{border-color:#e44b23;}
+.js-navigation-open[title$='.htm']{border-color:#e44b23;}
+.js-navigation-open[title$='.html.hl']{border-color:#e44b23;}
+.js-navigation-open[title$='.inc']{border-color:#e44b23;}
+.js-navigation-open[title$='.st']{border-color:#e44b23;}
+.js-navigation-open[title$='.xht']{border-color:#e44b23;}
+.js-navigation-open[title$='.xhtml']{border-color:#e44b23;}
 
 /**- Hack-*/
-.js-directory-link[title$='.hh']{border-color:#878787;}
-.js-directory-link[title$='.php']{border-color:#878787;}
+.js-navigation-open[title$='.hh']{border-color:#878787;}
+.js-navigation-open[title$='.php']{border-color:#878787;}
 
 /**- Haml-*/
-.js-directory-link[title$='.haml']{border-color:#ECE2A9;}
-.js-directory-link[title$='.haml.deface']{border-color:#ECE2A9;}
+.js-navigation-open[title$='.haml']{border-color:#ECE2A9;}
+.js-navigation-open[title$='.haml.deface']{border-color:#ECE2A9;}
 
 /**- Handlebars-*/
-.js-directory-link[title$='.handlebars']{border-color:#01a9d6;}
-.js-directory-link[title$='.hbs']{border-color:#01a9d6;}
+.js-navigation-open[title$='.handlebars']{border-color:#01a9d6;}
+.js-navigation-open[title$='.hbs']{border-color:#01a9d6;}
 
 /**- Harbour-*/
-.js-directory-link[title$='.hb']{border-color:#0e60e3;}
+.js-navigation-open[title$='.hb']{border-color:#0e60e3;}
 
 /**- Haskell-*/
-.js-directory-link[title$='.hs']{border-color:#29b544;}
-.js-directory-link[title$='.hsc']{border-color:#29b544;}
+.js-navigation-open[title$='.hs']{border-color:#29b544;}
+.js-navigation-open[title$='.hsc']{border-color:#29b544;}
 
 /**- Haxe-*/
-.js-directory-link[title$='.hx']{border-color:#df7900;}
-.js-directory-link[title$='.hxsl']{border-color:#df7900;}
+.js-navigation-open[title$='.hx']{border-color:#df7900;}
+.js-navigation-open[title$='.hxsl']{border-color:#df7900;}
 
 /**- Hy-*/
-.js-directory-link[title$='.hy']{border-color:#7790B2;}
+.js-navigation-open[title$='.hy']{border-color:#7790B2;}
 
 /**- IDL-*/
-.js-directory-link[title$='.pro']{border-color:#a3522f;}
-.js-directory-link[title$='.dlm']{border-color:#a3522f;}
+.js-navigation-open[title$='.pro']{border-color:#a3522f;}
+.js-navigation-open[title$='.dlm']{border-color:#a3522f;}
 
 /**- Io-*/
-.js-directory-link[title$='.io']{border-color:#a9188d;}
+.js-navigation-open[title$='.io']{border-color:#a9188d;}
 
 /**- Ioke-*/
-.js-directory-link[title$='.ik']{border-color:#078193;}
+.js-navigation-open[title$='.ik']{border-color:#078193;}
 
 /**- Isabelle-*/
-.js-directory-link[title$='.thy']{border-color:#FEFE00;}
+.js-navigation-open[title$='.thy']{border-color:#FEFE00;}
 
 /**- J-*/
-.js-directory-link[title$='.ijs']{border-color:#9EEDFF;}
+.js-navigation-open[title$='.ijs']{border-color:#9EEDFF;}
 
 /**- JFlex-*/
-.js-directory-link[title$='.flex']{border-color:#DBCA00;}
-.js-directory-link[title$='.jflex']{border-color:#DBCA00;}
+.js-navigation-open[title$='.flex']{border-color:#DBCA00;}
+.js-navigation-open[title$='.jflex']{border-color:#DBCA00;}
 
 /**- JSONiq-*/
-.js-directory-link[title$='.jq']{border-color:#40d47e;}
+.js-navigation-open[title$='.jq']{border-color:#40d47e;}
 
 /**- Java-*/
-.js-directory-link[title$='.java']{border-color:#b07219;}
+.js-navigation-open[title$='.java']{border-color:#b07219;}
 
 /**- JavaScript-*/
-.js-directory-link[title$='.js']{border-color:#f1e05a;}
-.js-directory-link[title$='._js']{border-color:#f1e05a;}
-.js-directory-link[title$='.bones']{border-color:#f1e05a;}
-.js-directory-link[title$='.es']{border-color:#f1e05a;}
-.js-directory-link[title$='.es6']{border-color:#f1e05a;}
-.js-directory-link[title$='.frag']{border-color:#f1e05a;}
-.js-directory-link[title$='.gs']{border-color:#f1e05a;}
-.js-directory-link[title$='.jake']{border-color:#f1e05a;}
-.js-directory-link[title$='.jsb']{border-color:#f1e05a;}
-.js-directory-link[title$='.jscad']{border-color:#f1e05a;}
-.js-directory-link[title$='.jsfl']{border-color:#f1e05a;}
-.js-directory-link[title$='.jsm']{border-color:#f1e05a;}
-.js-directory-link[title$='.jss']{border-color:#f1e05a;}
-.js-directory-link[title$='.njs']{border-color:#f1e05a;}
-.js-directory-link[title$='.pac']{border-color:#f1e05a;}
-.js-directory-link[title$='.sjs']{border-color:#f1e05a;}
-.js-directory-link[title$='.ssjs']{border-color:#f1e05a;}
-.js-directory-link[title$='.sublime-build']{border-color:#f1e05a;}
-.js-directory-link[title$='.sublime-commands']{border-color:#f1e05a;}
-.js-directory-link[title$='.sublime-completions']{border-color:#f1e05a;}
-.js-directory-link[title$='.sublime-keymap']{border-color:#f1e05a;}
-.js-directory-link[title$='.sublime-macro']{border-color:#f1e05a;}
-.js-directory-link[title$='.sublime-menu']{border-color:#f1e05a;}
-.js-directory-link[title$='.sublime-mousemap']{border-color:#f1e05a;}
-.js-directory-link[title$='.sublime-project']{border-color:#f1e05a;}
-.js-directory-link[title$='.sublime-settings']{border-color:#f1e05a;}
-.js-directory-link[title$='.sublime-theme']{border-color:#f1e05a;}
-.js-directory-link[title$='.sublime-workspace']{border-color:#f1e05a;}
-.js-directory-link[title$='.sublime_metrics']{border-color:#f1e05a;}
-.js-directory-link[title$='.sublime_session']{border-color:#f1e05a;}
-.js-directory-link[title$='.xsjs']{border-color:#f1e05a;}
-.js-directory-link[title$='.xsjslib']{border-color:#f1e05a;}
+.js-navigation-open[title$='.js']{border-color:#f1e05a;}
+.js-navigation-open[title$='._js']{border-color:#f1e05a;}
+.js-navigation-open[title$='.bones']{border-color:#f1e05a;}
+.js-navigation-open[title$='.es']{border-color:#f1e05a;}
+.js-navigation-open[title$='.es6']{border-color:#f1e05a;}
+.js-navigation-open[title$='.frag']{border-color:#f1e05a;}
+.js-navigation-open[title$='.gs']{border-color:#f1e05a;}
+.js-navigation-open[title$='.jake']{border-color:#f1e05a;}
+.js-navigation-open[title$='.jsb']{border-color:#f1e05a;}
+.js-navigation-open[title$='.jscad']{border-color:#f1e05a;}
+.js-navigation-open[title$='.jsfl']{border-color:#f1e05a;}
+.js-navigation-open[title$='.jsm']{border-color:#f1e05a;}
+.js-navigation-open[title$='.jss']{border-color:#f1e05a;}
+.js-navigation-open[title$='.njs']{border-color:#f1e05a;}
+.js-navigation-open[title$='.pac']{border-color:#f1e05a;}
+.js-navigation-open[title$='.sjs']{border-color:#f1e05a;}
+.js-navigation-open[title$='.ssjs']{border-color:#f1e05a;}
+.js-navigation-open[title$='.sublime-build']{border-color:#f1e05a;}
+.js-navigation-open[title$='.sublime-commands']{border-color:#f1e05a;}
+.js-navigation-open[title$='.sublime-completions']{border-color:#f1e05a;}
+.js-navigation-open[title$='.sublime-keymap']{border-color:#f1e05a;}
+.js-navigation-open[title$='.sublime-macro']{border-color:#f1e05a;}
+.js-navigation-open[title$='.sublime-menu']{border-color:#f1e05a;}
+.js-navigation-open[title$='.sublime-mousemap']{border-color:#f1e05a;}
+.js-navigation-open[title$='.sublime-project']{border-color:#f1e05a;}
+.js-navigation-open[title$='.sublime-settings']{border-color:#f1e05a;}
+.js-navigation-open[title$='.sublime-theme']{border-color:#f1e05a;}
+.js-navigation-open[title$='.sublime-workspace']{border-color:#f1e05a;}
+.js-navigation-open[title$='.sublime_metrics']{border-color:#f1e05a;}
+.js-navigation-open[title$='.sublime_session']{border-color:#f1e05a;}
+.js-navigation-open[title$='.xsjs']{border-color:#f1e05a;}
+.js-navigation-open[title$='.xsjslib']{border-color:#f1e05a;}
 
 /**- Julia-*/
-.js-directory-link[title$='.jl']{border-color:#a270ba;}
+.js-navigation-open[title$='.jl']{border-color:#a270ba;}
 
 /**- Jupyter Notebook-*/
-.js-directory-link[title$='.ipynb']{border-color:#DA5B0B;}
+.js-navigation-open[title$='.ipynb']{border-color:#DA5B0B;}
 
 /**- KRL-*/
-.js-directory-link[title$='.krl']{border-color:#28431f;}
+.js-navigation-open[title$='.krl']{border-color:#28431f;}
 
 /**- Kotlin-*/
-.js-directory-link[title$='.kt']{border-color:#F18E33;}
-.js-directory-link[title$='.ktm']{border-color:#F18E33;}
-.js-directory-link[title$='.kts']{border-color:#F18E33;}
+.js-navigation-open[title$='.kt']{border-color:#F18E33;}
+.js-navigation-open[title$='.ktm']{border-color:#F18E33;}
+.js-navigation-open[title$='.kts']{border-color:#F18E33;}
 
 /**- LFE-*/
-.js-directory-link[title$='.lfe']{border-color:#004200;}
+.js-navigation-open[title$='.lfe']{border-color:#004200;}
 
 /**- LLVM-*/
-.js-directory-link[title$='.ll']{border-color:#185619;}
+.js-navigation-open[title$='.ll']{border-color:#185619;}
 
 /**- LOLCODE-*/
-.js-directory-link[title$='.lol']{border-color:#cc9900;}
+.js-navigation-open[title$='.lol']{border-color:#cc9900;}
 
 /**- LSL-*/
-.js-directory-link[title$='.lsl']{border-color:#3d9970;}
-.js-directory-link[title$='.lslp']{border-color:#3d9970;}
+.js-navigation-open[title$='.lsl']{border-color:#3d9970;}
+.js-navigation-open[title$='.lslp']{border-color:#3d9970;}
 
 /**- Lasso-*/
-.js-directory-link[title$='.lasso']{border-color:#999999;}
-.js-directory-link[title$='.las']{border-color:#999999;}
-.js-directory-link[title$='.lasso8']{border-color:#999999;}
-.js-directory-link[title$='.lasso9']{border-color:#999999;}
-.js-directory-link[title$='.ldml']{border-color:#999999;}
+.js-navigation-open[title$='.lasso']{border-color:#999999;}
+.js-navigation-open[title$='.las']{border-color:#999999;}
+.js-navigation-open[title$='.lasso8']{border-color:#999999;}
+.js-navigation-open[title$='.lasso9']{border-color:#999999;}
+.js-navigation-open[title$='.ldml']{border-color:#999999;}
 
 /**- Latte-*/
-.js-directory-link[title$='.latte']{border-color:#A8FF97;}
+.js-navigation-open[title$='.latte']{border-color:#A8FF97;}
 
 /**- Less-*/
-.js-directory-link[title$='.less']{border-color:#A1D9A1;}
+.js-navigation-open[title$='.less']{border-color:#A1D9A1;}
 
 /**- Lex-*/
-.js-directory-link[title$='.l']{border-color:#DBCA00;}
-.js-directory-link[title$='.lex']{border-color:#DBCA00;}
+.js-navigation-open[title$='.l']{border-color:#DBCA00;}
+.js-navigation-open[title$='.lex']{border-color:#DBCA00;}
 
 /**- LiveScript-*/
-.js-directory-link[title$='.ls']{border-color:#499886;}
-.js-directory-link[title$='._ls']{border-color:#499886;}
+.js-navigation-open[title$='.ls']{border-color:#499886;}
+.js-navigation-open[title$='._ls']{border-color:#499886;}
 
 /**- LookML-*/
-.js-directory-link[title$='.lookml']{border-color:#652B81;}
+.js-navigation-open[title$='.lookml']{border-color:#652B81;}
 
 /**- Lua-*/
-.js-directory-link[title$='.lua']{border-color:#000080;}
-.js-directory-link[title$='.fcgi']{border-color:#000080;}
-.js-directory-link[title$='.nse']{border-color:#000080;}
-.js-directory-link[title$='.pd_lua']{border-color:#000080;}
-.js-directory-link[title$='.rbxs']{border-color:#000080;}
-.js-directory-link[title$='.wlua']{border-color:#000080;}
+.js-navigation-open[title$='.lua']{border-color:#000080;}
+.js-navigation-open[title$='.fcgi']{border-color:#000080;}
+.js-navigation-open[title$='.nse']{border-color:#000080;}
+.js-navigation-open[title$='.pd_lua']{border-color:#000080;}
+.js-navigation-open[title$='.rbxs']{border-color:#000080;}
+.js-navigation-open[title$='.wlua']{border-color:#000080;}
 
 /**- MAXScript-*/
-.js-directory-link[title$='.ms']{border-color:#00a6a6;}
-.js-directory-link[title$='.mcr']{border-color:#00a6a6;}
+.js-navigation-open[title$='.ms']{border-color:#00a6a6;}
+.js-navigation-open[title$='.mcr']{border-color:#00a6a6;}
 
 /**- MTML-*/
-.js-directory-link[title$='.mtml']{border-color:#b7e1f4;}
+.js-navigation-open[title$='.mtml']{border-color:#b7e1f4;}
 
 /**- Makefile-*/
-.js-directory-link[title$='.mak']{border-color:#427819;}
-.js-directory-link[title$='.d']{border-color:#427819;}
-.js-directory-link[title$='.mk']{border-color:#427819;}
-.js-directory-link[title$='.mkfile']{border-color:#427819;}
+.js-navigation-open[title$='.mak']{border-color:#427819;}
+.js-navigation-open[title$='.d']{border-color:#427819;}
+.js-navigation-open[title$='.mk']{border-color:#427819;}
+.js-navigation-open[title$='.mkfile']{border-color:#427819;}
 
 /**- Markdown-*/
-.js-directory-link[title$='.md']{border-color:#083FA1;}
-.js-directory-link[title$='.markdown']{border-color:#083FA1;}
-.js-directory-link[title$='.mkd']{border-color:#083FA1;}
-.js-directory-link[title$='.mkdn']{border-color:#083FA1;}
-.js-directory-link[title$='.mkdown']{border-color:#083FA1;}
-.js-directory-link[title$='.ron']{border-color:#083FA1;}
+.js-navigation-open[title$='.md']{border-color:#083FA1;}
+.js-navigation-open[title$='.markdown']{border-color:#083FA1;}
+.js-navigation-open[title$='.mkd']{border-color:#083FA1;}
+.js-navigation-open[title$='.mkdn']{border-color:#083FA1;}
+.js-navigation-open[title$='.mkdown']{border-color:#083FA1;}
+.js-navigation-open[title$='.ron']{border-color:#083FA1;}
 
 /**- Mask-*/
-.js-directory-link[title$='.mask']{border-color:#f97732;}
+.js-navigation-open[title$='.mask']{border-color:#f97732;}
 
 /**- Matlab-*/
-.js-directory-link[title$='.matlab']{border-color:#bb92ac;}
-.js-directory-link[title$='.m']{border-color:#bb92ac;}
+.js-navigation-open[title$='.matlab']{border-color:#bb92ac;}
+.js-navigation-open[title$='.m']{border-color:#bb92ac;}
 
 /**- Max-*/
-.js-directory-link[title$='.maxpat']{border-color:#c4a79c;}
-.js-directory-link[title$='.maxhelp']{border-color:#c4a79c;}
-.js-directory-link[title$='.maxproj']{border-color:#c4a79c;}
-.js-directory-link[title$='.mxt']{border-color:#c4a79c;}
-.js-directory-link[title$='.pat']{border-color:#c4a79c;}
+.js-navigation-open[title$='.maxpat']{border-color:#c4a79c;}
+.js-navigation-open[title$='.maxhelp']{border-color:#c4a79c;}
+.js-navigation-open[title$='.maxproj']{border-color:#c4a79c;}
+.js-navigation-open[title$='.mxt']{border-color:#c4a79c;}
+.js-navigation-open[title$='.pat']{border-color:#c4a79c;}
 
 /**- Mercury-*/
-.js-directory-link[title$='.m']{border-color:#ff2b2b;}
-.js-directory-link[title$='.moo']{border-color:#ff2b2b;}
+.js-navigation-open[title$='.m']{border-color:#ff2b2b;}
+.js-navigation-open[title$='.moo']{border-color:#ff2b2b;}
 
 /**- Metal-*/
-.js-directory-link[title$='.metal']{border-color:#8f14e9;}
+.js-navigation-open[title$='.metal']{border-color:#8f14e9;}
 
 /**- Mirah-*/
-.js-directory-link[title$='.druby']{border-color:#c7a938;}
-.js-directory-link[title$='.duby']{border-color:#c7a938;}
-.js-directory-link[title$='.mir']{border-color:#c7a938;}
-.js-directory-link[title$='.mirah']{border-color:#c7a938;}
+.js-navigation-open[title$='.druby']{border-color:#c7a938;}
+.js-navigation-open[title$='.duby']{border-color:#c7a938;}
+.js-navigation-open[title$='.mir']{border-color:#c7a938;}
+.js-navigation-open[title$='.mirah']{border-color:#c7a938;}
 
 /**- NCL-*/
-.js-directory-link[title$='.ncl']{border-color:#28431f;}
+.js-navigation-open[title$='.ncl']{border-color:#28431f;}
 
 /**- Nemerle-*/
-.js-directory-link[title$='.n']{border-color:#3d3c6e;}
+.js-navigation-open[title$='.n']{border-color:#3d3c6e;}
 
 /**- NetLinx-*/
-.js-directory-link[title$='.axs']{border-color:#0aa0ff;}
-.js-directory-link[title$='.axi']{border-color:#0aa0ff;}
+.js-navigation-open[title$='.axs']{border-color:#0aa0ff;}
+.js-navigation-open[title$='.axi']{border-color:#0aa0ff;}
 
 /**- NetLinx+ERB-*/
-.js-directory-link[title$='.axs.erb']{border-color:#747faa;}
-.js-directory-link[title$='.axi.erb']{border-color:#747faa;}
+.js-navigation-open[title$='.axs.erb']{border-color:#747faa;}
+.js-navigation-open[title$='.axi.erb']{border-color:#747faa;}
 
 /**- NetLogo-*/
-.js-directory-link[title$='.nlogo']{border-color:#ff6375;}
+.js-navigation-open[title$='.nlogo']{border-color:#ff6375;}
 
 /**- NewLisp-*/
-.js-directory-link[title$='.nl']{border-color:#87AED7;}
-.js-directory-link[title$='.lisp']{border-color:#87AED7;}
-.js-directory-link[title$='.lsp']{border-color:#87AED7;}
+.js-navigation-open[title$='.nl']{border-color:#87AED7;}
+.js-navigation-open[title$='.lisp']{border-color:#87AED7;}
+.js-navigation-open[title$='.lsp']{border-color:#87AED7;}
 
 /**- Nginx-*/
-.js-directory-link[title$='.nginxconf']{border-color:#9469E9;}
-.js-directory-link[title$='.vhost']{border-color:#9469E9;}
+.js-navigation-open[title$='.nginxconf']{border-color:#9469E9;}
+.js-navigation-open[title$='.vhost']{border-color:#9469E9;}
 
 /**- Nimrod-*/
-.js-directory-link[title$='.nim']{border-color:#37775b;}
-.js-directory-link[title$='.nimrod']{border-color:#37775b;}
+.js-navigation-open[title$='.nim']{border-color:#37775b;}
+.js-navigation-open[title$='.nimrod']{border-color:#37775b;}
 
 /**- Nit-*/
-.js-directory-link[title$='.nit']{border-color:#009917;}
+.js-navigation-open[title$='.nit']{border-color:#009917;}
 
 /**- Nix-*/
-.js-directory-link[title$='.nix']{border-color:#7e7eff;}
+.js-navigation-open[title$='.nix']{border-color:#7e7eff;}
 
 /**- Nu-*/
-.js-directory-link[title$='.nu']{border-color:#c9df40;}
+.js-navigation-open[title$='.nu']{border-color:#c9df40;}
 
 /**- NumPy-*/
-.js-directory-link[title$='.numpy']{border-color:#9C8AF9;}
-.js-directory-link[title$='.numpyw']{border-color:#9C8AF9;}
-.js-directory-link[title$='.numsc']{border-color:#9C8AF9;}
+.js-navigation-open[title$='.numpy']{border-color:#9C8AF9;}
+.js-navigation-open[title$='.numpyw']{border-color:#9C8AF9;}
+.js-navigation-open[title$='.numsc']{border-color:#9C8AF9;}
 
 /**- OCaml-*/
-.js-directory-link[title$='.ml']{border-color:#3be133;}
-.js-directory-link[title$='.eliom']{border-color:#3be133;}
-.js-directory-link[title$='.eliomi']{border-color:#3be133;}
-.js-directory-link[title$='.ml4']{border-color:#3be133;}
-.js-directory-link[title$='.mli']{border-color:#3be133;}
-.js-directory-link[title$='.mll']{border-color:#3be133;}
-.js-directory-link[title$='.mly']{border-color:#3be133;}
+.js-navigation-open[title$='.ml']{border-color:#3be133;}
+.js-navigation-open[title$='.eliom']{border-color:#3be133;}
+.js-navigation-open[title$='.eliomi']{border-color:#3be133;}
+.js-navigation-open[title$='.ml4']{border-color:#3be133;}
+.js-navigation-open[title$='.mli']{border-color:#3be133;}
+.js-navigation-open[title$='.mll']{border-color:#3be133;}
+.js-navigation-open[title$='.mly']{border-color:#3be133;}
 
 /**- Objective-C-*/
-.js-directory-link[title$='.m']{border-color:#438eff;}
-.js-directory-link[title$='.h']{border-color:#438eff;}
+.js-navigation-open[title$='.m']{border-color:#438eff;}
+.js-navigation-open[title$='.h']{border-color:#438eff;}
 
 /**- Objective-C++-*/
-.js-directory-link[title$='.mm']{border-color:#6866fb;}
+.js-navigation-open[title$='.mm']{border-color:#6866fb;}
 
 /**- Objective-J-*/
-.js-directory-link[title$='.j']{border-color:#ff0c5a;}
-.js-directory-link[title$='.sj']{border-color:#ff0c5a;}
+.js-navigation-open[title$='.j']{border-color:#ff0c5a;}
+.js-navigation-open[title$='.sj']{border-color:#ff0c5a;}
 
 /**- Omgrofl-*/
-.js-directory-link[title$='.omgrofl']{border-color:#cabbff;}
+.js-navigation-open[title$='.omgrofl']{border-color:#cabbff;}
 
 /**- Opal-*/
-.js-directory-link[title$='.opal']{border-color:#f7ede0;}
+.js-navigation-open[title$='.opal']{border-color:#f7ede0;}
 
 /**- Oxygene-*/
-.js-directory-link[title$='.oxygene']{border-color:#cdd0e3;}
+.js-navigation-open[title$='.oxygene']{border-color:#cdd0e3;}
 
 /**- Oz-*/
-.js-directory-link[title$='.oz']{border-color:#fab738;}
+.js-navigation-open[title$='.oz']{border-color:#fab738;}
 
 /**- PAWN-*/
-.js-directory-link[title$='.pwn']{border-color:#dbb284;}
-.js-directory-link[title$='.inc']{border-color:#dbb284;}
+.js-navigation-open[title$='.pwn']{border-color:#dbb284;}
+.js-navigation-open[title$='.inc']{border-color:#dbb284;}
 
 /**- PHP-*/
-.js-directory-link[title$='.php']{border-color:#4F5D95;}
-.js-directory-link[title$='.aw']{border-color:#4F5D95;}
-.js-directory-link[title$='.ctp']{border-color:#4F5D95;}
-.js-directory-link[title$='.fcgi']{border-color:#4F5D95;}
-.js-directory-link[title$='.inc']{border-color:#4F5D95;}
-.js-directory-link[title$='.php3']{border-color:#4F5D95;}
-.js-directory-link[title$='.php4']{border-color:#4F5D95;}
-.js-directory-link[title$='.php5']{border-color:#4F5D95;}
-.js-directory-link[title$='.phps']{border-color:#4F5D95;}
-.js-directory-link[title$='.phpt']{border-color:#4F5D95;}
+.js-navigation-open[title$='.php']{border-color:#4F5D95;}
+.js-navigation-open[title$='.aw']{border-color:#4F5D95;}
+.js-navigation-open[title$='.ctp']{border-color:#4F5D95;}
+.js-navigation-open[title$='.fcgi']{border-color:#4F5D95;}
+.js-navigation-open[title$='.inc']{border-color:#4F5D95;}
+.js-navigation-open[title$='.php3']{border-color:#4F5D95;}
+.js-navigation-open[title$='.php4']{border-color:#4F5D95;}
+.js-navigation-open[title$='.php5']{border-color:#4F5D95;}
+.js-navigation-open[title$='.phps']{border-color:#4F5D95;}
+.js-navigation-open[title$='.phpt']{border-color:#4F5D95;}
 
 /**- PLSQL-*/
-.js-directory-link[title$='.pls']{border-color:#dad8d8;}
-.js-directory-link[title$='.pck']{border-color:#dad8d8;}
-.js-directory-link[title$='.pkb']{border-color:#dad8d8;}
-.js-directory-link[title$='.pks']{border-color:#dad8d8;}
-.js-directory-link[title$='.plb']{border-color:#dad8d8;}
-.js-directory-link[title$='.plsql']{border-color:#dad8d8;}
-.js-directory-link[title$='.sql']{border-color:#dad8d8;}
+.js-navigation-open[title$='.pls']{border-color:#dad8d8;}
+.js-navigation-open[title$='.pck']{border-color:#dad8d8;}
+.js-navigation-open[title$='.pkb']{border-color:#dad8d8;}
+.js-navigation-open[title$='.pks']{border-color:#dad8d8;}
+.js-navigation-open[title$='.plb']{border-color:#dad8d8;}
+.js-navigation-open[title$='.plsql']{border-color:#dad8d8;}
+.js-navigation-open[title$='.sql']{border-color:#dad8d8;}
 
 /**- Pan-*/
-.js-directory-link[title$='.pan']{border-color:#cc0000;}
+.js-navigation-open[title$='.pan']{border-color:#cc0000;}
 
 /**- Papyrus-*/
-.js-directory-link[title$='.psc']{border-color:#6600cc;}
+.js-navigation-open[title$='.psc']{border-color:#6600cc;}
 
 /**- Parrot-*/
-.js-directory-link[title$='.parrot']{border-color:#f3ca0a;}
+.js-navigation-open[title$='.parrot']{border-color:#f3ca0a;}
 
 /**- Pascal-*/
-.js-directory-link[title$='.pas']{border-color:#E3F171;}
-.js-directory-link[title$='.dfm']{border-color:#E3F171;}
-.js-directory-link[title$='.dpr']{border-color:#E3F171;}
-.js-directory-link[title$='.inc']{border-color:#E3F171;}
-.js-directory-link[title$='.lpr']{border-color:#E3F171;}
-.js-directory-link[title$='.pp']{border-color:#E3F171;}
+.js-navigation-open[title$='.pas']{border-color:#E3F171;}
+.js-navigation-open[title$='.dfm']{border-color:#E3F171;}
+.js-navigation-open[title$='.dpr']{border-color:#E3F171;}
+.js-navigation-open[title$='.inc']{border-color:#E3F171;}
+.js-navigation-open[title$='.lpr']{border-color:#E3F171;}
+.js-navigation-open[title$='.pp']{border-color:#E3F171;}
 
 /**- Perl-*/
-.js-directory-link[title$='.pl']{border-color:#0298c3;}
-.js-directory-link[title$='.al']{border-color:#0298c3;}
-.js-directory-link[title$='.cgi']{border-color:#0298c3;}
-.js-directory-link[title$='.fcgi']{border-color:#0298c3;}
-.js-directory-link[title$='.perl']{border-color:#0298c3;}
-.js-directory-link[title$='.ph']{border-color:#0298c3;}
-.js-directory-link[title$='.plx']{border-color:#0298c3;}
-.js-directory-link[title$='.pm']{border-color:#0298c3;}
-.js-directory-link[title$='.pod']{border-color:#0298c3;}
-.js-directory-link[title$='.psgi']{border-color:#0298c3;}
-.js-directory-link[title$='.t']{border-color:#0298c3;}
+.js-navigation-open[title$='.pl']{border-color:#0298c3;}
+.js-navigation-open[title$='.al']{border-color:#0298c3;}
+.js-navigation-open[title$='.cgi']{border-color:#0298c3;}
+.js-navigation-open[title$='.fcgi']{border-color:#0298c3;}
+.js-navigation-open[title$='.perl']{border-color:#0298c3;}
+.js-navigation-open[title$='.ph']{border-color:#0298c3;}
+.js-navigation-open[title$='.plx']{border-color:#0298c3;}
+.js-navigation-open[title$='.pm']{border-color:#0298c3;}
+.js-navigation-open[title$='.pod']{border-color:#0298c3;}
+.js-navigation-open[title$='.psgi']{border-color:#0298c3;}
+.js-navigation-open[title$='.t']{border-color:#0298c3;}
 
 /**- Perl6-*/
-.js-directory-link[title$='.6pl']{border-color:#0000fb;}
-.js-directory-link[title$='.6pm']{border-color:#0000fb;}
-.js-directory-link[title$='.nqp']{border-color:#0000fb;}
-.js-directory-link[title$='.p6']{border-color:#0000fb;}
-.js-directory-link[title$='.p6l']{border-color:#0000fb;}
-.js-directory-link[title$='.p6m']{border-color:#0000fb;}
-.js-directory-link[title$='.pl']{border-color:#0000fb;}
-.js-directory-link[title$='.pl6']{border-color:#0000fb;}
-.js-directory-link[title$='.pm']{border-color:#0000fb;}
-.js-directory-link[title$='.pm6']{border-color:#0000fb;}
-.js-directory-link[title$='.t']{border-color:#0000fb;}
+.js-navigation-open[title$='.6pl']{border-color:#0000fb;}
+.js-navigation-open[title$='.6pm']{border-color:#0000fb;}
+.js-navigation-open[title$='.nqp']{border-color:#0000fb;}
+.js-navigation-open[title$='.p6']{border-color:#0000fb;}
+.js-navigation-open[title$='.p6l']{border-color:#0000fb;}
+.js-navigation-open[title$='.p6m']{border-color:#0000fb;}
+.js-navigation-open[title$='.pl']{border-color:#0000fb;}
+.js-navigation-open[title$='.pl6']{border-color:#0000fb;}
+.js-navigation-open[title$='.pm']{border-color:#0000fb;}
+.js-navigation-open[title$='.pm6']{border-color:#0000fb;}
+.js-navigation-open[title$='.t']{border-color:#0000fb;}
 
 /**- PigLatin-*/
-.js-directory-link[title$='.pig']{border-color:#fcd7de;}
+.js-navigation-open[title$='.pig']{border-color:#fcd7de;}
 
 /**- Pike-*/
-.js-directory-link[title$='.pike']{border-color:#005390;}
-.js-directory-link[title$='.pmod']{border-color:#005390;}
+.js-navigation-open[title$='.pike']{border-color:#005390;}
+.js-navigation-open[title$='.pmod']{border-color:#005390;}
 
 /**- PogoScript-*/
-.js-directory-link[title$='.pogo']{border-color:#d80074;}
+.js-navigation-open[title$='.pogo']{border-color:#d80074;}
 
 /**- Processing-*/
-.js-directory-link[title$='.pde']{border-color:#0096D8;}
+.js-navigation-open[title$='.pde']{border-color:#0096D8;}
 
 /**- Prolog-*/
-.js-directory-link[title$='.pl']{border-color:#74283c;}
-.js-directory-link[title$='.pro']{border-color:#74283c;}
-.js-directory-link[title$='.prolog']{border-color:#74283c;}
-.js-directory-link[title$='.yap']{border-color:#74283c;}
+.js-navigation-open[title$='.pl']{border-color:#74283c;}
+.js-navigation-open[title$='.pro']{border-color:#74283c;}
+.js-navigation-open[title$='.prolog']{border-color:#74283c;}
+.js-navigation-open[title$='.yap']{border-color:#74283c;}
 
 /**- Propeller Spin-*/
-.js-directory-link[title$='.spin']{border-color:#7fa2a7;}
+.js-navigation-open[title$='.spin']{border-color:#7fa2a7;}
 
 /**- Puppet-*/
-.js-directory-link[title$='.pp']{border-color:#302B6D;}
+.js-navigation-open[title$='.pp']{border-color:#302B6D;}
 
 /**- Pure Data-*/
-.js-directory-link[title$='.pd']{border-color:#91de79;}
+.js-navigation-open[title$='.pd']{border-color:#91de79;}
 
 /**- PureBasic-*/
-.js-directory-link[title$='.pb']{border-color:#5a6986;}
-.js-directory-link[title$='.pbi']{border-color:#5a6986;}
+.js-navigation-open[title$='.pb']{border-color:#5a6986;}
+.js-navigation-open[title$='.pbi']{border-color:#5a6986;}
 
 /**- PureScript-*/
-.js-directory-link[title$='.purs']{border-color:#1D222D;}
+.js-navigation-open[title$='.purs']{border-color:#1D222D;}
 
 /**- Python-*/
-.js-directory-link[title$='.py']{border-color:#3572A5;}
-.js-directory-link[title$='.bzl']{border-color:#3572A5;}
-.js-directory-link[title$='.cgi']{border-color:#3572A5;}
-.js-directory-link[title$='.fcgi']{border-color:#3572A5;}
-.js-directory-link[title$='.gyp']{border-color:#3572A5;}
-.js-directory-link[title$='.lmi']{border-color:#3572A5;}
-.js-directory-link[title$='.pyde']{border-color:#3572A5;}
-.js-directory-link[title$='.pyp']{border-color:#3572A5;}
-.js-directory-link[title$='.pyt']{border-color:#3572A5;}
-.js-directory-link[title$='.pyw']{border-color:#3572A5;}
-.js-directory-link[title$='.rpy']{border-color:#3572A5;}
-.js-directory-link[title$='.tac']{border-color:#3572A5;}
-.js-directory-link[title$='.wsgi']{border-color:#3572A5;}
-.js-directory-link[title$='.xpy']{border-color:#3572A5;}
+.js-navigation-open[title$='.py']{border-color:#3572A5;}
+.js-navigation-open[title$='.bzl']{border-color:#3572A5;}
+.js-navigation-open[title$='.cgi']{border-color:#3572A5;}
+.js-navigation-open[title$='.fcgi']{border-color:#3572A5;}
+.js-navigation-open[title$='.gyp']{border-color:#3572A5;}
+.js-navigation-open[title$='.lmi']{border-color:#3572A5;}
+.js-navigation-open[title$='.pyde']{border-color:#3572A5;}
+.js-navigation-open[title$='.pyp']{border-color:#3572A5;}
+.js-navigation-open[title$='.pyt']{border-color:#3572A5;}
+.js-navigation-open[title$='.pyw']{border-color:#3572A5;}
+.js-navigation-open[title$='.rpy']{border-color:#3572A5;}
+.js-navigation-open[title$='.tac']{border-color:#3572A5;}
+.js-navigation-open[title$='.wsgi']{border-color:#3572A5;}
+.js-navigation-open[title$='.xpy']{border-color:#3572A5;}
 
 /**- QML-*/
-.js-directory-link[title$='.qml']{border-color:#44a51c;}
-.js-directory-link[title$='.qbs']{border-color:#44a51c;}
+.js-navigation-open[title$='.qml']{border-color:#44a51c;}
+.js-navigation-open[title$='.qbs']{border-color:#44a51c;}
 
 /**- R-*/
-.js-directory-link[title$='.r']{border-color:#198CE7;}
-.js-directory-link[title$='.rd']{border-color:#198CE7;}
-.js-directory-link[title$='.rsx']{border-color:#198CE7;}
+.js-navigation-open[title$='.r']{border-color:#198CE7;}
+.js-navigation-open[title$='.rd']{border-color:#198CE7;}
+.js-navigation-open[title$='.rsx']{border-color:#198CE7;}
 
 /**- RAML-*/
-.js-directory-link[title$='.raml']{border-color:#77d9fb;}
+.js-navigation-open[title$='.raml']{border-color:#77d9fb;}
 
 /**- RDoc-*/
-.js-directory-link[title$='.rdoc']{border-color:#8E84BF;}
+.js-navigation-open[title$='.rdoc']{border-color:#8E84BF;}
 
 /**- Racket-*/
-.js-directory-link[title$='.rkt']{border-color:#22228f;}
-.js-directory-link[title$='.rktd']{border-color:#22228f;}
-.js-directory-link[title$='.rktl']{border-color:#22228f;}
-.js-directory-link[title$='.scrbl']{border-color:#22228f;}
+.js-navigation-open[title$='.rkt']{border-color:#22228f;}
+.js-navigation-open[title$='.rktd']{border-color:#22228f;}
+.js-navigation-open[title$='.rktl']{border-color:#22228f;}
+.js-navigation-open[title$='.scrbl']{border-color:#22228f;}
 
 /**- Ragel in Ruby Host-*/
-.js-directory-link[title$='.rl']{border-color:#9d5200;}
+.js-navigation-open[title$='.rl']{border-color:#9d5200;}
 
 /**- Rebol-*/
-.js-directory-link[title$='.reb']{border-color:#358a5b;}
-.js-directory-link[title$='.r']{border-color:#358a5b;}
-.js-directory-link[title$='.r2']{border-color:#358a5b;}
-.js-directory-link[title$='.r3']{border-color:#358a5b;}
-.js-directory-link[title$='.rebol']{border-color:#358a5b;}
+.js-navigation-open[title$='.reb']{border-color:#358a5b;}
+.js-navigation-open[title$='.r']{border-color:#358a5b;}
+.js-navigation-open[title$='.r2']{border-color:#358a5b;}
+.js-navigation-open[title$='.r3']{border-color:#358a5b;}
+.js-navigation-open[title$='.rebol']{border-color:#358a5b;}
 
 /**- Red-*/
-.js-directory-link[title$='.red']{border-color:#ee0000;}
-.js-directory-link[title$='.reds']{border-color:#ee0000;}
+.js-navigation-open[title$='.red']{border-color:#ee0000;}
+.js-navigation-open[title$='.reds']{border-color:#ee0000;}
 
 /**- Ren'Py-*/
-.js-directory-link[title$='.rpy']{border-color:#ff7f7f;}
+.js-navigation-open[title$='.rpy']{border-color:#ff7f7f;}
 
 /**- Rouge-*/
-.js-directory-link[title$='.rg']{border-color:#cc0088;}
+.js-navigation-open[title$='.rg']{border-color:#cc0088;}
 
 /**- Ruby-*/
-.js-directory-link[title$='.rb']{border-color:#701516;}
-.js-directory-link[title$='.builder']{border-color:#701516;}
-.js-directory-link[title$='.fcgi']{border-color:#701516;}
-.js-directory-link[title$='.gemspec']{border-color:#701516;}
-.js-directory-link[title$='.god']{border-color:#701516;}
-.js-directory-link[title$='.irbrc']{border-color:#701516;}
-.js-directory-link[title$='.jbuilder']{border-color:#701516;}
-.js-directory-link[title$='.mspec']{border-color:#701516;}
-.js-directory-link[title$='.pluginspec']{border-color:#701516;}
-.js-directory-link[title$='.podspec']{border-color:#701516;}
-.js-directory-link[title$='.rabl']{border-color:#701516;}
-.js-directory-link[title$='.rake']{border-color:#701516;}
-.js-directory-link[title$='.rbuild']{border-color:#701516;}
-.js-directory-link[title$='.rbw']{border-color:#701516;}
-.js-directory-link[title$='.rbx']{border-color:#701516;}
-.js-directory-link[title$='.ru']{border-color:#701516;}
-.js-directory-link[title$='.ruby']{border-color:#701516;}
-.js-directory-link[title$='.thor']{border-color:#701516;}
-.js-directory-link[title$='.watchr']{border-color:#701516;}
+.js-navigation-open[title$='.rb']{border-color:#701516;}
+.js-navigation-open[title$='.builder']{border-color:#701516;}
+.js-navigation-open[title$='.fcgi']{border-color:#701516;}
+.js-navigation-open[title$='.gemspec']{border-color:#701516;}
+.js-navigation-open[title$='.god']{border-color:#701516;}
+.js-navigation-open[title$='.irbrc']{border-color:#701516;}
+.js-navigation-open[title$='.jbuilder']{border-color:#701516;}
+.js-navigation-open[title$='.mspec']{border-color:#701516;}
+.js-navigation-open[title$='.pluginspec']{border-color:#701516;}
+.js-navigation-open[title$='.podspec']{border-color:#701516;}
+.js-navigation-open[title$='.rabl']{border-color:#701516;}
+.js-navigation-open[title$='.rake']{border-color:#701516;}
+.js-navigation-open[title$='.rbuild']{border-color:#701516;}
+.js-navigation-open[title$='.rbw']{border-color:#701516;}
+.js-navigation-open[title$='.rbx']{border-color:#701516;}
+.js-navigation-open[title$='.ru']{border-color:#701516;}
+.js-navigation-open[title$='.ruby']{border-color:#701516;}
+.js-navigation-open[title$='.thor']{border-color:#701516;}
+.js-navigation-open[title$='.watchr']{border-color:#701516;}
 
 /**- Rust-*/
-.js-directory-link[title$='.rs']{border-color:#dea584;}
-.js-directory-link[title$='.rs.in']{border-color:#dea584;}
+.js-navigation-open[title$='.rs']{border-color:#dea584;}
+.js-navigation-open[title$='.rs.in']{border-color:#dea584;}
 
 /**- SAS-*/
-.js-directory-link[title$='.sas']{border-color:#B34936;}
+.js-navigation-open[title$='.sas']{border-color:#B34936;}
 
 /**- SCSS-*/
-.js-directory-link[title$='.scss']{border-color:#CF649A;}
+.js-navigation-open[title$='.scss']{border-color:#CF649A;}
 
 /**- SQF-*/
-.js-directory-link[title$='.sqf']{border-color:#3F3F3F;}
-.js-directory-link[title$='.hqf']{border-color:#3F3F3F;}
+.js-navigation-open[title$='.sqf']{border-color:#3F3F3F;}
+.js-navigation-open[title$='.hqf']{border-color:#3F3F3F;}
 
 /**- SaltStack-*/
-.js-directory-link[title$='.sls']{border-color:#646464;}
+.js-navigation-open[title$='.sls']{border-color:#646464;}
 
 /**- Sass-*/
-.js-directory-link[title$='.sass']{border-color:#CF649A;}
+.js-navigation-open[title$='.sass']{border-color:#CF649A;}
 
 /**- Scala-*/
-.js-directory-link[title$='.scala']{border-color:#DC322F;}
-.js-directory-link[title$='.sbt']{border-color:#DC322F;}
-.js-directory-link[title$='.sc']{border-color:#DC322F;}
+.js-navigation-open[title$='.scala']{border-color:#DC322F;}
+.js-navigation-open[title$='.sbt']{border-color:#DC322F;}
+.js-navigation-open[title$='.sc']{border-color:#DC322F;}
 
 /**- Scheme-*/
-.js-directory-link[title$='.scm']{border-color:#1e4aec;}
-.js-directory-link[title$='.sld']{border-color:#1e4aec;}
-.js-directory-link[title$='.sls']{border-color:#1e4aec;}
-.js-directory-link[title$='.sps']{border-color:#1e4aec;}
-.js-directory-link[title$='.ss']{border-color:#1e4aec;}
+.js-navigation-open[title$='.scm']{border-color:#1e4aec;}
+.js-navigation-open[title$='.sld']{border-color:#1e4aec;}
+.js-navigation-open[title$='.sls']{border-color:#1e4aec;}
+.js-navigation-open[title$='.sps']{border-color:#1e4aec;}
+.js-navigation-open[title$='.ss']{border-color:#1e4aec;}
 
 /**- Self-*/
-.js-directory-link[title$='.self']{border-color:#0579aa;}
+.js-navigation-open[title$='.self']{border-color:#0579aa;}
 
 /**- Shell-*/
-.js-directory-link[title$='.sh']{border-color:#89e051;}
-.js-directory-link[title$='.bash']{border-color:#89e051;}
-.js-directory-link[title$='.bats']{border-color:#89e051;}
-.js-directory-link[title$='.cgi']{border-color:#89e051;}
-.js-directory-link[title$='.command']{border-color:#89e051;}
-.js-directory-link[title$='.fcgi']{border-color:#89e051;}
-.js-directory-link[title$='.ksh']{border-color:#89e051;}
-.js-directory-link[title$='.sh.in']{border-color:#89e051;}
-.js-directory-link[title$='.tmux']{border-color:#89e051;}
-.js-directory-link[title$='.tool']{border-color:#89e051;}
-.js-directory-link[title$='.zsh']{border-color:#89e051;}
+.js-navigation-open[title$='.sh']{border-color:#89e051;}
+.js-navigation-open[title$='.bash']{border-color:#89e051;}
+.js-navigation-open[title$='.bats']{border-color:#89e051;}
+.js-navigation-open[title$='.cgi']{border-color:#89e051;}
+.js-navigation-open[title$='.command']{border-color:#89e051;}
+.js-navigation-open[title$='.fcgi']{border-color:#89e051;}
+.js-navigation-open[title$='.ksh']{border-color:#89e051;}
+.js-navigation-open[title$='.sh.in']{border-color:#89e051;}
+.js-navigation-open[title$='.tmux']{border-color:#89e051;}
+.js-navigation-open[title$='.tool']{border-color:#89e051;}
+.js-navigation-open[title$='.zsh']{border-color:#89e051;}
 
 /**- Shen-*/
-.js-directory-link[title$='.shen']{border-color:#120F14;}
+.js-navigation-open[title$='.shen']{border-color:#120F14;}
 
 /**- Slash-*/
-.js-directory-link[title$='.sl']{border-color:#007eff;}
+.js-navigation-open[title$='.sl']{border-color:#007eff;}
 
 /**- Slim-*/
-.js-directory-link[title$='.slim']{border-color:#ff8f77;}
+.js-navigation-open[title$='.slim']{border-color:#ff8f77;}
 
 /**- Smalltalk-*/
-.js-directory-link[title$='.st']{border-color:#596706;}
-.js-directory-link[title$='.cs']{border-color:#596706;}
+.js-navigation-open[title$='.st']{border-color:#596706;}
+.js-navigation-open[title$='.cs']{border-color:#596706;}
 
 /**- SourcePawn-*/
-.js-directory-link[title$='.sp']{border-color:#5c7611;}
-.js-directory-link[title$='.inc']{border-color:#5c7611;}
-.js-directory-link[title$='.sma']{border-color:#5c7611;}
+.js-navigation-open[title$='.sp']{border-color:#5c7611;}
+.js-navigation-open[title$='.inc']{border-color:#5c7611;}
+.js-navigation-open[title$='.sma']{border-color:#5c7611;}
 
 /**- Squirrel-*/
-.js-directory-link[title$='.nut']{border-color:#800000;}
+.js-navigation-open[title$='.nut']{border-color:#800000;}
 
 /**- Stan-*/
-.js-directory-link[title$='.stan']{border-color:#b2011d;}
+.js-navigation-open[title$='.stan']{border-color:#b2011d;}
 
 /**- Standard ML-*/
-.js-directory-link[title$='.ML']{border-color:#dc566d;}
-.js-directory-link[title$='.fun']{border-color:#dc566d;}
-.js-directory-link[title$='.sig']{border-color:#dc566d;}
-.js-directory-link[title$='.sml']{border-color:#dc566d;}
+.js-navigation-open[title$='.ML']{border-color:#dc566d;}
+.js-navigation-open[title$='.fun']{border-color:#dc566d;}
+.js-navigation-open[title$='.sig']{border-color:#dc566d;}
+.js-navigation-open[title$='.sml']{border-color:#dc566d;}
 
 /**- SuperCollider-*/
-.js-directory-link[title$='.sc']{border-color:#46390b;}
-.js-directory-link[title$='.scd']{border-color:#46390b;}
+.js-navigation-open[title$='.sc']{border-color:#46390b;}
+.js-navigation-open[title$='.scd']{border-color:#46390b;}
 
 /**- Swift-*/
-.js-directory-link[title$='.swift']{border-color:#ffac45;}
+.js-navigation-open[title$='.swift']{border-color:#ffac45;}
 
 /**- SystemVerilog-*/
-.js-directory-link[title$='.sv']{border-color:#DAE1C2;}
-.js-directory-link[title$='.svh']{border-color:#DAE1C2;}
-.js-directory-link[title$='.vh']{border-color:#DAE1C2;}
+.js-navigation-open[title$='.sv']{border-color:#DAE1C2;}
+.js-navigation-open[title$='.svh']{border-color:#DAE1C2;}
+.js-navigation-open[title$='.vh']{border-color:#DAE1C2;}
 
 /**- Tcl-*/
-.js-directory-link[title$='.tcl']{border-color:#e4cc98;}
-.js-directory-link[title$='.adp']{border-color:#e4cc98;}
-.js-directory-link[title$='.tm']{border-color:#e4cc98;}
+.js-navigation-open[title$='.tcl']{border-color:#e4cc98;}
+.js-navigation-open[title$='.adp']{border-color:#e4cc98;}
+.js-navigation-open[title$='.tm']{border-color:#e4cc98;}
 
 /**- TeX-*/
-.js-directory-link[title$='.tex']{border-color:#3D6117;}
-.js-directory-link[title$='.aux']{border-color:#3D6117;}
-.js-directory-link[title$='.bbx']{border-color:#3D6117;}
-.js-directory-link[title$='.bib']{border-color:#3D6117;}
-.js-directory-link[title$='.cbx']{border-color:#3D6117;}
-.js-directory-link[title$='.cls']{border-color:#3D6117;}
-.js-directory-link[title$='.dtx']{border-color:#3D6117;}
-.js-directory-link[title$='.ins']{border-color:#3D6117;}
-.js-directory-link[title$='.lbx']{border-color:#3D6117;}
-.js-directory-link[title$='.ltx']{border-color:#3D6117;}
-.js-directory-link[title$='.mkii']{border-color:#3D6117;}
-.js-directory-link[title$='.mkiv']{border-color:#3D6117;}
-.js-directory-link[title$='.mkvi']{border-color:#3D6117;}
-.js-directory-link[title$='.sty']{border-color:#3D6117;}
-.js-directory-link[title$='.toc']{border-color:#3D6117;}
+.js-navigation-open[title$='.tex']{border-color:#3D6117;}
+.js-navigation-open[title$='.aux']{border-color:#3D6117;}
+.js-navigation-open[title$='.bbx']{border-color:#3D6117;}
+.js-navigation-open[title$='.bib']{border-color:#3D6117;}
+.js-navigation-open[title$='.cbx']{border-color:#3D6117;}
+.js-navigation-open[title$='.cls']{border-color:#3D6117;}
+.js-navigation-open[title$='.dtx']{border-color:#3D6117;}
+.js-navigation-open[title$='.ins']{border-color:#3D6117;}
+.js-navigation-open[title$='.lbx']{border-color:#3D6117;}
+.js-navigation-open[title$='.ltx']{border-color:#3D6117;}
+.js-navigation-open[title$='.mkii']{border-color:#3D6117;}
+.js-navigation-open[title$='.mkiv']{border-color:#3D6117;}
+.js-navigation-open[title$='.mkvi']{border-color:#3D6117;}
+.js-navigation-open[title$='.sty']{border-color:#3D6117;}
+.js-navigation-open[title$='.toc']{border-color:#3D6117;}
 
 /**- Terra-*/
-.js-directory-link[title$='.t']{border-color:#00004c;}
+.js-navigation-open[title$='.t']{border-color:#00004c;}
 
 /**- Turing-*/
-.js-directory-link[title$='.t']{border-color:#45f715;}
-.js-directory-link[title$='.tu']{border-color:#45f715;}
+.js-navigation-open[title$='.t']{border-color:#45f715;}
+.js-navigation-open[title$='.tu']{border-color:#45f715;}
 
 /**- TypeScript-*/
-.js-directory-link[title$='.ts']{border-color:#2b7489;}
-.js-directory-link[title$='.tsx']{border-color:#2b7489;}
+.js-navigation-open[title$='.ts']{border-color:#2b7489;}
+.js-navigation-open[title$='.tsx']{border-color:#2b7489;}
 
 /**- Unified Parallel C-*/
-.js-directory-link[title$='.upc']{border-color:#4e3617;}
+.js-navigation-open[title$='.upc']{border-color:#4e3617;}
 
 /**- UnrealScript-*/
-.js-directory-link[title$='.uc']{border-color:#a54c4d;}
+.js-navigation-open[title$='.uc']{border-color:#a54c4d;}
 
 /**- VHDL-*/
-.js-directory-link[title$='.vhdl']{border-color:#adb2cb;}
-.js-directory-link[title$='.vhd']{border-color:#adb2cb;}
-.js-directory-link[title$='.vhf']{border-color:#adb2cb;}
-.js-directory-link[title$='.vhi']{border-color:#adb2cb;}
-.js-directory-link[title$='.vho']{border-color:#adb2cb;}
-.js-directory-link[title$='.vhs']{border-color:#adb2cb;}
-.js-directory-link[title$='.vht']{border-color:#adb2cb;}
-.js-directory-link[title$='.vhw']{border-color:#adb2cb;}
+.js-navigation-open[title$='.vhdl']{border-color:#adb2cb;}
+.js-navigation-open[title$='.vhd']{border-color:#adb2cb;}
+.js-navigation-open[title$='.vhf']{border-color:#adb2cb;}
+.js-navigation-open[title$='.vhi']{border-color:#adb2cb;}
+.js-navigation-open[title$='.vho']{border-color:#adb2cb;}
+.js-navigation-open[title$='.vhs']{border-color:#adb2cb;}
+.js-navigation-open[title$='.vht']{border-color:#adb2cb;}
+.js-navigation-open[title$='.vhw']{border-color:#adb2cb;}
 
 /**- Vala-*/
-.js-directory-link[title$='.vala']{border-color:#fbe5cd;}
-.js-directory-link[title$='.vapi']{border-color:#fbe5cd;}
+.js-navigation-open[title$='.vala']{border-color:#fbe5cd;}
+.js-navigation-open[title$='.vapi']{border-color:#fbe5cd;}
 
 /**- Verilog-*/
-.js-directory-link[title$='.v']{border-color:#b2b7f8;}
-.js-directory-link[title$='.veo']{border-color:#b2b7f8;}
+.js-navigation-open[title$='.v']{border-color:#b2b7f8;}
+.js-navigation-open[title$='.veo']{border-color:#b2b7f8;}
 
 /**- VimL-*/
-.js-directory-link[title$='.vim']{border-color:#199f4b;}
+.js-navigation-open[title$='.vim']{border-color:#199f4b;}
 
 /**- Visual Basic-*/
-.js-directory-link[title$='.vb']{border-color:#945db7;}
-.js-directory-link[title$='.bas']{border-color:#945db7;}
-.js-directory-link[title$='.cls']{border-color:#945db7;}
-.js-directory-link[title$='.frm']{border-color:#945db7;}
-.js-directory-link[title$='.frx']{border-color:#945db7;}
-.js-directory-link[title$='.vba']{border-color:#945db7;}
-.js-directory-link[title$='.vbhtml']{border-color:#945db7;}
-.js-directory-link[title$='.vbs']{border-color:#945db7;}
+.js-navigation-open[title$='.vb']{border-color:#945db7;}
+.js-navigation-open[title$='.bas']{border-color:#945db7;}
+.js-navigation-open[title$='.cls']{border-color:#945db7;}
+.js-navigation-open[title$='.frm']{border-color:#945db7;}
+.js-navigation-open[title$='.frx']{border-color:#945db7;}
+.js-navigation-open[title$='.vba']{border-color:#945db7;}
+.js-navigation-open[title$='.vbhtml']{border-color:#945db7;}
+.js-navigation-open[title$='.vbs']{border-color:#945db7;}
 
 /**- Volt-*/
-.js-directory-link[title$='.volt']{border-color:#1F1F1F;}
+.js-navigation-open[title$='.volt']{border-color:#1F1F1F;}
 
 /**- Vue-*/
-.js-directory-link[title$='.vue']{border-color:#2c3e50;}
+.js-navigation-open[title$='.vue']{border-color:#2c3e50;}
 
 /**- Web Ontology Language-*/
-.js-directory-link[title$='.owl']{border-color:#9cc9dd;}
+.js-navigation-open[title$='.owl']{border-color:#9cc9dd;}
 
 /**- World of Warcraft Addon Data-*/
-.js-directory-link[title$='.toc']{border-color:#e0b330;}
+.js-navigation-open[title$='.toc']{border-color:#e0b330;}
 
 /**- X10-*/
-.js-directory-link[title$='.x10']{border-color:#4B6BEF;}
+.js-navigation-open[title$='.x10']{border-color:#4B6BEF;}
 
 /**- XC-*/
-.js-directory-link[title$='.xc']{border-color:#99DA07;}
+.js-navigation-open[title$='.xc']{border-color:#99DA07;}
 
 /**- XQuery-*/
-.js-directory-link[title$='.xquery']{border-color:#5232e7;}
-.js-directory-link[title$='.xq']{border-color:#5232e7;}
-.js-directory-link[title$='.xql']{border-color:#5232e7;}
-.js-directory-link[title$='.xqm']{border-color:#5232e7;}
-.js-directory-link[title$='.xqy']{border-color:#5232e7;}
+.js-navigation-open[title$='.xquery']{border-color:#5232e7;}
+.js-navigation-open[title$='.xq']{border-color:#5232e7;}
+.js-navigation-open[title$='.xql']{border-color:#5232e7;}
+.js-navigation-open[title$='.xqm']{border-color:#5232e7;}
+.js-navigation-open[title$='.xqy']{border-color:#5232e7;}
 
 /**- XSLT-*/
-.js-directory-link[title$='.xslt']{border-color:#EB8CEB;}
-.js-directory-link[title$='.xsl']{border-color:#EB8CEB;}
+.js-navigation-open[title$='.xslt']{border-color:#EB8CEB;}
+.js-navigation-open[title$='.xsl']{border-color:#EB8CEB;}
 
 /**- Yacc-*/
-.js-directory-link[title$='.y']{border-color:#4B6C4B;}
-.js-directory-link[title$='.yacc']{border-color:#4B6C4B;}
-.js-directory-link[title$='.yy']{border-color:#4B6C4B;}
+.js-navigation-open[title$='.y']{border-color:#4B6C4B;}
+.js-navigation-open[title$='.yacc']{border-color:#4B6C4B;}
+.js-navigation-open[title$='.yy']{border-color:#4B6C4B;}
 
 /**- Zephir-*/
-.js-directory-link[title$='.zep']{border-color:#118f9e;}
+.js-navigation-open[title$='.zep']{border-color:#118f9e;}
 
 /**- eC-*/
-.js-directory-link[title$='.ec']{border-color:#913960;}
-.js-directory-link[title$='.eh']{border-color:#913960;}
+.js-navigation-open[title$='.ec']{border-color:#913960;}
+.js-navigation-open[title$='.eh']{border-color:#913960;}
 
 /**- nesC-*/
-.js-directory-link[title$='.nc']{border-color:#94B0C7;}
+.js-navigation-open[title$='.nc']{border-color:#94B0C7;}
 
 /**- ooc-*/
-.js-directory-link[title$='.ooc']{border-color:#b0b77e;}
+.js-navigation-open[title$='.ooc']{border-color:#b0b77e;}
 
 /**- reStructuredText-*/
-.js-directory-link[title$='.rst']{border-color:#B3BCBC;}
-.js-directory-link[title$='.rest']{border-color:#B3BCBC;}
-.js-directory-link[title$='.rest.txt']{border-color:#B3BCBC;}
-.js-directory-link[title$='.rst.txt']{border-color:#B3BCBC;}
+.js-navigation-open[title$='.rst']{border-color:#B3BCBC;}
+.js-navigation-open[title$='.rest']{border-color:#B3BCBC;}
+.js-navigation-open[title$='.rest.txt']{border-color:#B3BCBC;}
+.js-navigation-open[title$='.rst.txt']{border-color:#B3BCBC;}
 
 /**- wisp-*/
-.js-directory-link[title$='.wisp']{border-color:#7582D1;}
+.js-navigation-open[title$='.wisp']{border-color:#7582D1;}
 
 /**- xBase-*/
-.js-directory-link[title$='.prg']{border-color:#403a40;}
-.js-directory-link[title$='.ch']{border-color:#403a40;}
-.js-directory-link[title$='.prw']{border-color:#403a40;}
+.js-navigation-open[title$='.prg']{border-color:#403a40;}
+.js-navigation-open[title$='.ch']{border-color:#403a40;}
+.js-navigation-open[title$='.prw']{border-color:#403a40;}
 }

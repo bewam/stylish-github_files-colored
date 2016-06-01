@@ -34,7 +34,6 @@ var languages = {
 };
 const fileHeader = "head.css.tmpl";
 
-
 needDownload(languages.localFile).then(function (successMessage) {
     console.log(successMessage);
     download(languages.remoteFile, languages.localFile).then(function (
