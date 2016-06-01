@@ -23,7 +23,7 @@ const settings = {
         name: 'stylish-github_files-colored.css',
         header: "header.css.tmpl",
         bottom: "footer.css.tmpl",
-        extensionRule: '.js-directory-link[title$=\'%s\']',
+        extensionRule: '.js-navigation-open[title$=\'%s\']',
     },
     showDate: true,
 };
