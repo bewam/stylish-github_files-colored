@@ -1,4 +1,4 @@
-/* Mon, 06 Jun 2016 15:43:02 GMT */
+/* Tue, 28 Jun 2016 08:11:01 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -347,6 +347,31 @@
 /**- GraphQL-*/
 .js-navigation-open[title$='.graphql']{border-color:#E535AB;}
 
+/**- Groff-*/
+.js-navigation-open[title$='.man']{border-color:#ecdebe;}
+.js-navigation-open[title$='.1']{border-color:#ecdebe;}
+.js-navigation-open[title$='.1in']{border-color:#ecdebe;}
+.js-navigation-open[title$='.1m']{border-color:#ecdebe;}
+.js-navigation-open[title$='.1x']{border-color:#ecdebe;}
+.js-navigation-open[title$='.2']{border-color:#ecdebe;}
+.js-navigation-open[title$='.3']{border-color:#ecdebe;}
+.js-navigation-open[title$='.3in']{border-color:#ecdebe;}
+.js-navigation-open[title$='.3m']{border-color:#ecdebe;}
+.js-navigation-open[title$='.3qt']{border-color:#ecdebe;}
+.js-navigation-open[title$='.3x']{border-color:#ecdebe;}
+.js-navigation-open[title$='.4']{border-color:#ecdebe;}
+.js-navigation-open[title$='.5']{border-color:#ecdebe;}
+.js-navigation-open[title$='.6']{border-color:#ecdebe;}
+.js-navigation-open[title$='.7']{border-color:#ecdebe;}
+.js-navigation-open[title$='.8']{border-color:#ecdebe;}
+.js-navigation-open[title$='.9']{border-color:#ecdebe;}
+.js-navigation-open[title$='.l']{border-color:#ecdebe;}
+.js-navigation-open[title$='.me']{border-color:#ecdebe;}
+.js-navigation-open[title$='.ms']{border-color:#ecdebe;}
+.js-navigation-open[title$='.n']{border-color:#ecdebe;}
+.js-navigation-open[title$='.rno']{border-color:#ecdebe;}
+.js-navigation-open[title$='.roff']{border-color:#ecdebe;}
+
 /**- Groovy-*/
 .js-navigation-open[title$='.groovy']{border-color:#e69f56;}
 .js-navigation-open[title$='.grt']{border-color:#e69f56;}
@@ -671,6 +696,7 @@
 .js-navigation-open[title$='.dpr']{border-color:#E3F171;}
 .js-navigation-open[title$='.inc']{border-color:#E3F171;}
 .js-navigation-open[title$='.lpr']{border-color:#E3F171;}
+.js-navigation-open[title$='.pascal']{border-color:#E3F171;}
 .js-navigation-open[title$='.pp']{border-color:#E3F171;}
 
 /**- Perl-*/
@@ -826,6 +852,9 @@
 .js-navigation-open[title$='.sqf']{border-color:#3F3F3F;}
 .js-navigation-open[title$='.hqf']{border-color:#3F3F3F;}
 
+/**- SRecode Template-*/
+.js-navigation-open[title$='.srt']{border-color:#348a34;}
+
 /**- SaltStack-*/
 .js-navigation-open[title$='.sls']{border-color:#646464;}
 
@@ -928,8 +957,8 @@
 .js-navigation-open[title$='.t']{border-color:#00004c;}
 
 /**- Turing-*/
-.js-navigation-open[title$='.t']{border-color:#45f715;}
-.js-navigation-open[title$='.tu']{border-color:#45f715;}
+.js-navigation-open[title$='.t']{border-color:#cf142b;}
+.js-navigation-open[title$='.tu']{border-color:#cf142b;}
 
 /**- TypeScript-*/
 .js-navigation-open[title$='.ts']{border-color:#2b7489;}
