@@ -1,4 +1,4 @@
-/* Tue, 28 Jun 2016 08:11:01 GMT */
+/* Wed, 29 Jun 2016 08:11:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -238,6 +238,9 @@
 
 /**- EJS-*/
 .js-navigation-open[title$='.ejs']{border-color:#a91e50;}
+
+/**- EQ-*/
+.js-navigation-open[title$='.eq']{border-color:#a78649;}
 
 /**- Eagle-*/
 .js-navigation-open[title$='.sch']{border-color:#814C05;}
