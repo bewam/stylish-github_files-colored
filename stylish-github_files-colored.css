@@ -1,4 +1,4 @@
-/* Fri, 15 Jul 2016 08:11:02 GMT */
+/* Mon, 25 Jul 2016 10:06:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -729,6 +729,12 @@
 
 /**- PogoScript-*/
 .js-navigation-open[title$='.pogo']{border-color:#d80074;}
+
+/**- PowerBuilder-*/
+.js-navigation-open[title$='.pbt']{border-color:#8f0f8d;}
+.js-navigation-open[title$='.sra']{border-color:#8f0f8d;}
+.js-navigation-open[title$='.sru']{border-color:#8f0f8d;}
+.js-navigation-open[title$='.srw']{border-color:#8f0f8d;}
 
 /**- Processing-*/
 .js-navigation-open[title$='.pde']{border-color:#0096D8;}
