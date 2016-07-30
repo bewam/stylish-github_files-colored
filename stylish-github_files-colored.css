@@ -1,4 +1,4 @@
-/* Mon, 25 Jul 2016 10:06:02 GMT */
+/* Sat, 30 Jul 2016 15:43:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -374,6 +374,7 @@
 .js-navigation-open[title$='.n']{border-color:#ecdebe;}
 .js-navigation-open[title$='.rno']{border-color:#ecdebe;}
 .js-navigation-open[title$='.roff']{border-color:#ecdebe;}
+.js-navigation-open[title$='.tmac']{border-color:#ecdebe;}
 
 /**- Groovy-*/
 .js-navigation-open[title$='.groovy']{border-color:#e69f56;}
@@ -788,6 +789,10 @@
 
 /**- RAML-*/
 .js-navigation-open[title$='.raml']{border-color:#77d9fb;}
+
+/**- RUNOFF-*/
+.js-navigation-open[title$='.rnh']{border-color:#665a4e;}
+.js-navigation-open[title$='.rno']{border-color:#665a4e;}
 
 /**- Racket-*/
 .js-navigation-open[title$='.rkt']{border-color:#22228f;}
