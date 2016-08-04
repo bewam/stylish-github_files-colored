@@ -1,4 +1,4 @@
-/* Sat, 30 Jul 2016 15:43:02 GMT */
+/* Thu, 04 Aug 2016 08:11:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -731,6 +731,10 @@
 /**- PogoScript-*/
 .js-navigation-open[title$='.pogo']{border-color:#d80074;}
 
+/**- PostScript-*/
+.js-navigation-open[title$='.ps']{border-color:#da291c;}
+.js-navigation-open[title$='.eps']{border-color:#da291c;}
+
 /**- PowerBuilder-*/
 .js-navigation-open[title$='.pbt']{border-color:#8f0f8d;}
 .js-navigation-open[title$='.sra']{border-color:#8f0f8d;}
@@ -811,8 +815,8 @@
 .js-navigation-open[title$='.rebol']{border-color:#358a5b;}
 
 /**- Red-*/
-.js-navigation-open[title$='.red']{border-color:#ee0000;}
-.js-navigation-open[title$='.reds']{border-color:#ee0000;}
+.js-navigation-open[title$='.red']{border-color:#f50000;}
+.js-navigation-open[title$='.reds']{border-color:#f50000;}
 
 /**- Ren'Py-*/
 .js-navigation-open[title$='.rpy']{border-color:#ff7f7f;}
@@ -865,9 +869,9 @@
 .js-navigation-open[title$='.sass']{border-color:#CF649A;}
 
 /**- Scala-*/
-.js-navigation-open[title$='.scala']{border-color:#DC322F;}
-.js-navigation-open[title$='.sbt']{border-color:#DC322F;}
-.js-navigation-open[title$='.sc']{border-color:#DC322F;}
+.js-navigation-open[title$='.scala']{border-color:#c22d40;}
+.js-navigation-open[title$='.sbt']{border-color:#c22d40;}
+.js-navigation-open[title$='.sc']{border-color:#c22d40;}
 
 /**- Scheme-*/
 .js-navigation-open[title$='.scm']{border-color:#1e4aec;}
