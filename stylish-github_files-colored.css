@@ -1,4 +1,4 @@
-/* Thu, 04 Aug 2016 08:11:02 GMT */
+/* Sat, 13 Aug 2016 15:43:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -39,6 +39,10 @@
 /**- APL-*/
 .js-navigation-open[title$='.apl']{border-color:#5A8164;}
 .js-navigation-open[title$='.dyalog']{border-color:#5A8164;}
+
+/**- ASN.1-*/
+.js-navigation-open[title$='.asn']{border-color:#aeead0;}
+.js-navigation-open[title$='.asn1']{border-color:#aeead0;}
 
 /**- ASP-*/
 .js-navigation-open[title$='.asp']{border-color:#6a40fd;}
