@@ -1,4 +1,4 @@
-/* Sat, 13 Aug 2016 15:43:02 GMT */
+/* Sat, 20 Aug 2016 08:11:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -18,6 +18,10 @@
   .js-navigation-open[title$='.xml']{border-color: #e44b23;}
   /** js color */
   .js-navigation-open[title$='.json']{border-color:#f1e05a;}
+
+/**- 1C Enterprise-*/
+.js-navigation-open[title$='.bsl']{border-color:#814CCC;}
+.js-navigation-open[title$='.os']{border-color:#814CCC;}
 
 /**- ABAP-*/
 .js-navigation-open[title$='.abap']{border-color:#E8274B;}
