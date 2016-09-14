@@ -1,4 +1,4 @@
-/* Mon, 05 Sep 2016 08:11:02 GMT */
+/* Wed, 14 Sep 2016 08:11:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -786,6 +786,7 @@
 .js-navigation-open[title$='.pyt']{border-color:#3572A5;}
 .js-navigation-open[title$='.pyw']{border-color:#3572A5;}
 .js-navigation-open[title$='.rpy']{border-color:#3572A5;}
+.js-navigation-open[title$='.spec']{border-color:#3572A5;}
 .js-navigation-open[title$='.tac']{border-color:#3572A5;}
 .js-navigation-open[title$='.wsgi']{border-color:#3572A5;}
 .js-navigation-open[title$='.xpy']{border-color:#3572A5;}
@@ -850,6 +851,7 @@
 .js-navigation-open[title$='.rbx']{border-color:#701516;}
 .js-navigation-open[title$='.ru']{border-color:#701516;}
 .js-navigation-open[title$='.ruby']{border-color:#701516;}
+.js-navigation-open[title$='.spec']{border-color:#701516;}
 .js-navigation-open[title$='.thor']{border-color:#701516;}
 .js-navigation-open[title$='.watchr']{border-color:#701516;}
 
