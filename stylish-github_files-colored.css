@@ -1,4 +1,4 @@
-/* Sat, 24 Sep 2016 08:11:02 GMT */
+/* Mon, 10 Oct 2016 08:11:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -43,10 +43,6 @@
 /**- APL-*/
 .js-navigation-open[title$='.apl']{border-color:#5A8164;}
 .js-navigation-open[title$='.dyalog']{border-color:#5A8164;}
-
-/**- ASN.1-*/
-.js-navigation-open[title$='.asn']{border-color:#aeead0;}
-.js-navigation-open[title$='.asn1']{border-color:#aeead0;}
 
 /**- ASP-*/
 .js-navigation-open[title$='.asp']{border-color:#6a40fd;}
@@ -554,6 +550,7 @@
 /**- Makefile-*/
 .js-navigation-open[title$='.mak']{border-color:#427819;}
 .js-navigation-open[title$='.d']{border-color:#427819;}
+.js-navigation-open[title$='.make']{border-color:#427819;}
 .js-navigation-open[title$='.mk']{border-color:#427819;}
 .js-navigation-open[title$='.mkfile']{border-color:#427819;}
 
