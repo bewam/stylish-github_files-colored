@@ -1,4 +1,4 @@
-/* Mon, 10 Oct 2016 08:11:02 GMT */
+/* Tue, 11 Oct 2016 08:11:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -465,19 +465,6 @@
 .js-navigation-open[title$='.pac']{border-color:#f1e05a;}
 .js-navigation-open[title$='.sjs']{border-color:#f1e05a;}
 .js-navigation-open[title$='.ssjs']{border-color:#f1e05a;}
-.js-navigation-open[title$='.sublime-build']{border-color:#f1e05a;}
-.js-navigation-open[title$='.sublime-commands']{border-color:#f1e05a;}
-.js-navigation-open[title$='.sublime-completions']{border-color:#f1e05a;}
-.js-navigation-open[title$='.sublime-keymap']{border-color:#f1e05a;}
-.js-navigation-open[title$='.sublime-macro']{border-color:#f1e05a;}
-.js-navigation-open[title$='.sublime-menu']{border-color:#f1e05a;}
-.js-navigation-open[title$='.sublime-mousemap']{border-color:#f1e05a;}
-.js-navigation-open[title$='.sublime-project']{border-color:#f1e05a;}
-.js-navigation-open[title$='.sublime-settings']{border-color:#f1e05a;}
-.js-navigation-open[title$='.sublime-theme']{border-color:#f1e05a;}
-.js-navigation-open[title$='.sublime-workspace']{border-color:#f1e05a;}
-.js-navigation-open[title$='.sublime_metrics']{border-color:#f1e05a;}
-.js-navigation-open[title$='.sublime_session']{border-color:#f1e05a;}
 .js-navigation-open[title$='.xsjs']{border-color:#f1e05a;}
 .js-navigation-open[title$='.xsjslib']{border-color:#f1e05a;}
 
@@ -944,6 +931,12 @@
 .js-navigation-open[title$='.sv']{border-color:#DAE1C2;}
 .js-navigation-open[title$='.svh']{border-color:#DAE1C2;}
 .js-navigation-open[title$='.vh']{border-color:#DAE1C2;}
+
+/**- TI Program-*/
+.js-navigation-open[title$='.8xp']{border-color:#A0AA87;}
+.js-navigation-open[title$='.8xk']{border-color:#A0AA87;}
+.js-navigation-open[title$='.8xk.txt']{border-color:#A0AA87;}
+.js-navigation-open[title$='.8xp.txt']{border-color:#A0AA87;}
 
 /**- Tcl-*/
 .js-navigation-open[title$='.tcl']{border-color:#e4cc98;}
