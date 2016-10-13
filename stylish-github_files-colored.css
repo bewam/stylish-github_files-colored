@@ -1,4 +1,4 @@
-/* Wed, 12 Oct 2016 15:43:02 GMT */
+/* Thu, 13 Oct 2016 15:43:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -72,9 +72,6 @@
 /**- Alloy-*/
 .js-navigation-open[title$='.als']{border-color:#64C800;}
 
-/**- Apollo Guidance Computer-*/
-.js-navigation-open[title$='.agc']{border-color:#0B3D91;}
-
 /**- AppleScript-*/
 .js-navigation-open[title$='.applescript']{border-color:#101F1F;}
 .js-navigation-open[title$='.scpt']{border-color:#101F1F;}
@@ -104,9 +101,6 @@
 /**- Batchfile-*/
 .js-navigation-open[title$='.bat']{border-color:#C1F12E;}
 .js-navigation-open[title$='.cmd']{border-color:#C1F12E;}
-
-/**- Bison-*/
-.js-navigation-open[title$='.bison']{border-color:#6A463F;}
 
 /**- BlitzMax-*/
 .js-navigation-open[title$='.bmx']{border-color:#cd6400;}
@@ -189,9 +183,6 @@
 .js-navigation-open[title$='.cfm']{border-color:#ed2cd6;}
 .js-navigation-open[title$='.cfml']{border-color:#ed2cd6;}
 
-/**- ColdFusion CFC-*/
-.js-navigation-open[title$='.cfc']{border-color:#ed2cd6;}
-
 /**- Common Lisp-*/
 .js-navigation-open[title$='.lisp']{border-color:#3fb68b;}
 .js-navigation-open[title$='.asd']{border-color:#3fb68b;}
@@ -241,9 +232,6 @@
 /**- ECL-*/
 .js-navigation-open[title$='.ecl']{border-color:#8a1267;}
 .js-navigation-open[title$='.eclxml']{border-color:#8a1267;}
-
-/**- EJS-*/
-.js-navigation-open[title$='.ejs']{border-color:#a91e50;}
 
 /**- EQ-*/
 .js-navigation-open[title$='.eq']{border-color:#a78649;}
@@ -398,14 +386,6 @@
 .js-navigation-open[title$='.hh']{border-color:#878787;}
 .js-navigation-open[title$='.php']{border-color:#878787;}
 
-/**- Haml-*/
-.js-navigation-open[title$='.haml']{border-color:#ECE2A9;}
-.js-navigation-open[title$='.haml.deface']{border-color:#ECE2A9;}
-
-/**- Handlebars-*/
-.js-navigation-open[title$='.handlebars']{border-color:#01a9d6;}
-.js-navigation-open[title$='.hbs']{border-color:#01a9d6;}
-
 /**- Harbour-*/
 .js-navigation-open[title$='.hb']{border-color:#0e60e3;}
 
@@ -435,10 +415,6 @@
 
 /**- J-*/
 .js-navigation-open[title$='.ijs']{border-color:#9EEDFF;}
-
-/**- JFlex-*/
-.js-navigation-open[title$='.flex']{border-color:#DBCA00;}
-.js-navigation-open[title$='.jflex']{border-color:#DBCA00;}
 
 /**- JSONiq-*/
 .js-navigation-open[title$='.jq']{border-color:#40d47e;}
@@ -481,9 +457,6 @@
 .js-navigation-open[title$='.ktm']{border-color:#F18E33;}
 .js-navigation-open[title$='.kts']{border-color:#F18E33;}
 
-/**- LFE-*/
-.js-navigation-open[title$='.lfe']{border-color:#004200;}
-
 /**- LLVM-*/
 .js-navigation-open[title$='.ll']{border-color:#185619;}
 
@@ -500,12 +473,6 @@
 .js-navigation-open[title$='.lasso8']{border-color:#999999;}
 .js-navigation-open[title$='.lasso9']{border-color:#999999;}
 .js-navigation-open[title$='.ldml']{border-color:#999999;}
-
-/**- Latte-*/
-.js-navigation-open[title$='.latte']{border-color:#A8FF97;}
-
-/**- Less-*/
-.js-navigation-open[title$='.less']{border-color:#A1D9A1;}
 
 /**- Lex-*/
 .js-navigation-open[title$='.l']{border-color:#DBCA00;}
@@ -605,11 +572,6 @@
 
 /**- Nu-*/
 .js-navigation-open[title$='.nu']{border-color:#c9df40;}
-
-/**- NumPy-*/
-.js-navigation-open[title$='.numpy']{border-color:#9C8AF9;}
-.js-navigation-open[title$='.numpyw']{border-color:#9C8AF9;}
-.js-navigation-open[title$='.numsc']{border-color:#9C8AF9;}
 
 /**- OCaml-*/
 .js-navigation-open[title$='.ml']{border-color:#3be133;}
@@ -845,9 +807,6 @@
 /**- SAS-*/
 .js-navigation-open[title$='.sas']{border-color:#B34936;}
 
-/**- SCSS-*/
-.js-navigation-open[title$='.scss']{border-color:#CF649A;}
-
 /**- SQF-*/
 .js-navigation-open[title$='.sqf']{border-color:#3F3F3F;}
 .js-navigation-open[title$='.hqf']{border-color:#3F3F3F;}
@@ -857,9 +816,6 @@
 
 /**- SaltStack-*/
 .js-navigation-open[title$='.sls']{border-color:#646464;}
-
-/**- Sass-*/
-.js-navigation-open[title$='.sass']{border-color:#CF649A;}
 
 /**- Scala-*/
 .js-navigation-open[title$='.scala']{border-color:#c22d40;}
@@ -894,9 +850,6 @@
 
 /**- Slash-*/
 .js-navigation-open[title$='.sl']{border-color:#007eff;}
-
-/**- Slim-*/
-.js-navigation-open[title$='.slim']{border-color:#ff8f77;}
 
 /**- Smalltalk-*/
 .js-navigation-open[title$='.st']{border-color:#596706;}
@@ -969,9 +922,6 @@
 /**- TypeScript-*/
 .js-navigation-open[title$='.ts']{border-color:#2b7489;}
 .js-navigation-open[title$='.tsx']{border-color:#2b7489;}
-
-/**- Unified Parallel C-*/
-.js-navigation-open[title$='.upc']{border-color:#4e3617;}
 
 /**- UnrealScript-*/
 .js-navigation-open[title$='.uc']{border-color:#a54c4d;}
