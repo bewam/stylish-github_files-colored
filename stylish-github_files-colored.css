@@ -1,4 +1,4 @@
-/* Sun, 23 Oct 2016 08:11:02 GMT */
+/* Wed, 26 Oct 2016 08:11:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -496,6 +496,14 @@
 /**- MAXScript-*/
 .js-navigation-open[title$='.ms']{border-color:#00a6a6;}
 .js-navigation-open[title$='.mcr']{border-color:#00a6a6;}
+
+/**- MQL4-*/
+.js-navigation-open[title$='.mq4']{border-color:#62A8D6;}
+.js-navigation-open[title$='.mqh']{border-color:#62A8D6;}
+
+/**- MQL5-*/
+.js-navigation-open[title$='.mq5']{border-color:#4A76B8;}
+.js-navigation-open[title$='.mqh']{border-color:#4A76B8;}
 
 /**- MTML-*/
 .js-navigation-open[title$='.mtml']{border-color:#b7e1f4;}
