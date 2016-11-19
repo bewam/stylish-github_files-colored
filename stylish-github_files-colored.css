@@ -1,4 +1,4 @@
-/* Sun, 06 Nov 2016 09:11:02 GMT */
+/* Sat, 19 Nov 2016 09:11:01 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -734,6 +734,7 @@
 .js-navigation-open[title$='.fcgi']{border-color:#3572A5;}
 .js-navigation-open[title$='.gyp']{border-color:#3572A5;}
 .js-navigation-open[title$='.lmi']{border-color:#3572A5;}
+.js-navigation-open[title$='.py3']{border-color:#3572A5;}
 .js-navigation-open[title$='.pyde']{border-color:#3572A5;}
 .js-navigation-open[title$='.pyp']{border-color:#3572A5;}
 .js-navigation-open[title$='.pyt']{border-color:#3572A5;}
