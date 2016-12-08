@@ -1,4 +1,4 @@
-/* Wed, 07 Dec 2016 09:11:01 GMT */
+/* Thu, 08 Dec 2016 09:11:01 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -733,6 +733,7 @@
 .js-navigation-open[title$='.cgi']{border-color:#3572A5;}
 .js-navigation-open[title$='.fcgi']{border-color:#3572A5;}
 .js-navigation-open[title$='.gyp']{border-color:#3572A5;}
+.js-navigation-open[title$='.gypi']{border-color:#3572A5;}
 .js-navigation-open[title$='.lmi']{border-color:#3572A5;}
 .js-navigation-open[title$='.py3']{border-color:#3572A5;}
 .js-navigation-open[title$='.pyde']{border-color:#3572A5;}
@@ -769,6 +770,9 @@
 
 /**- Ragel in Ruby Host-*/
 .js-navigation-open[title$='.rl']{border-color:#9d5200;}
+
+/**- Rascal-*/
+.js-navigation-open[title$='.rsc']{border-color:#fffaa0;}
 
 /**- Rebol-*/
 .js-navigation-open[title$='.reb']{border-color:#358a5b;}
