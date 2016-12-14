@@ -1,4 +1,4 @@
-/* Tue, 13 Dec 2016 09:11:02 GMT */
+/* Wed, 14 Dec 2016 09:11:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -200,9 +200,6 @@
 /**- Crystal-*/
 .js-navigation-open[title$='.cr']{border-color:#776791;}
 
-/**- Cucumber-*/
-.js-navigation-open[title$='.feature']{border-color:#5B2063;}
-
 /**- Cuda-*/
 .js-navigation-open[title$='.cu']{border-color:#3A4E3A;}
 .js-navigation-open[title$='.cuh']{border-color:#3A4E3A;}
@@ -277,16 +274,6 @@
 .js-navigation-open[title$='.fx']{border-color:#88ccff;}
 .js-navigation-open[title$='.flux']{border-color:#88ccff;}
 
-/**- FORTRAN-*/
-.js-navigation-open[title$='.f90']{border-color:#4d41b1;}
-.js-navigation-open[title$='.f']{border-color:#4d41b1;}
-.js-navigation-open[title$='.f03']{border-color:#4d41b1;}
-.js-navigation-open[title$='.f08']{border-color:#4d41b1;}
-.js-navigation-open[title$='.f77']{border-color:#4d41b1;}
-.js-navigation-open[title$='.f95']{border-color:#4d41b1;}
-.js-navigation-open[title$='.for']{border-color:#4d41b1;}
-.js-navigation-open[title$='.fpp']{border-color:#4d41b1;}
-
 /**- Factor-*/
 .js-navigation-open[title$='.factor']{border-color:#636746;}
 
@@ -307,6 +294,16 @@
 .js-navigation-open[title$='.frt']{border-color:#341708;}
 .js-navigation-open[title$='.fs']{border-color:#341708;}
 
+/**- Fortran-*/
+.js-navigation-open[title$='.f90']{border-color:#4d41b1;}
+.js-navigation-open[title$='.f']{border-color:#4d41b1;}
+.js-navigation-open[title$='.f03']{border-color:#4d41b1;}
+.js-navigation-open[title$='.f08']{border-color:#4d41b1;}
+.js-navigation-open[title$='.f77']{border-color:#4d41b1;}
+.js-navigation-open[title$='.f95']{border-color:#4d41b1;}
+.js-navigation-open[title$='.for']{border-color:#4d41b1;}
+.js-navigation-open[title$='.fpp']{border-color:#4d41b1;}
+
 /**- FreeMarker-*/
 .js-navigation-open[title$='.ftl']{border-color:#0050b2;}
 
@@ -315,6 +312,9 @@
 
 /**- Game Maker Language-*/
 .js-navigation-open[title$='.gml']{border-color:#8fb200;}
+
+/**- Gherkin-*/
+.js-navigation-open[title$='.feature']{border-color:#5B2063;}
 
 /**- Glyph-*/
 .js-navigation-open[title$='.glf']{border-color:#e4cc98;}
@@ -340,32 +340,6 @@
 
 /**- Grammatical Framework-*/
 .js-navigation-open[title$='.gf']{border-color:#79aa7a;}
-
-/**- Groff-*/
-.js-navigation-open[title$='.man']{border-color:#ecdebe;}
-.js-navigation-open[title$='.1']{border-color:#ecdebe;}
-.js-navigation-open[title$='.1in']{border-color:#ecdebe;}
-.js-navigation-open[title$='.1m']{border-color:#ecdebe;}
-.js-navigation-open[title$='.1x']{border-color:#ecdebe;}
-.js-navigation-open[title$='.2']{border-color:#ecdebe;}
-.js-navigation-open[title$='.3']{border-color:#ecdebe;}
-.js-navigation-open[title$='.3in']{border-color:#ecdebe;}
-.js-navigation-open[title$='.3m']{border-color:#ecdebe;}
-.js-navigation-open[title$='.3qt']{border-color:#ecdebe;}
-.js-navigation-open[title$='.3x']{border-color:#ecdebe;}
-.js-navigation-open[title$='.4']{border-color:#ecdebe;}
-.js-navigation-open[title$='.5']{border-color:#ecdebe;}
-.js-navigation-open[title$='.6']{border-color:#ecdebe;}
-.js-navigation-open[title$='.7']{border-color:#ecdebe;}
-.js-navigation-open[title$='.8']{border-color:#ecdebe;}
-.js-navigation-open[title$='.9']{border-color:#ecdebe;}
-.js-navigation-open[title$='.l']{border-color:#ecdebe;}
-.js-navigation-open[title$='.me']{border-color:#ecdebe;}
-.js-navigation-open[title$='.ms']{border-color:#ecdebe;}
-.js-navigation-open[title$='.n']{border-color:#ecdebe;}
-.js-navigation-open[title$='.rno']{border-color:#ecdebe;}
-.js-navigation-open[title$='.roff']{border-color:#ecdebe;}
-.js-navigation-open[title$='.tmac']{border-color:#ecdebe;}
 
 /**- Groovy-*/
 .js-navigation-open[title$='.groovy']{border-color:#e69f56;}
@@ -568,7 +542,7 @@
 .js-navigation-open[title$='.nginxconf']{border-color:#9469E9;}
 .js-navigation-open[title$='.vhost']{border-color:#9469E9;}
 
-/**- Nimrod-*/
+/**- Nim-*/
 .js-navigation-open[title$='.nim']{border-color:#37775b;}
 .js-navigation-open[title$='.nimrod']{border-color:#37775b;}
 
@@ -768,7 +742,7 @@
 .js-navigation-open[title$='.rktl']{border-color:#22228f;}
 .js-navigation-open[title$='.scrbl']{border-color:#22228f;}
 
-/**- Ragel in Ruby Host-*/
+/**- Ragel-*/
 .js-navigation-open[title$='.rl']{border-color:#9d5200;}
 
 /**- Rascal-*/
@@ -787,6 +761,32 @@
 
 /**- Ren'Py-*/
 .js-navigation-open[title$='.rpy']{border-color:#ff7f7f;}
+
+/**- Roff-*/
+.js-navigation-open[title$='.man']{border-color:#ecdebe;}
+.js-navigation-open[title$='.1']{border-color:#ecdebe;}
+.js-navigation-open[title$='.1in']{border-color:#ecdebe;}
+.js-navigation-open[title$='.1m']{border-color:#ecdebe;}
+.js-navigation-open[title$='.1x']{border-color:#ecdebe;}
+.js-navigation-open[title$='.2']{border-color:#ecdebe;}
+.js-navigation-open[title$='.3']{border-color:#ecdebe;}
+.js-navigation-open[title$='.3in']{border-color:#ecdebe;}
+.js-navigation-open[title$='.3m']{border-color:#ecdebe;}
+.js-navigation-open[title$='.3qt']{border-color:#ecdebe;}
+.js-navigation-open[title$='.3x']{border-color:#ecdebe;}
+.js-navigation-open[title$='.4']{border-color:#ecdebe;}
+.js-navigation-open[title$='.5']{border-color:#ecdebe;}
+.js-navigation-open[title$='.6']{border-color:#ecdebe;}
+.js-navigation-open[title$='.7']{border-color:#ecdebe;}
+.js-navigation-open[title$='.8']{border-color:#ecdebe;}
+.js-navigation-open[title$='.9']{border-color:#ecdebe;}
+.js-navigation-open[title$='.l']{border-color:#ecdebe;}
+.js-navigation-open[title$='.me']{border-color:#ecdebe;}
+.js-navigation-open[title$='.ms']{border-color:#ecdebe;}
+.js-navigation-open[title$='.n']{border-color:#ecdebe;}
+.js-navigation-open[title$='.rno']{border-color:#ecdebe;}
+.js-navigation-open[title$='.roff']{border-color:#ecdebe;}
+.js-navigation-open[title$='.tmac']{border-color:#ecdebe;}
 
 /**- Rouge-*/
 .js-navigation-open[title$='.rg']{border-color:#cc0088;}
@@ -957,7 +957,7 @@
 .js-navigation-open[title$='.v']{border-color:#b2b7f8;}
 .js-navigation-open[title$='.veo']{border-color:#b2b7f8;}
 
-/**- VimL-*/
+/**- Vim script-*/
 .js-navigation-open[title$='.vim']{border-color:#199f4b;}
 
 /**- Visual Basic-*/
