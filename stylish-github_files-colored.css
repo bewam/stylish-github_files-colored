@@ -1,4 +1,4 @@
-/* Fri, 16 Dec 2016 09:11:02 GMT */
+/* Wed, 04 Jan 2017 09:11:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -139,6 +139,7 @@
 .js-navigation-open[title$='.inc']{border-color:#f34b7d;}
 .js-navigation-open[title$='.inl']{border-color:#f34b7d;}
 .js-navigation-open[title$='.ipp']{border-color:#f34b7d;}
+.js-navigation-open[title$='.re']{border-color:#f34b7d;}
 .js-navigation-open[title$='.tcc']{border-color:#f34b7d;}
 .js-navigation-open[title$='.tpp']{border-color:#f34b7d;}
 
@@ -312,6 +313,9 @@
 
 /**- Game Maker Language-*/
 .js-navigation-open[title$='.gml']{border-color:#8fb200;}
+
+/**- Genie-*/
+.js-navigation-open[title$='.gs']{border-color:#fb855d;}
 
 /**- Gherkin-*/
 .js-navigation-open[title$='.feature']{border-color:#5B2063;}
