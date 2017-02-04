@@ -1,4 +1,4 @@
-/* Sun, 15 Jan 2017 09:11:02 GMT */
+/* Sat, 04 Feb 2017 09:11:01 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -352,13 +352,13 @@
 .js-navigation-open[title$='.gvy']{border-color:#e69f56;}
 
 /**- HTML-*/
-.js-navigation-open[title$='.html']{border-color:#e44b23;}
-.js-navigation-open[title$='.htm']{border-color:#e44b23;}
-.js-navigation-open[title$='.html.hl']{border-color:#e44b23;}
-.js-navigation-open[title$='.inc']{border-color:#e44b23;}
-.js-navigation-open[title$='.st']{border-color:#e44b23;}
-.js-navigation-open[title$='.xht']{border-color:#e44b23;}
-.js-navigation-open[title$='.xhtml']{border-color:#e44b23;}
+.js-navigation-open[title$='.html']{border-color:#e34c26;}
+.js-navigation-open[title$='.htm']{border-color:#e34c26;}
+.js-navigation-open[title$='.html.hl']{border-color:#e34c26;}
+.js-navigation-open[title$='.inc']{border-color:#e34c26;}
+.js-navigation-open[title$='.st']{border-color:#e34c26;}
+.js-navigation-open[title$='.xht']{border-color:#e34c26;}
+.js-navigation-open[title$='.xhtml']{border-color:#e34c26;}
 
 /**- Hack-*/
 .js-navigation-open[title$='.hh']{border-color:#878787;}
@@ -462,6 +462,8 @@
 
 /**- LookML-*/
 .js-navigation-open[title$='.lookml']{border-color:#652B81;}
+.js-navigation-open[title$='.model.lkml']{border-color:#652B81;}
+.js-navigation-open[title$='.view.lkml']{border-color:#652B81;}
 
 /**- Lua-*/
 .js-navigation-open[title$='.lua']{border-color:#000080;}
@@ -679,6 +681,11 @@
 .js-navigation-open[title$='.sra']{border-color:#8f0f8d;}
 .js-navigation-open[title$='.sru']{border-color:#8f0f8d;}
 .js-navigation-open[title$='.srw']{border-color:#8f0f8d;}
+
+/**- PowerShell-*/
+.js-navigation-open[title$='.ps1']{border-color:#012456;}
+.js-navigation-open[title$='.psd1']{border-color:#012456;}
+.js-navigation-open[title$='.psm1']{border-color:#012456;}
 
 /**- Processing-*/
 .js-navigation-open[title$='.pde']{border-color:#0096D8;}
