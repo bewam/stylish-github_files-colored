@@ -1,4 +1,4 @@
-/* Sat, 04 Feb 2017 09:11:01 GMT */
+/* Sun, 26 Feb 2017 16:43:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -513,6 +513,8 @@
 .js-navigation-open[title$='.m']{border-color:#ff2b2b;}
 .js-navigation-open[title$='.moo']{border-color:#ff2b2b;}
 
+/**- Meson-*/
+
 /**- Metal-*/
 .js-navigation-open[title$='.metal']{border-color:#8f14e9;}
 
@@ -592,6 +594,9 @@
 
 /**- Oz-*/
 .js-navigation-open[title$='.oz']{border-color:#fab738;}
+
+/**- P4-*/
+.js-navigation-open[title$='.p4']{border-color:#7055b5;}
 
 /**- PAWN-*/
 .js-navigation-open[title$='.pwn']{border-color:#dbb284;}
