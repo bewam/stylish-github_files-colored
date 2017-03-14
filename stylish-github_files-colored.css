@@ -1,4 +1,4 @@
-/* Sun, 26 Feb 2017 16:43:02 GMT */
+/* Tue, 14 Mar 2017 09:11:01 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -810,6 +810,7 @@
 /**- Ruby-*/
 .js-navigation-open[title$='.rb']{border-color:#701516;}
 .js-navigation-open[title$='.builder']{border-color:#701516;}
+.js-navigation-open[title$='.eye']{border-color:#701516;}
 .js-navigation-open[title$='.fcgi']{border-color:#701516;}
 .js-navigation-open[title$='.gemspec']{border-color:#701516;}
 .js-navigation-open[title$='.god']{border-color:#701516;}
