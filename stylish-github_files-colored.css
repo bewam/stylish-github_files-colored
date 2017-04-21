@@ -1,4 +1,4 @@
-/* Mon, 27 Mar 2017 08:11:02 GMT */
+/* Fri, 21 Apr 2017 08:11:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -727,6 +727,7 @@
 .js-navigation-open[title$='.lmi']{border-color:#3572A5;}
 .js-navigation-open[title$='.py3']{border-color:#3572A5;}
 .js-navigation-open[title$='.pyde']{border-color:#3572A5;}
+.js-navigation-open[title$='.pyi']{border-color:#3572A5;}
 .js-navigation-open[title$='.pyp']{border-color:#3572A5;}
 .js-navigation-open[title$='.pyt']{border-color:#3572A5;}
 .js-navigation-open[title$='.pyw']{border-color:#3572A5;}
@@ -814,7 +815,6 @@
 .js-navigation-open[title$='.fcgi']{border-color:#701516;}
 .js-navigation-open[title$='.gemspec']{border-color:#701516;}
 .js-navigation-open[title$='.god']{border-color:#701516;}
-.js-navigation-open[title$='.irbrc']{border-color:#701516;}
 .js-navigation-open[title$='.jbuilder']{border-color:#701516;}
 .js-navigation-open[title$='.mspec']{border-color:#701516;}
 .js-navigation-open[title$='.pluginspec']{border-color:#701516;}
