@@ -1,4 +1,4 @@
-/* Fri, 21 Apr 2017 08:11:02 GMT */
+/* Sun, 30 Apr 2017 15:43:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -421,6 +421,10 @@
 .js-navigation-open[title$='.xsjs']{border-color:#f1e05a;}
 .js-navigation-open[title$='.xsjslib']{border-color:#f1e05a;}
 
+/**- Jolie-*/
+.js-navigation-open[title$='.ol']{border-color:#843179;}
+.js-navigation-open[title$='.iol']{border-color:#843179;}
+
 /**- Julia-*/
 .js-navigation-open[title$='.jl']{border-color:#a270ba;}
 
@@ -616,12 +620,21 @@
 
 /**- PLSQL-*/
 .js-navigation-open[title$='.pls']{border-color:#dad8d8;}
+.js-navigation-open[title$='.bdy']{border-color:#dad8d8;}
+.js-navigation-open[title$='.ddl']{border-color:#dad8d8;}
+.js-navigation-open[title$='.fnc']{border-color:#dad8d8;}
 .js-navigation-open[title$='.pck']{border-color:#dad8d8;}
 .js-navigation-open[title$='.pkb']{border-color:#dad8d8;}
 .js-navigation-open[title$='.pks']{border-color:#dad8d8;}
 .js-navigation-open[title$='.plb']{border-color:#dad8d8;}
 .js-navigation-open[title$='.plsql']{border-color:#dad8d8;}
+.js-navigation-open[title$='.prc']{border-color:#dad8d8;}
+.js-navigation-open[title$='.spc']{border-color:#dad8d8;}
 .js-navigation-open[title$='.sql']{border-color:#dad8d8;}
+.js-navigation-open[title$='.tpb']{border-color:#dad8d8;}
+.js-navigation-open[title$='.tps']{border-color:#dad8d8;}
+.js-navigation-open[title$='.trg']{border-color:#dad8d8;}
+.js-navigation-open[title$='.vw']{border-color:#dad8d8;}
 
 /**- Pan-*/
 .js-navigation-open[title$='.pan']{border-color:#cc0000;}
