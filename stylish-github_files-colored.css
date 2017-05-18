@@ -1,4 +1,4 @@
-/* Sun, 30 Apr 2017 15:43:02 GMT */
+/* Thu, 18 May 2017 08:11:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -654,6 +654,9 @@
 .js-navigation-open[title$='.pascal']{border-color:#E3F171;}
 .js-navigation-open[title$='.pp']{border-color:#E3F171;}
 
+/**- Pep8-*/
+.js-navigation-open[title$='.pep']{border-color:#C76F5B;}
+
 /**- Perl-*/
 .js-navigation-open[title$='.pl']{border-color:#0298c3;}
 .js-navigation-open[title$='.al']{border-color:#0298c3;}
@@ -814,6 +817,7 @@
 .js-navigation-open[title$='.me']{border-color:#ecdebe;}
 .js-navigation-open[title$='.ms']{border-color:#ecdebe;}
 .js-navigation-open[title$='.n']{border-color:#ecdebe;}
+.js-navigation-open[title$='.nr']{border-color:#ecdebe;}
 .js-navigation-open[title$='.rno']{border-color:#ecdebe;}
 .js-navigation-open[title$='.roff']{border-color:#ecdebe;}
 .js-navigation-open[title$='.tmac']{border-color:#ecdebe;}
