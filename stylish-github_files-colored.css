@@ -1,4 +1,4 @@
-/* Thu, 08 Jun 2017 15:43:01 GMT */
+/* Sat, 24 Jun 2017 08:11:01 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -282,7 +282,7 @@
 .js-navigation-open[title$='.fancypack']{border-color:#7b9db4;}
 
 /**- Fantom-*/
-.js-navigation-open[title$='.fan']{border-color:#dbded5;}
+.js-navigation-open[title$='.fan']{border-color:#14253c;}
 
 /**- Forth-*/
 .js-navigation-open[title$='.fth']{border-color:#341708;}
@@ -669,7 +669,7 @@
 .js-navigation-open[title$='.psgi']{border-color:#0298c3;}
 .js-navigation-open[title$='.t']{border-color:#0298c3;}
 
-/**- Perl6-*/
+/**- Perl 6-*/
 .js-navigation-open[title$='.6pl']{border-color:#0000fb;}
 .js-navigation-open[title$='.6pm']{border-color:#0000fb;}
 .js-navigation-open[title$='.nqp']{border-color:#0000fb;}
