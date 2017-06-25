@@ -1,4 +1,4 @@
-/* Sat, 24 Jun 2017 08:11:01 GMT */
+/* Sun, 25 Jun 2017 08:11:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -793,6 +793,9 @@
 
 /**- Ren'Py-*/
 .js-navigation-open[title$='.rpy']{border-color:#ff7f7f;}
+
+/**- Ring-*/
+.js-navigation-open[title$='.ring']{border-color:#0e60e3;}
 
 /**- Roff-*/
 .js-navigation-open[title$='.man']{border-color:#ecdebe;}
