@@ -1,4 +1,4 @@
-/* Wed, 05 Jul 2017 08:11:02 GMT */
+/* Tue, 01 Aug 2017 08:11:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -367,8 +367,8 @@
 .js-navigation-open[title$='.hb']{border-color:#0e60e3;}
 
 /**- Haskell-*/
-.js-navigation-open[title$='.hs']{border-color:#29b544;}
-.js-navigation-open[title$='.hsc']{border-color:#29b544;}
+.js-navigation-open[title$='.hs']{border-color:#5e5086;}
+.js-navigation-open[title$='.hsc']{border-color:#5e5086;}
 
 /**- Haxe-*/
 .js-navigation-open[title$='.hx']{border-color:#df7900;}
