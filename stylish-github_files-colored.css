@@ -1,4 +1,4 @@
-/* Tue, 01 Aug 2017 08:11:02 GMT */
+/* Thu, 03 Aug 2017 08:11:03 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -695,6 +695,7 @@
 /**- PostScript-*/
 .js-navigation-open[title$='.ps']{border-color:#da291c;}
 .js-navigation-open[title$='.eps']{border-color:#da291c;}
+.js-navigation-open[title$='.pfa']{border-color:#da291c;}
 
 /**- PowerBuilder-*/
 .js-navigation-open[title$='.pbt']{border-color:#8f0f8d;}
