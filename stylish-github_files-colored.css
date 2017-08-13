@@ -1,4 +1,4 @@
-/* Thu, 03 Aug 2017 08:11:03 GMT */
+/* Sun, 13 Aug 2017 08:11:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -874,6 +874,7 @@
 
 /**- Scheme-*/
 .js-navigation-open[title$='.scm']{border-color:#1e4aec;}
+.js-navigation-open[title$='.sch']{border-color:#1e4aec;}
 .js-navigation-open[title$='.sld']{border-color:#1e4aec;}
 .js-navigation-open[title$='.sls']{border-color:#1e4aec;}
 .js-navigation-open[title$='.sps']{border-color:#1e4aec;}
