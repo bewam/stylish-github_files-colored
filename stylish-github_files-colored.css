@@ -1,4 +1,4 @@
-/* Thu, 17 Aug 2017 08:11:02 GMT */
+/* Fri, 18 Aug 2017 15:43:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -525,6 +525,10 @@
 
 /**- NCL-*/
 .js-navigation-open[title$='.ncl']{border-color:#28431f;}
+
+/**- Nearley-*/
+.js-navigation-open[title$='.ne']{border-color:#990000;}
+.js-navigation-open[title$='.nearley']{border-color:#990000;}
 
 /**- Nemerle-*/
 .js-navigation-open[title$='.n']{border-color:#3d3c6e;}
