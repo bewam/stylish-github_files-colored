@@ -1,4 +1,4 @@
-/* Fri, 18 Aug 2017 15:43:02 GMT */
+/* Tue, 19 Sep 2017 08:11:01 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -98,6 +98,9 @@
 /**- AutoIt-*/
 .js-navigation-open[title$='.au3']{border-color:#1C3552;}
 
+/**- Ballerina-*/
+.js-navigation-open[title$='.bal']{border-color:#FF5000;}
+
 /**- Batchfile-*/
 .js-navigation-open[title$='.bat']{border-color:#C1F12E;}
 .js-navigation-open[title$='.cmd']{border-color:#C1F12E;}
@@ -144,6 +147,9 @@
 
 /**- CSS-*/
 .js-navigation-open[title$='.css']{border-color:#563d7c;}
+
+/**- Ceylon-*/
+.js-navigation-open[title$='.ceylon']{border-color:#dfa535;}
 
 /**- Chapel-*/
 .js-navigation-open[title$='.chpl']{border-color:#8dc63f;}
@@ -213,6 +219,9 @@
 
 /**- Dart-*/
 .js-navigation-open[title$='.dart']{border-color:#00B4AB;}
+
+/**- DataWeave-*/
+.js-navigation-open[title$='.dwl']{border-color:#003a52;}
 
 /**- Dogescript-*/
 .js-navigation-open[title$='.djs']{border-color:#cca760;}
@@ -409,6 +418,7 @@
 .js-navigation-open[title$='.jsfl']{border-color:#f1e05a;}
 .js-navigation-open[title$='.jsm']{border-color:#f1e05a;}
 .js-navigation-open[title$='.jss']{border-color:#f1e05a;}
+.js-navigation-open[title$='.mjs']{border-color:#f1e05a;}
 .js-navigation-open[title$='.njs']{border-color:#f1e05a;}
 .js-navigation-open[title$='.pac']{border-color:#f1e05a;}
 .js-navigation-open[title$='.sjs']{border-color:#f1e05a;}
@@ -498,8 +508,8 @@
 .js-navigation-open[title$='.mask']{border-color:#f97732;}
 
 /**- Matlab-*/
-.js-navigation-open[title$='.matlab']{border-color:#bb92ac;}
-.js-navigation-open[title$='.m']{border-color:#bb92ac;}
+.js-navigation-open[title$='.matlab']{border-color:#e16737;}
+.js-navigation-open[title$='.m']{border-color:#e16737;}
 
 /**- Max-*/
 .js-navigation-open[title$='.maxpat']{border-color:#c4a79c;}
