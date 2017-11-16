@@ -1,4 +1,4 @@
-/* Tue, 19 Sep 2017 08:11:01 GMT */
+/* Thu, 16 Nov 2017 09:11:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -71,6 +71,10 @@
 
 /**- Alloy-*/
 .js-navigation-open[title$='.als']{border-color:#64C800;}
+
+/**- AngelScript-*/
+.js-navigation-open[title$='.as']{border-color:#C7D7DC;}
+.js-navigation-open[title$='.angelscript']{border-color:#C7D7DC;}
 
 /**- AppleScript-*/
 .js-navigation-open[title$='.applescript']{border-color:#101F1F;}
@@ -198,6 +202,9 @@
 .js-navigation-open[title$='.ny']{border-color:#3fb68b;}
 .js-navigation-open[title$='.podsl']{border-color:#3fb68b;}
 .js-navigation-open[title$='.sexp']{border-color:#3fb68b;}
+
+/**- Common Workflow Language-*/
+.js-navigation-open[title$='.cwl']{border-color:#B5314C;}
 
 /**- Component Pascal-*/
 .js-navigation-open[title$='.cp']{border-color:#B0CE4E;}
@@ -386,6 +393,10 @@
 .js-navigation-open[title$='.pro']{border-color:#a3522f;}
 .js-navigation-open[title$='.dlm']{border-color:#a3522f;}
 
+/**- Idris-*/
+.js-navigation-open[title$='.idr']{border-color:#b30000;}
+.js-navigation-open[title$='.lidr']{border-color:#b30000;}
+
 /**- Io-*/
 .js-navigation-open[title$='.io']{border-color:#a9188d;}
 
@@ -443,6 +454,9 @@
 .js-navigation-open[title$='.kt']{border-color:#F18E33;}
 .js-navigation-open[title$='.ktm']{border-color:#F18E33;}
 .js-navigation-open[title$='.kts']{border-color:#F18E33;}
+
+/**- LFE-*/
+.js-navigation-open[title$='.lfe']{border-color:#4C3023;}
 
 /**- LLVM-*/
 .js-navigation-open[title$='.ll']{border-color:#185619;}
@@ -671,7 +685,6 @@
 .js-navigation-open[title$='.ph']{border-color:#0298c3;}
 .js-navigation-open[title$='.plx']{border-color:#0298c3;}
 .js-navigation-open[title$='.pm']{border-color:#0298c3;}
-.js-navigation-open[title$='.pod']{border-color:#0298c3;}
 .js-navigation-open[title$='.psgi']{border-color:#0298c3;}
 .js-navigation-open[title$='.t']{border-color:#0298c3;}
 
@@ -980,6 +993,9 @@
 /**- UnrealScript-*/
 .js-navigation-open[title$='.uc']{border-color:#a54c4d;}
 
+/**- VCL-*/
+.js-navigation-open[title$='.vcl']{border-color:#0298c3;}
+
 /**- VHDL-*/
 .js-navigation-open[title$='.vhdl']{border-color:#adb2cb;}
 .js-navigation-open[title$='.vhd']{border-color:#adb2cb;}
@@ -1055,6 +1071,9 @@
 
 /**- ooc-*/
 .js-navigation-open[title$='.ooc']{border-color:#b0b77e;}
+
+/**- wdl-*/
+.js-navigation-open[title$='.wdl']{border-color:#42f1f4;}
 
 /**- wisp-*/
 .js-navigation-open[title$='.wisp']{border-color:#7582D1;}
