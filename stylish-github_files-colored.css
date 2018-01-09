@@ -1,4 +1,4 @@
-/* Mon, 08 Jan 2018 16:43:02 GMT */
+/* Tue, 09 Jan 2018 16:43:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -572,6 +572,9 @@
 .js-navigation-open[title$='.nl']{border-color:#87AED7;}
 .js-navigation-open[title$='.lisp']{border-color:#87AED7;}
 .js-navigation-open[title$='.lsp']{border-color:#87AED7;}
+
+/**- Nextflow-*/
+.js-navigation-open[title$='.nf']{border-color:#3ac486;}
 
 /**- Nim-*/
 .js-navigation-open[title$='.nim']{border-color:#37775b;}
