@@ -1,4 +1,4 @@
-/* Tue, 09 Jan 2018 16:43:02 GMT */
+/* Thu, 11 Jan 2018 16:43:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -83,9 +83,6 @@
 /**- Arc-*/
 .js-navigation-open[title$='.arc']{border-color:#aa2afe;}
 
-/**- Arduino-*/
-.js-navigation-open[title$='.ino']{border-color:#bd79d1;}
-
 /**- AspectJ-*/
 .js-navigation-open[title$='.aj']{border-color:#a957b0;}
 
@@ -144,6 +141,7 @@
 .js-navigation-open[title$='.hxx']{border-color:#f34b7d;}
 .js-navigation-open[title$='.inc']{border-color:#f34b7d;}
 .js-navigation-open[title$='.inl']{border-color:#f34b7d;}
+.js-navigation-open[title$='.ino']{border-color:#f34b7d;}
 .js-navigation-open[title$='.ipp']{border-color:#f34b7d;}
 .js-navigation-open[title$='.re']{border-color:#f34b7d;}
 .js-navigation-open[title$='.tcc']{border-color:#f34b7d;}
