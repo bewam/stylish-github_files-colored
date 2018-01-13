@@ -1,4 +1,4 @@
-/* Sat, 13 Jan 2018 09:11:02 GMT */
+/* Sat, 13 Jan 2018 16:43:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -886,6 +886,7 @@
 
 /**- Scala-*/
 .js-navigation-open[title$='.scala']{border-color:#c22d40;}
+.js-navigation-open[title$='.kojo']{border-color:#c22d40;}
 .js-navigation-open[title$='.sbt']{border-color:#c22d40;}
 .js-navigation-open[title$='.sc']{border-color:#c22d40;}
 
