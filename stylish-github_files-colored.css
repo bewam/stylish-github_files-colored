@@ -1,4 +1,4 @@
-/* Thu, 11 Jan 2018 16:43:02 GMT */
+/* Sat, 13 Jan 2018 09:11:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -922,6 +922,8 @@
 /**- Smalltalk-*/
 .js-navigation-open[title$='.st']{border-color:#596706;}
 .js-navigation-open[title$='.cs']{border-color:#596706;}
+
+/**- Solidity-*/
 
 /**- SourcePawn-*/
 .js-navigation-open[title$='.sp']{border-color:#5c7611;}
