@@ -1,4 +1,4 @@
-/* Thu, 08 Mar 2018 16:43:02 GMT */
+/* Tue, 03 Apr 2018 15:43:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -490,6 +490,7 @@
 .js-navigation-open[title$='.lua']{border-color:#000080;}
 .js-navigation-open[title$='.fcgi']{border-color:#000080;}
 .js-navigation-open[title$='.nse']{border-color:#000080;}
+.js-navigation-open[title$='.p8']{border-color:#000080;}
 .js-navigation-open[title$='.pd_lua']{border-color:#000080;}
 .js-navigation-open[title$='.rbxs']{border-color:#000080;}
 .js-navigation-open[title$='.wlua']{border-color:#000080;}
