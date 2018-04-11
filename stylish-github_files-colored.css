@@ -1,4 +1,4 @@
-/* Mon, 09 Apr 2018 08:11:02 GMT */
+/* Wed, 11 Apr 2018 15:43:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -1076,6 +1076,9 @@
 
 /**- ooc-*/
 .js-navigation-open[title$='.ooc']{border-color:#b0b77e;}
+
+/**- sed-*/
+.js-navigation-open[title$='.sed']{border-color:#64b970;}
 
 /**- wdl-*/
 .js-navigation-open[title$='.wdl']{border-color:#42f1f4;}
