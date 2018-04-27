@@ -1,19 +1,20 @@
 #!/usr/bin/env nodejs
 
-var fs = require('fs');
-var https = require('https');
-var url = require('url');
-var util = require('util');
-var path = require('path');
+const fs = require('fs');
+const https = require('https');
+const url = require('url');
+const util = require('util');
+const path = require('path');
 
-var promise = require('promise');
-var yaml = require('js-yaml');
+const promise = require('promise');
+const yaml = require('js-yaml');
+const compare = require('file-compare');
 
-/**/
-console.log = function () {}; /**/
+/** console.log = function () {}; /**/
 
 const settings = {
     forceFresh: false,
+    noDownload: false,
     buildSwatches: false,
     /* creates a swatches folder to see results */
     swatches: 'test_swatches',
@@ -28,38 +29,47 @@ const settings = {
     showDate: true,
 };
 
-var languages = {
-    localFile: "languages.yml",
-    remoteFile: 'https://raw.githubusercontent.com/github/linguist/master/lib/linguist/languages.yml'
+var languageFiles = {
+    remote: 'https://raw.githubusercontent.com/github/linguist/master/lib/linguist/languages.yml',
+    local: "languages.yml",
+    temp: "temp_languages.yml"
 };
 const fileHeader = "head.css.tmpl";
 
-needDownload(languages.localFile).then(function (successMessage) {
-    console.log(successMessage);
-    download(languages.remoteFile, languages.localFile).then(function (
-        successMessage) {
-        console.log('yeah ! ' + successMessage);
-        readAndDump(languages.localFile, settings.outputFile.name);
-    }, function (err) {
-        console.error(err);
-        process.exit();
-    });
-}, function (err) {
-    console.log(err);
-    readAndDump(languages.localFile, settings.outputFile.name);
-});
+if(!settings.noDownload) {
+    download(languageFiles.remote, languageFiles.temp)
+        .then(function (successMessage) {
+            console.log('yeah ! ', successMessage);
+            var needRewrite = false;
+            if(!fileExists(languageFiles.local)) {
+                fs.rename(languageFiles.temp, languageFiles.local);
+                needRewrite = true;
+            } else {
+                compare(languageFiles.temp, languageFiles.local, () => {
+                    needRewrite = onComparisonOk();
+                });
+            }
+
+            if(needRewrite || settings.forceFresh) {
+                readAndDump(languageFiles.local, settings.outputFile.name);
+            }
+        });
+} else {
+    readAndDump(languageFiles.local, settings.outputFile.name);
+}
 
 function readAndDump(fileLanguages, fileCss) {
-    console.log('readAndDump');
     var languages = yaml.safeLoad(fs.readFileSync(fileLanguages, 'utf8'));
     var o = '',
         dirOk = false,
         fileName = '',
-        k, l, language, err;
+        k, lang, language, err,
+        groups = {};
 
     if(settings.showDate) {
         o += '/* ';
-        o += (new Date()).toGMTString();
+        o += (new Date())
+            .toGMTString();
         o += " */\n";
     }
 
@@ -72,10 +82,8 @@ function readAndDump(fileLanguages, fileCss) {
          * we grab the true for false.
          */
         try {
-
             dirOk = not(!!fs.mkdirSync(settings.swatches));
-        }
-        catch(err) {
+        } catch(err) {
             if(err.code === 'EEXIST') {
                 dirOk = true;
             }
@@ -83,86 +91,106 @@ function readAndDump(fileLanguages, fileCss) {
         console.log('dirOk: ' + dirOk);
     }
 
-
     for(k of Object.keys(languages)) {
         language = languages[k];
-        language.name = k;
 
         if(language.color) {
+
+            if(!!!groups[k]) {
+                groups[k] = {};
+            }
+            groups[k].name = k;
+            groups[k].color = language.color;
+            addExtensions(groups[k], language.extensions);
+            
+        } else {
+            if(language.group) {
+                if(!!! groups[language.group]) {
+                    groups[language.group] = {};
+                    groups[language.group].extensions = [];
+                }
+                addExtensions(groups[language.group], language.extensions);
+            } else {
+                // console.log(
+                //     util.format(
+                //         "----------------- no color:%s (%s)",
+                //         k,
+                //         language.type)
+                // );
+            }
+        }
+        // console.log(' ace_mode:', language.ace_mode, "\n", 'codemirror_mode: ', language.codemirror_mode);
+    }
+
+
+    for(var K of Object.keys(groups)) {
+
+            lang = groups[K];
+
             o += "\n";
-            o += '/**- ';
-            o += language.name;
+            o += '/**-';
+            o += lang.name;
             o += '-*/';
             o += "\n";
 
-            if(language.extensions) {
-                for(var ext of language.extensions) {
+            for (var i = 0; i < lang.extensions.length; i++) {
+                ext = lang.extensions[i];
+                if(settings.buildSwatches && dirOk) {
+                    fileName = [
+                         settings.swatches,
+                         settings.swatchName + ext
+                        ].join(path.sep);
 
-                    if(settings.buildSwatches && dirOk) {
-                        fileName = [
-                             settings.swatches,
-                             settings.swatchName + ext
-                            ].join(path.sep);
-
-                        fs.writeFileSync(fileName, '');
-                    }
-
-                    o += buildRule(ext);
-                    o += '{border-color:' + language.color + ';}';
-                    o += "\n";
+                    fs.writeFileSync(fileName, '');
                 }
+
+                o += buildRule(ext);
+                o += '{border-color:' + lang.color + ';}';
+                o += "\n";
             }
-        }
-        else {
-            console.log(
-                util.format(
-                    "no color:%s (%s)",
-                    language.name,
-                    language.type)
-            );
-        }
     }
     o += getCssBottom();
+
     fs.writeFile(fileCss, o);
+    console.log(o);
 }
+function addExtensions(group, extensions){
+    if(!(!!group.extensions))
+        group.extensions = [];
+    if(!! extensions)
+    for (var i = 0; i < extensions.length; i++) {
+        group.extensions.push(extensions[i]);
+    }
+}
+/* if comparison of temp and local copy says their 
+hash are the same, remove temp and do nothing(false)
+otherwise make temp the local copy */
 
-function needDownload(file) {
-    var pro = new promise(function (resolve, reject) {
-        if(settings.forceFresh) {
-            resolve('download forced');
+function onComparisonOk(ok) {
+    if(ok) {
+        try {
+            fs.unlinkSync(languageFiles.temp);
+        } catch(e) {
+            console.log('failed to remove temp file');
+        } finally {
+            return false;
         }
-        else {
-            try {
-                /**
-                 * Am I too stupid to believe fs.exists will be obsolete ?
-                 */
-                fs.open(file, 'r', function (err, fd) {
-                    if(!err) {
-                        reject(new Error('file exists'));
-                        fs.close(fd);
-                    }
-                    else {
-                        resolve('file not present');
-                    }
-
-                });
-
-                if(fileIsNotEmpty(file)) {
-                    reject(new Error('file not empty'));
-                }
-                else {
-                    resolve('file not present or empty');
-                }
-
-            }
-            catch(e) {}
-            finally {
-                return pro;
-            }
+    } else {
+        fs.rename(languageFiles.temp, languageFiles.local);
+        return true;
+    }
+}
+function fileExists(file) {
+    fs.open(file, 'r', function (err, fd) {
+        if(!err) {
+            fs.close(fd);
+            return true;
         }
+
     });
-    return pro;
+    return false;
 }
+
 
 function not(boolean) {
     return(!boolean);
@@ -177,9 +205,7 @@ function getCssHead() {
     try {
         content = fs.readFileSync(getTemplateURI(settings.outputFile.header),
             'utf8');
-    }
-    catch(e) {}
-    finally {
+    } catch(e) {} finally {
         return content;
     }
 }
@@ -189,9 +215,7 @@ function getCssBottom() {
     try {
         content = fs.readFileSync(getTemplateURI(settings.outputFile.bottom),
             'utf8');
-    }
-    catch(e) {}
-    finally {
+    } catch(e) {} finally {
         return content;
     }
 
@@ -200,10 +224,10 @@ function getCssBottom() {
 function fileIsNotEmpty(file) {
     var size = 0;
     try {
-        size = fs.statSync(file).size;
-    }
-    finally {
-        return size > 0;
+        size = fs.statSync(file)
+            .size;
+    } finally {
+        return(size > 0);
     }
 }
 
@@ -215,21 +239,22 @@ function download(remoteFile, localFile) {
         https.get(url.parse(remoteFile), function (response) {
 
             response.on('data', function (chunk) {
-                file.write(chunk);
-            }).on('error', function (err) {
-                reject(err);
-            }).on('end', function () {
-                file.end();
+                    file.write(chunk);
+                })
+                .on('error', function (err) {
+                    reject(err);
+                })
+                .on('end', function () {
+                    file.end();
 
-                if(fileIsNotEmpty(localFile)) {
-                    resolve('download succeed');
-                }
-                else {
-                    reject(
-                        'download failed, file empty'
-                    );
-                }
-            });
+                    if(fileIsNotEmpty(localFile)) {
+                        resolve('download succeed');
+                    } else {
+                        reject(
+                            'download failed, file empty'
+                        );
+                    }
+                });
         });
     });
     return pro;
