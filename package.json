@@ -4,7 +4,7 @@
   "description": "a css builder for stylish in nodejs, add github colors to lists of files in github.com.",
   "main": "build.js",
   "dependencies": {
-    "file-compare": "0.0.2",
+    "filecompare": "^1.0.4",
     "js-yaml": "^3.3.1",
     "promise": "^7.0.3"
   },

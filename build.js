@@ -8,14 +8,14 @@ const path = require('path');
 
 const promise = require('promise');
 const yaml = require('js-yaml');
-const compare = require('file-compare');
-
-/** console.log = function () {}; /**/
+const compare = require('filecompare');
+/**/
+console.log = function () {}; /**/
 
 const settings = {
     forceFresh: false,
     noDownload: false,
-    buildSwatches: false,
+    buildSwatches: true,
     /* creates a swatches folder to see results */
     swatches: 'test_swatches',
     swatchName: 'testFile',
@@ -39,19 +39,29 @@ const fileHeader = "head.css.tmpl";
 if(!settings.noDownload) {
     download(languageFiles.remote, languageFiles.temp)
         .then(function (successMessage) {
+
             console.log('yeah ! ', successMessage);
-            var needRewrite = false;
-            if(!fileExists(languageFiles.local)) {
-                fs.rename(languageFiles.temp, languageFiles.local);
-                needRewrite = true;
+
+            var writeCss = false;
+
+            if(!fs.existsSync(languageFiles.local)) {
+                console.log("languages file is new");
+                fs.renameSync(languageFiles.temp, languageFiles.local);
+                writeCss = true;
             } else {
-                compare(languageFiles.temp, languageFiles.local, () => {
-                    needRewrite = onComparisonOk();
+                console.log("comparing downloaded file with the old one");
+                compare(languageFiles.temp, languageFiles.local, (equal) => {
+                        console.log('files are different');
+                        replaceLocalFile();
+                        writeCss = true;
                 });
             }
 
-            if(needRewrite || settings.forceFresh) {
+            if(writeCss || settings.forceFresh) {
                 readAndDump(languageFiles.local, settings.outputFile.name);
+
+            } else {
+                        removeTemporyFile();
             }
         });
 } else {
@@ -102,10 +112,10 @@ function readAndDump(fileLanguages, fileCss) {
             groups[k].name = k;
             groups[k].color = language.color;
             addExtensions(groups[k], language.extensions);
-            
+
         } else {
             if(language.group) {
-                if(!!! groups[language.group]) {
+                if(!!!groups[language.group]) {
                     groups[language.group] = {};
                     groups[language.group].extensions = [];
                 }
@@ -122,73 +132,78 @@ function readAndDump(fileLanguages, fileCss) {
         // console.log(' ace_mode:', language.ace_mode, "\n", 'codemirror_mode: ', language.codemirror_mode);
     }
 
-
     for(var K of Object.keys(groups)) {
 
-            lang = groups[K];
+        lang = groups[K];
 
-            o += "\n";
-            o += '/**-';
-            o += lang.name;
-            o += '-*/';
-            o += "\n";
+        o += "\n";
+        o += '/**-';
+        o += lang.name;
+        o += '-*/';
+        o += "\n";
 
-            for (var i = 0; i < lang.extensions.length; i++) {
-                ext = lang.extensions[i];
-                if(settings.buildSwatches && dirOk) {
-                    fileName = [
+        for(var i = 0; i < lang.extensions.length; i++) {
+            ext = lang.extensions[i];
+            if(settings.buildSwatches && dirOk) {
+                fileName = [
                          settings.swatches,
                          settings.swatchName + ext
                         ].join(path.sep);
 
-                    fs.writeFileSync(fileName, '');
-                }
-
-                o += buildRule(ext);
-                o += '{border-color:' + lang.color + ';}';
-                o += "\n";
+                fs.writeFileSync(fileName, '');
             }
+
+            o += buildRule(ext);
+            o += '{border-color:' + lang.color + ';}';
+            o += "\n";
+        }
     }
     o += getCssBottom();
 
-    fs.writeFile(fileCss, o);
-    console.log(o);
+    fs.writeFileSync(fileCss, o);
 }
-function addExtensions(group, extensions){
+
+function addExtensions(group, extensions) {
     if(!(!!group.extensions))
         group.extensions = [];
-    if(!! extensions)
-    for (var i = 0; i < extensions.length; i++) {
-        group.extensions.push(extensions[i]);
-    }
+    if(!!extensions)
+        for(var i = 0; i < extensions.length; i++) {
+            group.extensions.push(extensions[i]);
+        }
 }
 /* if comparison of temp and local copy says their 
 hash are the same, remove temp and do nothing(false)
 otherwise make temp the local copy */
 
-function onComparisonOk(ok) {
-    if(ok) {
-        try {
-            fs.unlinkSync(languageFiles.temp);
-        } catch(e) {
-            console.log('failed to remove temp file');
-        } finally {
-            return false;
-        }
-    } else {
-        fs.rename(languageFiles.temp, languageFiles.local);
+function removeTemporyFile() {
+    try {
+        fs.unlinkSync(languageFiles.temp);
+    } catch(e) {
+        console.log('failed to remove temp file');
+    } finally {
         return true;
     }
 }
-function fileExists(file) {
-    fs.open(file, 'r', function (err, fd) {
-        if(!err) {
-            fs.close(fd);
-            return true;
-        }
 
+function replaceLocalFile() {
+    try {
+        fs.renameSync(languageFiles.temp, languageFiles.local);
+    } catch(e) {} finally {
+        console.log("file replacement success");
+        return true;
+    }
+}
+
+function fileExists(file) {
+    var exist = false;
+    fs.openSync(file, 'r', function (err, fd) {
+        if(!err) {
+            fs.closeSync(fd);
+            console.log("file exists");
+            exist = true;
+        }
     });
-    return false;
+    return exist;
 }
 
 
@@ -231,9 +246,9 @@ function fileIsNotEmpty(file) {
     }
 }
 
-function download(remoteFile, localFile) {
+function download(remoteFile, temp) {
 
-    var file = fs.createWriteStream(localFile);
+    var file = fs.createWriteStream(temp);
 
     var pro = new promise(function (resolve, reject) {
         https.get(url.parse(remoteFile), function (response) {
@@ -247,7 +262,7 @@ function download(remoteFile, localFile) {
                 .on('end', function () {
                     file.end();
 
-                    if(fileIsNotEmpty(localFile)) {
+                    if(fileIsNotEmpty(temp)) {
                         resolve('download succeed');
                     } else {
                         reject(
