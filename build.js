@@ -15,7 +15,7 @@ console.log = function () {}; /**/
 const settings = {
     forceFresh: false,
     noDownload: false,
-    buildSwatches: true,
+    buildSwatches: false,
     /* creates a swatches folder to see results */
     swatches: 'test_swatches',
     swatchName: 'testFile',
