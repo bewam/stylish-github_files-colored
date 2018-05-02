@@ -1,4 +1,4 @@
-/* Tue, 01 May 2018 15:43:02 GMT */
+/* Wed, 02 May 2018 15:43:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -526,6 +526,9 @@
 /**-Haxe-*/
 .js-navigation-open[title$='.hx']{border-color:#df7900;}
 .js-navigation-open[title$='.hxsl']{border-color:#df7900;}
+
+/**-HiveQL-*/
+.js-navigation-open[title$='.q']{border-color:#dce200;}
 
 /**-Hy-*/
 .js-navigation-open[title$='.hy']{border-color:#7790B2;}
@@ -1188,6 +1191,9 @@
 
 /**-ooc-*/
 .js-navigation-open[title$='.ooc']{border-color:#b0b77e;}
+
+/**-q-*/
+.js-navigation-open[title$='.q']{border-color:#0040cd;}
 
 /**-sed-*/
 .js-navigation-open[title$='.sed']{border-color:#64b970;}
