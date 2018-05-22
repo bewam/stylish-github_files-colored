@@ -1,4 +1,4 @@
-/* Wed, 02 May 2018 15:43:02 GMT */
+/* Tue, 22 May 2018 08:11:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -674,7 +674,6 @@
 /**-Mirah-*/
 .js-navigation-open[title$='.druby']{border-color:#c7a938;}
 .js-navigation-open[title$='.duby']{border-color:#c7a938;}
-.js-navigation-open[title$='.mir']{border-color:#c7a938;}
 .js-navigation-open[title$='.mirah']{border-color:#c7a938;}
 
 /**-NCL-*/
