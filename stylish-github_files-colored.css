@@ -1,4 +1,4 @@
-/* Tue, 22 May 2018 15:43:02 GMT */
+/* Mon, 28 May 2018 15:43:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -187,6 +187,9 @@
 .js-navigation-open[title$='.cl']{border-color:#555555;}
 .js-navigation-open[title$='.opencl']{border-color:#555555;}
 .js-navigation-open[title$='.upc']{border-color:#555555;}
+.js-navigation-open[title$='.xbm']{border-color:#555555;}
+.js-navigation-open[title$='.xpm']{border-color:#555555;}
+.js-navigation-open[title$='.pm']{border-color:#555555;}
 
 /**-C#-*/
 .js-navigation-open[title$='.cs']{border-color:#178600;}
