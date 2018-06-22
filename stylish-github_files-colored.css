@@ -1,4 +1,4 @@
-/* Fri, 01 Jun 2018 15:43:01 GMT */
+/* Fri, 22 Jun 2018 15:43:02 GMT */
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("github.com") {
@@ -89,6 +89,7 @@
 .js-navigation-open[title$='.zsh']{border-color:#89e051;}
 .js-navigation-open[title$='.tcsh']{border-color:#89e051;}
 .js-navigation-open[title$='.csh']{border-color:#89e051;}
+.js-navigation-open[title$='.fish']{border-color:#89e051;}
 
 /**-AngelScript-*/
 .js-navigation-open[title$='.as']{border-color:#C7D7DC;}
@@ -127,9 +128,12 @@
 .js-navigation-open[title$='.bat']{border-color:#C1F12E;}
 .js-navigation-open[title$='.cmd']{border-color:#C1F12E;}
 
-/**-undefined-*/
-.js-navigation-open[title$='.bison']{border-color:undefined;}
-.js-navigation-open[title$='.jison']{border-color:undefined;}
+/**-Yacc-*/
+.js-navigation-open[title$='.bison']{border-color:#4B6C4B;}
+.js-navigation-open[title$='.jison']{border-color:#4B6C4B;}
+.js-navigation-open[title$='.y']{border-color:#4B6C4B;}
+.js-navigation-open[title$='.yacc']{border-color:#4B6C4B;}
+.js-navigation-open[title$='.yy']{border-color:#4B6C4B;}
 
 /**-HTML-*/
 .js-navigation-open[title$='.blade']{border-color:#e34c26;}
@@ -183,6 +187,9 @@
 .js-navigation-open[title$='.cl']{border-color:#555555;}
 .js-navigation-open[title$='.opencl']{border-color:#555555;}
 .js-navigation-open[title$='.upc']{border-color:#555555;}
+.js-navigation-open[title$='.xbm']{border-color:#555555;}
+.js-navigation-open[title$='.xpm']{border-color:#555555;}
+.js-navigation-open[title$='.pm']{border-color:#555555;}
 
 /**-C#-*/
 .js-navigation-open[title$='.cs']{border-color:#178600;}
@@ -334,6 +341,9 @@
 
 /**-DataWeave-*/
 .js-navigation-open[title$='.dwl']{border-color:#003a52;}
+
+/**-Dockerfile-*/
+.js-navigation-open[title$='.dockerfile']{border-color:#0db7ed;}
 
 /**-Dogescript-*/
 .js-navigation-open[title$='.djs']{border-color:#cca760;}
@@ -1109,4 +1119,98 @@
 /**-TypeScript-*/
 .js-navigation-open[title$='.ts']{border-color:#2b7489;}
 .js-navigation-open[title$='.tsx']{border-color:#2b7489;}
+
+/**-UnrealScript-*/
+.js-navigation-open[title$='.uc']{border-color:#a54c4d;}
+
+/**-VCL-*/
+.js-navigation-open[title$='.vcl']{border-color:#0298c3;}
+
+/**-VHDL-*/
+.js-navigation-open[title$='.vhdl']{border-color:#adb2cb;}
+.js-navigation-open[title$='.vhd']{border-color:#adb2cb;}
+.js-navigation-open[title$='.vhf']{border-color:#adb2cb;}
+.js-navigation-open[title$='.vhi']{border-color:#adb2cb;}
+.js-navigation-open[title$='.vho']{border-color:#adb2cb;}
+.js-navigation-open[title$='.vhs']{border-color:#adb2cb;}
+.js-navigation-open[title$='.vht']{border-color:#adb2cb;}
+.js-navigation-open[title$='.vhw']{border-color:#adb2cb;}
+
+/**-Vala-*/
+.js-navigation-open[title$='.vala']{border-color:#fbe5cd;}
+.js-navigation-open[title$='.vapi']{border-color:#fbe5cd;}
+
+/**-Verilog-*/
+.js-navigation-open[title$='.v']{border-color:#b2b7f8;}
+.js-navigation-open[title$='.veo']{border-color:#b2b7f8;}
+
+/**-Vim script-*/
+.js-navigation-open[title$='.vim']{border-color:#199f4b;}
+
+/**-Visual Basic-*/
+.js-navigation-open[title$='.vb']{border-color:#945db7;}
+.js-navigation-open[title$='.bas']{border-color:#945db7;}
+.js-navigation-open[title$='.cls']{border-color:#945db7;}
+.js-navigation-open[title$='.frm']{border-color:#945db7;}
+.js-navigation-open[title$='.frx']{border-color:#945db7;}
+.js-navigation-open[title$='.vba']{border-color:#945db7;}
+.js-navigation-open[title$='.vbhtml']{border-color:#945db7;}
+.js-navigation-open[title$='.vbs']{border-color:#945db7;}
+
+/**-Volt-*/
+.js-navigation-open[title$='.volt']{border-color:#1F1F1F;}
+
+/**-Vue-*/
+.js-navigation-open[title$='.vue']{border-color:#2c3e50;}
+
+/**-WebAssembly-*/
+.js-navigation-open[title$='.wast']{border-color:#04133b;}
+.js-navigation-open[title$='.wat']{border-color:#04133b;}
+
+/**-X10-*/
+.js-navigation-open[title$='.x10']{border-color:#4B6BEF;}
+
+/**-XC-*/
+.js-navigation-open[title$='.xc']{border-color:#99DA07;}
+
+/**-XQuery-*/
+.js-navigation-open[title$='.xquery']{border-color:#5232e7;}
+.js-navigation-open[title$='.xq']{border-color:#5232e7;}
+.js-navigation-open[title$='.xql']{border-color:#5232e7;}
+.js-navigation-open[title$='.xqm']{border-color:#5232e7;}
+.js-navigation-open[title$='.xqy']{border-color:#5232e7;}
+
+/**-XSLT-*/
+.js-navigation-open[title$='.xslt']{border-color:#EB8CEB;}
+.js-navigation-open[title$='.xsl']{border-color:#EB8CEB;}
+
+/**-Zephir-*/
+.js-navigation-open[title$='.zep']{border-color:#118f9e;}
+
+/**-eC-*/
+.js-navigation-open[title$='.ec']{border-color:#913960;}
+.js-navigation-open[title$='.eh']{border-color:#913960;}
+
+/**-nesC-*/
+.js-navigation-open[title$='.nc']{border-color:#94B0C7;}
+
+/**-ooc-*/
+.js-navigation-open[title$='.ooc']{border-color:#b0b77e;}
+
+/**-q-*/
+.js-navigation-open[title$='.q']{border-color:#0040cd;}
+
+/**-sed-*/
+.js-navigation-open[title$='.sed']{border-color:#64b970;}
+
+/**-wdl-*/
+.js-navigation-open[title$='.wdl']{border-color:#42f1f4;}
+
+/**-wisp-*/
+.js-navigation-open[title$='.wisp']{border-color:#7582D1;}
+
+/**-xBase-*/
+.js-navigation-open[title$='.prg']{border-color:#403a40;}
+.js-navigation-open[title$='.ch']{border-color:#403a40;}
+.js-navigation-open[title$='.prw']{border-color:#403a40;}
 }
